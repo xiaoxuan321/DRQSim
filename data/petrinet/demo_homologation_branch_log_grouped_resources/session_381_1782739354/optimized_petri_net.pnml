@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1782739383.4346406" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1782739383.4346406</text>
+    </name>
+    <page id="n0">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <place id="p_16">
+        <name>
+          <text>p_16</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <transition id="tauJoin_4">
+        <name>
+          <text>tauJoin_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="debc7f2c-6592-4197-85d5-f8483ec9d41a"/>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4d06b687-d351-40e0-812e-9d9d4dfdb668"/>
+      </transition>
+      <transition id="2f6db0e4-03d3-4bc0-9dc4-07ec8173c4f4">
+        <name>
+          <text>Revisar curso</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e0e00a8c-41b9-4448-9723-f32663b2c173"/>
+      </transition>
+      <transition id="691543d5-67fb-4d5a-a371-0d12d6fe5ca4">
+        <name>
+          <text>Cancelar curso</text>
+        </name>
+      </transition>
+      <transition id="3bf7cba8-9bba-4877-9be2-c442038a2975">
+        <name>
+          <text>Validar solicitud / pre-homologacion</text>
+        </name>
+      </transition>
+      <transition id="2df8f3d8-f065-461d-a4c8-5f2dc9d04d7f">
+        <name>
+          <text>Validacion final</text>
+        </name>
+      </transition>
+      <transition id="skip_7">
+        <name>
+          <text>skip_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4959866d-d851-4908-a077-2693397cfac5"/>
+      </transition>
+      <transition id="0836f3d2-4f4b-40e7-8c79-52548ae21ecf">
+        <name>
+          <text>Traer informacion estudiante - banner</text>
+        </name>
+      </transition>
+      <transition id="skip_2">
+        <name>
+          <text>skip_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="84a7d7e0-140b-4982-a419-9a16cdf3f0bd"/>
+      </transition>
+      <transition id="fbd16096-b960-437d-b7e8-cd4733657bc8">
+        <name>
+          <text>Validar solicitud</text>
+        </name>
+      </transition>
+      <transition id="66cf6389-d189-4712-bc79-e538d0eba042">
+        <name>
+          <text>Radicar Solicitud Homologacion</text>
+        </name>
+      </transition>
+      <transition id="41b67600-1826-44c4-abbc-a79486067d6c">
+        <name>
+          <text>Notificacion estudiante cancelacion soli</text>
+        </name>
+      </transition>
+      <transition id="52230af9-3e54-4e1d-adad-b4be559b74f6">
+        <name>
+          <text>Homologacion por grupo de cursos</text>
+        </name>
+      </transition>
+      <transition id="0b31e405-1edc-4d4b-a4da-cfa423883945">
+        <name>
+          <text>Cancelar Solicitud</text>
+        </name>
+      </transition>
+      <transition id="tauSplit_3">
+        <name>
+          <text>tauSplit_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="019def83-6bfe-415d-90d5-35fffa5cd270"/>
+      </transition>
+      <transition id="skip_1">
+        <name>
+          <text>skip_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="174893af-10b2-4dc0-a7dc-00a783a3f595"/>
+      </transition>
+      <transition id="9b494c03-75aa-4570-b349-6004d24d6a24">
+        <name>
+          <text>Recepcion de documentos</text>
+        </name>
+      </transition>
+      <transition id="fa37243d-0e74-46e0-a831-b4214752f9ed">
+        <name>
+          <text>Visto Bueno Cierre Proceso</text>
+        </name>
+      </transition>
+      <transition id="2f6b0cd6-4290-449d-ab00-c86712bbaa4e">
+        <name>
+          <text>Evaluacion curso</text>
+        </name>
+      </transition>
+      <transition id="7c39277a-59dd-46f9-8b11-e9a02d4388e6">
+        <name>
+          <text>Transferir Creditos</text>
+        </name>
+      </transition>
+      <transition id="skip_8">
+        <name>
+          <text>skip_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1089cb22-4033-46e6-b614-3a813916dff5"/>
+      </transition>
+      <transition id="189ba182-2736-475d-bbb4-293e7f4ba3f6">
+        <name>
+          <text>Transferir creditos homologables</text>
+        </name>
+      </transition>
+      <arc id="2444988686080" source="source" target="0836f3d2-4f4b-40e7-8c79-52548ae21ecf"/>
+      <arc id="2444988942080" source="tauSplit_3" target="p_9"/>
+      <arc id="2444988945536" source="p_10" target="tauJoin_4"/>
+      <arc id="2444988955904" source="p_11" target="skip_5"/>
+      <arc id="2444988946304" source="2f6db0e4-03d3-4bc0-9dc4-07ec8173c4f4" target="p_12"/>
+      <arc id="2444988692992" source="3bf7cba8-9bba-4877-9be2-c442038a2975" target="sink"/>
+      <arc id="2444989448448" source="p_15" target="skip_7"/>
+      <arc id="2444988694288" source="0836f3d2-4f4b-40e7-8c79-52548ae21ecf" target="p_3"/>
+      <arc id="2444988684688" source="41b67600-1826-44c4-abbc-a79486067d6c" target="sink"/>
+      <arc id="2444988956048" source="tauSplit_3" target="p_11"/>
+      <arc id="2444988950672" source="p_8" target="691543d5-67fb-4d5a-a371-0d12d6fe5ca4"/>
+      <arc id="2444988686608" source="p_8" target="2f6b0cd6-4290-449d-ab00-c86712bbaa4e"/>
+      <arc id="2444988685072" source="p_13" target="2df8f3d8-f065-461d-a4c8-5f2dc9d04d7f"/>
+      <arc id="2444988680224" source="p_3" target="66cf6389-d189-4712-bc79-e538d0eba042"/>
+      <arc id="2444988680992" source="66cf6389-d189-4712-bc79-e538d0eba042" target="p_4"/>
+      <arc id="2444988679840" source="skip_1" target="p_5"/>
+      <arc id="2444988688672" source="p_4" target="fbd16096-b960-437d-b7e8-cd4733657bc8"/>
+      <arc id="2444988681760" source="p_5" target="9b494c03-75aa-4570-b349-6004d24d6a24"/>
+      <arc id="2444988947360" source="9b494c03-75aa-4570-b349-6004d24d6a24" target="p_7"/>
+      <arc id="2444988956192" source="p_12" target="tauJoin_4"/>
+      <arc id="2444988952352" source="skip_5" target="p_12"/>
+      <arc id="2444988689056" source="p_13" target="3bf7cba8-9bba-4877-9be2-c442038a2975"/>
+      <arc id="2444989464480" source="p_16" target="skip_8"/>
+      <arc id="2444988688432" source="fbd16096-b960-437d-b7e8-cd4733657bc8" target="p_5"/>
+      <arc id="2444988693040" source="skip_2" target="p_7"/>
+      <arc id="2444988954800" source="tauJoin_4" target="p_8"/>
+      <arc id="2444988941360" source="p_11" target="2f6db0e4-03d3-4bc0-9dc4-07ec8173c4f4"/>
+      <arc id="2444988951728" source="p_8" target="skip_6"/>
+      <arc id="2444988943664" source="skip_6" target="sink"/>
+      <arc id="2444988949808" source="691543d5-67fb-4d5a-a371-0d12d6fe5ca4" target="sink"/>
+      <arc id="2444988678832" source="2df8f3d8-f065-461d-a4c8-5f2dc9d04d7f" target="p_14"/>
+      <arc id="2444989455408" source="p_14" target="fa37243d-0e74-46e0-a831-b4214752f9ed"/>
+      <arc id="2444988682432" source="p_6" target="41b67600-1826-44c4-abbc-a79486067d6c"/>
+      <arc id="2444988950720" source="52230af9-3e54-4e1d-adad-b4be559b74f6" target="p_10"/>
+      <arc id="2444989464000" source="189ba182-2736-475d-bbb4-293e7f4ba3f6" target="sink"/>
+      <arc id="2444988684880" source="p_4" target="skip_1"/>
+      <arc id="2444988683344" source="p_5" target="0b31e405-1edc-4d4b-a4da-cfa423883945"/>
+      <arc id="2444988693328" source="p_5" target="skip_2"/>
+      <arc id="2444988945872" source="p_7" target="tauSplit_3"/>
+      <arc id="2444988952400" source="p_9" target="52230af9-3e54-4e1d-adad-b4be559b74f6"/>
+      <arc id="2444989460688" source="skip_7" target="sink"/>
+      <arc id="2444989449168" source="p_16" target="189ba182-2736-475d-bbb4-293e7f4ba3f6"/>
+      <arc id="2444988687712" source="0b31e405-1edc-4d4b-a4da-cfa423883945" target="p_6"/>
+      <arc id="2444988689632" source="2f6b0cd6-4290-449d-ab00-c86712bbaa4e" target="p_13"/>
+      <arc id="2444989451616" source="fa37243d-0e74-46e0-a831-b4214752f9ed" target="p_15"/>
+      <arc id="2444989450992" source="p_15" target="7c39277a-59dd-46f9-8b11-e9a02d4388e6"/>
+      <arc id="2444989455600" source="7c39277a-59dd-46f9-8b11-e9a02d4388e6" target="p_16"/>
+      <arc id="2444989458672" source="skip_8" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

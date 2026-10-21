@@ -1,0 +1,1026 @@
+{
+    "session_id": 428,
+    "source_xes_filename": "1789463624_Production_train.xes",
+    "uploaded_pnml_filename": "1789463624_model.pnml",
+    "used_pnml_filepath": "uploads\\1789463624_model.pnml",
+    "noise_threshold_mode": "automatic",
+    "automatic_threshold_optimization": true,
+    "manual_noise_threshold": 0.0,
+    "noise_threshold_range": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\Production_train\\session_428_1789463625\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\Production_train\\session_428_1789463625\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "arrival_decision_tree_max_depth": 3,
+        "case_arrival_max_depth": 3,
+        "queue_scheduling_max_depth": 1,
+        "conditional_prioritization_max_depth": 1,
+        "priority_tree_max_depth": 1,
+        "priority_tree_active": true,
+        "dispatch_policy": "conditional_prioritization_tree",
+        "conditional_prioritization_model_kind": "pairwise_decision_tree",
+        "conditional_prioritization_pairs": 20143,
+        "conditional_prioritization_overtaking_rate": 0.924887057538599,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2,
+            "calendar_fit": 0.0
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_model_type": "activity_specific_external_delay_timer",
+        "external_delay_tree_enabled": false,
+        "external_delay_quantile_search": {
+            "enabled": true,
+            "search_mode": "joint_with_priority_tree_depth",
+            "candidate_quantiles": [
+                0.95,
+                0.975,
+                0.99,
+                1.0
+            ],
+            "selected_quantile": 0.99,
+            "global_scale_fixed": 1.0
+        },
+        "external_delay_max_delay_quantile": 0.99,
+        "fixed_runtime_controls": {
+            "arrival_time_scale": 1.0,
+            "arrival_demand_multiplier": 1.0,
+            "external_delay_global_scale": 1.0,
+            "external_delay_max_delay_quantile": 0.99,
+            "queue_strategy_name": "balanced"
+        },
+        "external_delay_activity_scale_protocol": {
+            "enabled": true,
+            "top_k_policy": "adaptive_ratio_with_min_max_caps",
+            "ratio": 0.25,
+            "min_k": 3,
+            "max_k": 8,
+            "candidate_scales": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0,
+                1.25
+            ],
+            "selection_partition": "train_validation_log_or_fixed_case_sample_if_large",
+            "uses_test_log": false,
+            "method": "coordinate_search_after_final_rediscovery_with_fixed_stage2c_quantile",
+            "sampling_policy": {
+                "enabled": true,
+                "large_log_threshold": 5000,
+                "max_cases": 5000,
+                "confidence_level": 95.0,
+                "margin_percent": 3.0,
+                "seed": 72,
+                "sample_size_method": "finite_population_dsim_style",
+                "full_log_confirmation": true
+            }
+        },
+        "external_delay_activity_scales": {
+            "Lapping": 0.25,
+            "Round Grinding": 1.0,
+            "Final Inspection Q.C.": 1.0,
+            "Turning & Milling": 1.0,
+            "Laser Marking": 1.25
+        },
+        "case_duration_calibration": {
+            "enabled": true,
+            "reason": "top_k_activity_level_external_delay_scale_protocol",
+            "global_scale_fixed": 1.0
+        },
+        "structure_score": 0.5859543814631366,
+        "optuna_objective_score": 3.764909754644532,
+        "runtime_score": 0.12859458736813936,
+        "validation_metrics": {
+            "aed": 85.68278933092226,
+            "ced": 1.4505099815260034,
+            "red": 69.88852622061484,
+            "car": 15.11111111111111,
+            "ctd": 168.66666666666666,
+            "cwd": 1.3119048393620365
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 20644.555555555555,
+            "sim_case_duration_mean": 30761.5,
+            "duration_ratio": 1.490053874844592,
+            "external_delay_ratio": 0.49107921655697406
+        },
+        "arrival_guard": {
+            "enabled": true,
+            "arrival_span_ratio": 0.9738774892102673,
+            "case_count_ratio": 1.0,
+            "real_cases": 36,
+            "sim_cases": 36,
+            "weekday_hour_jaccard": 0.1568627450980392,
+            "passed": true
+        },
+        "ctd_tolerance": null,
+        "ctd_guard": {
+            "enabled": false,
+            "best_ctd": null,
+            "ctd_tolerance": null,
+            "max_allowed_ctd": null,
+            "observed_ctd": 168.66666666666666,
+            "passed": null
+        },
+        "runtime_guard_selection_mode": "joint_arrival_duration_guard_passed",
+        "runtime_search_stage": "dispatch_external_search",
+        "fixed_structure_before_runtime": true,
+        "fixed_stage1_structure": {
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "structure_score": 0.5859543814631366
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.49107921655697406
+        },
+        "optuna_trial_number": 3,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "mode": "adaptive_by_resource_count",
+            "adaptive_enabled": true,
+            "resource_threshold": 50,
+            "small_resource_policy": {
+                "condition": "resources <= 50",
+                "enabled": false,
+                "coverage": 1.0,
+                "max_k": null,
+                "min_k": 1
+            },
+            "large_resource_policy": {
+                "condition": "resources > 50",
+                "enabled": true,
+                "coverage": 0.95,
+                "max_k": 30,
+                "min_k": 3
+            }
+        },
+        "final_rediscovery_calibration": {
+            "enabled": true,
+            "reason": "fixed_stage2c_quantile_then_top_k_activity_scale_calibration",
+            "selected_quantile": 0.99,
+            "selected_activity_scales": {
+                "Lapping": 0.25,
+                "Round Grinding": 1.0,
+                "Final Inspection Q.C.": 1.0,
+                "Turning & Milling": 1.0,
+                "Laser Marking": 1.25
+            },
+            "top_activity_scale_calibration": {
+                "enabled": true,
+                "selected_quantile": 0.99,
+                "selected_activity_scales": {
+                    "Lapping": 0.25,
+                    "Round Grinding": 1.0,
+                    "Final Inspection Q.C.": 1.0,
+                    "Turning & Milling": 1.0,
+                    "Laser Marking": 1.25
+                },
+                "uses_test_log": false,
+                "global_scale_fixed": 1.0,
+                "calibration_sampling": {
+                    "enabled": true,
+                    "applied": false,
+                    "policy": "center_temporal_window_case_sampling",
+                    "large_log_threshold": 5000,
+                    "max_cases": 5000,
+                    "confidence_level": 95.0,
+                    "margin_percent": 3.0,
+                    "seed": 72,
+                    "sample_size_method": "finite_population_dsim_style",
+                    "population_cases": 180,
+                    "sampled_cases": 180,
+                    "sampling_fraction": 1.0,
+                    "reason": "population_not_larger_than_uniform_threshold"
+                },
+                "full_log_confirmation": {
+                    "status": "not_required",
+                    "reason": "calibration_sampling_not_applied",
+                    "accepted": true
+                },
+                "search_baseline": {
+                    "metrics": {
+                        "aed": 46.690197378105886,
+                        "ced": 1.4343811287156198,
+                        "red": 122.41018517023373,
+                        "car": 106.64444444444445,
+                        "ctd": 125.42777777777776,
+                        "cwd": 1.3442308408967323
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 35344.99444444444,
+                        "sim_case_duration_mean": 28614.972222222223,
+                        "duration_ratio": 0.8095905140740501,
+                        "external_delay_ratio": 0.49413507159450965
+                    },
+                    "score": 4.863593289966136,
+                    "time_decomposition_overlap": {}
+                },
+                "top_activity_scale_calibration": {
+                    "enabled": true,
+                    "top_k_policy": "adaptive_ratio_with_min_max_caps",
+                    "top_k_ratio": 0.25,
+                    "top_k_min": 3,
+                    "top_k_max": 8,
+                    "n_external_delay_activities": 19,
+                    "resolved_top_k": 5,
+                    "top_activities": [
+                        "Lapping",
+                        "Round Grinding",
+                        "Final Inspection Q.C.",
+                        "Turning & Milling",
+                        "Laser Marking"
+                    ],
+                    "candidate_scales": [
+                        0.0,
+                        0.25,
+                        0.5,
+                        0.75,
+                        1.0,
+                        1.25
+                    ],
+                    "selected_activity_scales": {
+                        "Lapping": 0.25,
+                        "Round Grinding": 1.0,
+                        "Final Inspection Q.C.": 1.0,
+                        "Turning & Milling": 1.0,
+                        "Laser Marking": 1.25
+                    },
+                    "baseline_score": 4.863593289966136,
+                    "selected_score": 4.185553269244961,
+                    "selected_eval": {
+                        "metrics": {
+                            "aed": 136.68308269607547,
+                            "ced": 1.1992202819443192,
+                            "red": 64.84591580138353,
+                            "car": 65.53333333333333,
+                            "ctd": 107.9888888888889,
+                            "cwd": 1.165517517279678
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 35344.99444444444,
+                            "sim_case_duration_mean": 32480.077777777777,
+                            "duration_ratio": 0.9189442037918618,
+                            "external_delay_ratio": 0.48600965429721554
+                        },
+                        "score": 4.185553269244961,
+                        "time_decomposition_overlap": {}
+                    },
+                    "results": [
+                        {
+                            "activity": "Lapping",
+                            "candidate_activity_scale": 0.0,
+                            "metrics": {
+                                "aed": 129.64812271551847,
+                                "ced": 1.0892314711059894,
+                                "red": 91.66005643139724,
+                                "car": 74.58888888888887,
+                                "ctd": 150.73888888888888,
+                                "cwd": 1.0721984715090314
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 26675.36111111111,
+                                "duration_ratio": 0.7547139709709013,
+                                "external_delay_ratio": 0.4438469035613768
+                            },
+                            "score": 5.169008844213281,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Lapping",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 201.3795476137841,
+                                "ced": 1.0695396813914468,
+                                "red": 57.623134853427814,
+                                "car": 126.8388888888889,
+                                "ctd": 98.67222222222217,
+                                "cwd": 1.0183644819283004
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 31721.766666666666,
+                                "duration_ratio": 0.8974896492494067,
+                                "external_delay_ratio": 0.4790923728276983
+                            },
+                            "score": 4.348163241635416,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Lapping",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 122.12071381298205,
+                                "ced": 1.1787530432791233,
+                                "red": 97.18938811780335,
+                                "car": 127.36666666666667,
+                                "ctd": 134.3444444444444,
+                                "cwd": 1.0979648473144905
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 28771.905555555557,
+                                "duration_ratio": 0.8140305581538421,
+                                "external_delay_ratio": 0.4860875639425764
+                            },
+                            "score": 4.918869842963951,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Lapping",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 134.65113916562964,
+                                "ced": 1.165095874824617,
+                                "red": 146.70075690598486,
+                                "car": 240.20000000000002,
+                                "ctd": 151.43333333333337,
+                                "cwd": 1.1247819962552752
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27011.944444444445,
+                                "duration_ratio": 0.7642367715434797,
+                                "external_delay_ratio": 0.4895846205443253
+                            },
+                            "score": 5.415441230174624,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Lapping",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 46.690197378105886,
+                                "ced": 1.4343811287156198,
+                                "red": 122.41018517023373,
+                                "car": 106.64444444444445,
+                                "ctd": 125.42777777777776,
+                                "cwd": 1.3442308408967323
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 28614.972222222223,
+                                "duration_ratio": 0.8095905140740501,
+                                "external_delay_ratio": 0.49413507159450965
+                            },
+                            "score": 4.863593289966136,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Lapping",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 227.3881211204366,
+                                "ced": 1.1194460569187739,
+                                "red": 79.72957218641889,
+                                "car": 187.36666666666667,
+                                "ctd": 124.96111111111105,
+                                "cwd": 1.101516470530421
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 30230.783333333333,
+                                "duration_ratio": 0.855305929693958,
+                                "external_delay_ratio": 0.5192915173295704
+                            },
+                            "score": 4.7712765277865525,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Round Grinding",
+                            "candidate_activity_scale": 0.0,
+                            "metrics": {
+                                "aed": 226.56567573572568,
+                                "ced": 1.0836226808251606,
+                                "red": 97.71381155585718,
+                                "car": 244.34444444444446,
+                                "ctd": 144.66666666666666,
+                                "cwd": 1.042826063414124
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 26875.705555555556,
+                                "duration_ratio": 0.7603822260546402,
+                                "external_delay_ratio": 0.4338141826218396
+                            },
+                            "score": 5.372677647074434,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Round Grinding",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 152.71124243235585,
+                                "ced": 1.0182797974666968,
+                                "red": 90.95421211023833,
+                                "car": 108.8611111111111,
+                                "ctd": 160.14444444444442,
+                                "cwd": 0.9480844743310749
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27036.944444444445,
+                                "duration_ratio": 0.7649440852775162,
+                                "external_delay_ratio": 0.418444935327484
+                            },
+                            "score": 5.195827115059086,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Round Grinding",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 134.37085904028584,
+                                "ced": 1.2442070732565909,
+                                "red": 128.5142982533473,
+                                "car": 85.6,
+                                "ctd": 198.38333333333333,
+                                "cwd": 1.2357715487374439
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 24656.633333333335,
+                                "duration_ratio": 0.6975990156707716,
+                                "external_delay_ratio": 0.4275951968264446
+                            },
+                            "score": 5.69184415579609,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Round Grinding",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 451.1492373575113,
+                                "ced": 1.4813339212384287,
+                                "red": 97.60242530816726,
+                                "car": 492.79999999999995,
+                                "ctd": 154.66666666666663,
+                                "cwd": 1.414987686243951
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27890.62777777778,
+                                "duration_ratio": 0.789096963124906,
+                                "external_delay_ratio": 0.4598749870127525
+                            },
+                            "score": 5.452690656086999,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Round Grinding",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 201.3795476137841,
+                                "ced": 1.0695396813914468,
+                                "red": 57.623134853427814,
+                                "car": 126.8388888888889,
+                                "ctd": 98.67222222222217,
+                                "cwd": 1.0183644819283004
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 31721.766666666666,
+                                "duration_ratio": 0.8974896492494067,
+                                "external_delay_ratio": 0.4790923728276983
+                            },
+                            "score": 4.348163241635416,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Round Grinding",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 316.85522498208354,
+                                "ced": 1.3241540799885012,
+                                "red": 45.55702082134611,
+                                "car": 240.92222222222227,
+                                "ctd": 88.19444444444443,
+                                "cwd": 1.2200554475419845
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 31277.155555555557,
+                                "duration_ratio": 0.8849104674416416,
+                                "external_delay_ratio": 0.5040157126868486
+                            },
+                            "score": 4.471281995226324,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Final Inspection Q.C.",
+                            "candidate_activity_scale": 0.0,
+                            "metrics": {
+                                "aed": 68.88722995101358,
+                                "ced": 1.1153473941678136,
+                                "red": 153.29621576990246,
+                                "car": 85.56111111111112,
+                                "ctd": 189.90000000000003,
+                                "cwd": 1.0222536837070595
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 24121.45,
+                                "duration_ratio": 0.6824573147950073,
+                                "external_delay_ratio": 0.42566238925170574
+                            },
+                            "score": 5.721683900854414,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Final Inspection Q.C.",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 78.90544396917693,
+                                "ced": 1.0604635787773435,
+                                "red": 98.19690464519388,
+                                "car": 127.91111111111111,
+                                "ctd": 168.58333333333331,
+                                "cwd": 0.9865130301708354
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 25556.972222222223,
+                                "duration_ratio": 0.7230718981267032,
+                                "external_delay_ratio": 0.41246307039028485
+                            },
+                            "score": 5.408062963238146,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Final Inspection Q.C.",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 244.97912034057663,
+                                "ced": 1.3117638883941491,
+                                "red": 111.27339765522933,
+                                "car": 324.72777777777776,
+                                "ctd": 190.5388888888889,
+                                "cwd": 1.2386225998322475
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 24513.93888888889,
+                                "duration_ratio": 0.693561826057721,
+                                "external_delay_ratio": 0.43830054652207073
+                            },
+                            "score": 5.925869380565564,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Final Inspection Q.C.",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 82.85447738918656,
+                                "ced": 1.1495373066332033,
+                                "red": 72.14132695567461,
+                                "car": 93.0,
+                                "ctd": 147.00555555555556,
+                                "cwd": 1.1348747816298628
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27242.905555555557,
+                                "duration_ratio": 0.7707712501801687,
+                                "external_delay_ratio": 0.4871110585379923
+                            },
+                            "score": 5.001599629688871,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Final Inspection Q.C.",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 201.3795476137841,
+                                "ced": 1.0695396813914468,
+                                "red": 57.623134853427814,
+                                "car": 126.8388888888889,
+                                "ctd": 98.67222222222217,
+                                "cwd": 1.0183644819283004
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 31721.766666666666,
+                                "duration_ratio": 0.8974896492494067,
+                                "external_delay_ratio": 0.4790923728276983
+                            },
+                            "score": 4.348163241635416,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Final Inspection Q.C.",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 125.02115735855244,
+                                "ced": 1.11962172293951,
+                                "red": 79.44895099131816,
+                                "car": 177.0722222222222,
+                                "ctd": 148.52777777777777,
+                                "cwd": 1.0883526937454018
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27556.06111111111,
+                                "duration_ratio": 0.7796312191935398,
+                                "external_delay_ratio": 0.44056756853296924
+                            },
+                            "score": 5.118322622526758,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Turning & Milling",
+                            "candidate_activity_scale": 0.0,
+                            "metrics": {
+                                "aed": 166.96249751363783,
+                                "ced": 1.228907496421516,
+                                "red": 122.95151812969179,
+                                "car": 87.39444444444446,
+                                "ctd": 170.11111111111111,
+                                "cwd": 1.30982307767787
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 26206.483333333334,
+                                "duration_ratio": 0.7414482232986316,
+                                "external_delay_ratio": 0.4306426335384853
+                            },
+                            "score": 5.4184430679362805,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Turning & Milling",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 111.5276111182732,
+                                "ced": 1.137962314270221,
+                                "red": 114.42025605991424,
+                                "car": 120.40555555555557,
+                                "ctd": 137.38888888888886,
+                                "cwd": 1.0409192622618595
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27433.544444444444,
+                                "duration_ratio": 0.7761649103542715,
+                                "external_delay_ratio": 0.46647434151051337
+                            },
+                            "score": 5.135738282664871,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Turning & Milling",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 84.83510219135441,
+                                "ced": 1.016370547057489,
+                                "red": 139.2992221923622,
+                                "car": 154.35000000000002,
+                                "ctd": 192.65555555555554,
+                                "cwd": 0.9126068440622529
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 24554.444444444445,
+                                "duration_ratio": 0.6947078314876899,
+                                "external_delay_ratio": 0.45799757441140376
+                            },
+                            "score": 5.728721439027327,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Turning & Milling",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 276.02127803929915,
+                                "ced": 1.1323203186980562,
+                                "red": 88.31640204848291,
+                                "car": 263.43333333333334,
+                                "ctd": 145.5444444444444,
+                                "cwd": 1.0103132634362635
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 28872.277777777777,
+                                "duration_ratio": 0.8168703442055838,
+                                "external_delay_ratio": 0.44693870069205077
+                            },
+                            "score": 5.0959884242956175,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Turning & Milling",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 201.3795476137841,
+                                "ced": 1.0695396813914468,
+                                "red": 57.623134853427814,
+                                "car": 126.8388888888889,
+                                "ctd": 98.67222222222217,
+                                "cwd": 1.0183644819283004
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 31721.766666666666,
+                                "duration_ratio": 0.8974896492494067,
+                                "external_delay_ratio": 0.4790923728276983
+                            },
+                            "score": 4.348163241635416,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Turning & Milling",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 57.49269781967232,
+                                "ced": 1.0729720481917024,
+                                "red": 160.98810304333648,
+                                "car": 99.41111111111113,
+                                "ctd": 188.13888888888889,
+                                "cwd": 0.9515723537803386
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 24838.87777777778,
+                                "duration_ratio": 0.7027551756110682,
+                                "external_delay_ratio": 0.5047152422236291
+                            },
+                            "score": 5.610124873845216,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Laser Marking",
+                            "candidate_activity_scale": 0.0,
+                            "metrics": {
+                                "aed": 117.45535838735061,
+                                "ced": 1.2966548572748298,
+                                "red": 91.8338369365656,
+                                "car": 163.7277777777778,
+                                "ctd": 131.17222222222222,
+                                "cwd": 1.3336005322503608
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 27917.42777777778,
+                                "duration_ratio": 0.789855203447793,
+                                "external_delay_ratio": 0.4686484443334494
+                            },
+                            "score": 5.062441935204693,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Laser Marking",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 206.35543828921257,
+                                "ced": 1.1984247366860843,
+                                "red": 132.1085311767553,
+                                "car": 303.3833333333333,
+                                "ctd": 158.97777777777776,
+                                "cwd": 1.1607128837180065
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 25999.133333333335,
+                                "duration_ratio": 0.7355817631885327,
+                                "external_delay_ratio": 0.4228125334506991
+                            },
+                            "score": 5.641219522286112,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Laser Marking",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 63.821051482660906,
+                                "ced": 1.1228747130533276,
+                                "red": 104.544900247134,
+                                "car": 45.66666666666664,
+                                "ctd": 122.07777777777778,
+                                "cwd": 1.0290643476390176
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 28398.694444444445,
+                                "duration_ratio": 0.8034714643704853,
+                                "external_delay_ratio": 0.48011805553695225
+                            },
+                            "score": 4.736852140995308,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Laser Marking",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 291.10927650905177,
+                                "ced": 1.4272378556204663,
+                                "red": 73.48782985209893,
+                                "car": 278.1111111111111,
+                                "ctd": 135.18888888888887,
+                                "cwd": 1.3591080537862719
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 28766.916666666668,
+                                "duration_ratio": 0.8138894097686944,
+                                "external_delay_ratio": 0.4736317237747378
+                            },
+                            "score": 5.079490756053347,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Laser Marking",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 201.3795476137841,
+                                "ced": 1.0695396813914468,
+                                "red": 57.623134853427814,
+                                "car": 126.8388888888889,
+                                "ctd": 98.67222222222217,
+                                "cwd": 1.0183644819283004
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 31721.766666666666,
+                                "duration_ratio": 0.8974896492494067,
+                                "external_delay_ratio": 0.4790923728276983
+                            },
+                            "score": 4.348163241635416,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Laser Marking",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 136.68308269607547,
+                                "ced": 1.1992202819443192,
+                                "red": 64.84591580138353,
+                                "car": 65.53333333333333,
+                                "ctd": 107.9888888888889,
+                                "cwd": 1.165517517279678
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 35344.99444444444,
+                                "sim_case_duration_mean": 32480.077777777777,
+                                "duration_ratio": 0.9189442037918618,
+                                "external_delay_ratio": 0.48600965429721554
+                            },
+                            "score": 4.185553269244961,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        }
+                    ],
+                    "note": "仅在 train_validation_log 上针对自适应 Top-K 外部延迟活动进行坐标搜索。"
+                }
+            },
+            "global_scale_fixed": 1.0,
+            "uses_test_log": false
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "structure_confirmation",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 3,
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.5162626618942171,
+                "ngd": 0.3779423859726383,
+                "3gd": 0.5163652787734706
+            },
+            "process_quality": {},
+            "activity_coverage": {
+                "coverage": 1.0,
+                "reference_activity_count": 21,
+                "discovered_activity_count": 21,
+                "missing_activity_count": 0,
+                "extra_activity_count": 0,
+                "missing_activities": [],
+                "extra_activities": []
+            },
+            "petri_score": 0.0,
+            "petri_selection_score": 0.0,
+            "optuna_objective_score": 0.38438536704030785,
+            "status": "ok",
+            "structure_score": 0.5859543814631366,
+            "activity_coverage_penalty": 0.0,
+            "noise_penalty": 0.0,
+            "structure_selection_score": 0.5859543814631366,
+            "activity_coverage_preference": {
+                "enabled": true,
+                "mode": "full_activity_coverage",
+                "max_coverage": 1.0,
+                "threshold": 0.999,
+                "n_primary_before": 1,
+                "n_primary_after": 1,
+                "n_fallback_before": 3,
+                "n_fallback_after": 3
+            },
+            "confirmation_index": 2,
+            "confirmed_from_stage": "tree_depth_grid",
+            "confirmation_runs": 3,
+            "pre_confirmation_structure_score": 0.5859543814631366,
+            "pre_confirmation_selection_score": 0.5859543814631366,
+            "confirmation_score": 0.0,
+            "confirmation_selection_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.6534237871955807,
+        "precision": 0.35196791175733266,
+        "f_measure": 0.4575017003051015
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.5825826325858343,
+            "ngd": 0.5053935141282303,
+            "3gd": 0.586217643513615
+        },
+        "temporal": {
+            "aed": 354.75772518381257,
+            "ced": 1.8322902625928534,
+            "red": 280.16020049757344
+        },
+        "congestion": {
+            "car": 41.986666666666665,
+            "ctd": 393.6177777777778
+        },
+        "resource": {
+            "cwd": 1.6061606586955233
+        },
+        "extra": {}
+    },
+    "created_at": "2026-09-15T18:16:18.974636"
+}

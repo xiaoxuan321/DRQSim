@@ -1,0 +1,169 @@
+{
+    "session_id": 306,
+    "source_xes_filename": "1782178342_acr.xes",
+    "uploaded_pnml_filename": "1782178342_optimized_petri_net.pnml",
+    "used_pnml_filepath": "uploads\\1782178342_optimized_petri_net.pnml",
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_306_1782178342\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_306_1782178342\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "queue_oriented",
+        "resource_policy_mode": "queue_oriented",
+        "resource_policy_description": null,
+        "queue_score_mixing_weights": {
+            "tree": 0.4,
+            "frequency": 0.2,
+            "availability": 0.25,
+            "calendar_fit": 0.15
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.830895924779595,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_model_type": "activity_specific_external_delay_timer",
+        "external_delay_activity_specific": true,
+        "external_delay_global_scale": 1.0,
+        "external_delay_max_delay_quantile": 0.95,
+        "structure_score": 0.816496580927726,
+        "optuna_objective_score": 3.427794890042533,
+        "runtime_score": 0.0,
+        "validation_metrics": {
+            "aed": 192.42381656804736,
+            "ced": 2.294745791248312,
+            "red": 59.272633136094676,
+            "car": 161.15849673202615,
+            "ctd": 42.77287581699346,
+            "cwd": 2.136444594587062
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 12137.882225623856,
+            "duration_ratio": 0.9696317479979797,
+            "external_delay_ratio": 0.6016712968251928
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 36.81126331811262,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 73.62252663622525,
+            "observed_ctd": 42.77287581699346,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": 0.7,
+            "observed_external_delay_ratio": 0.6016712968251928
+        },
+        "resource_cwd_calibration": {
+            "enabled": true,
+            "mode": "resource_first",
+            "best_cwd": 2.136444594587062,
+            "cwd_tolerance": 1.05,
+            "max_allowed_cwd": 2.243266824316415,
+            "observed_cwd": 2.136444594587062,
+            "resource_policy_mode": "queue_oriented",
+            "passed": true
+        },
+        "resource_ced_calibration": {
+            "enabled": true,
+            "mode": "resource_first_after_cwd",
+            "best_ced": 2.294745791248312,
+            "ced_tolerance": 1.15,
+            "max_allowed_ced": 2.6389576599355586,
+            "observed_ced": 2.294745791248312,
+            "resource_policy_mode": "queue_oriented",
+            "passed": true
+        },
+        "resource_first_calibration": {
+            "enabled": true,
+            "cwd_enabled": true,
+            "cwd_tolerance": 1.05,
+            "ced_enabled": true,
+            "ced_tolerance": 1.15,
+            "passed": true
+        },
+        "optuna_trial_number": 0,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.95,
+            "max_k": 20,
+            "min_k": 3
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 1,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 1,
+            "max_depth_tree": 1,
+            "decision_point_max_depth": 1,
+            "metrics": {
+                "cfld": 0.23308736717827627,
+                "ngd": 0.2700228832951945,
+                "3gd": 0.33268101761252444
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.2452495712239661,
+            "status": "ok",
+            "structure_score": 0.5773502691896257
+        },
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.23051818676818678,
+                "ngd": 0.2856350526899612,
+                "3gd": 0.33745247148288976
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.24981827841171242,
+            "status": "ok",
+            "structure_score": 0.816496580927726
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9560057983117121,
+        "precision": 0.6443879173290938,
+        "f_measure": 0.7698587907563195
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.23001630764268466,
+            "ngd": 0.2928916644725402,
+            "3gd": 0.3256953251812945
+        },
+        "temporal": {
+            "aed": 129.62532602445617,
+            "ced": 2.019956358798045,
+            "red": 59.696425955111295
+        },
+        "congestion": {
+            "car": 79.04538534095116,
+            "ctd": 77.57731481946935
+        },
+        "resource": {
+            "cwd": 1.8543923690064168
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-23T09:47:10.979787"
+}

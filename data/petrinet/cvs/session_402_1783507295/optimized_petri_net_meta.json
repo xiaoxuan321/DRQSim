@@ -1,0 +1,470 @@
+{
+    "session_id": 402,
+    "source_xes_filename": "1783507286_cvs.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "noise_threshold_mode": "automatic",
+    "automatic_threshold_optimization": true,
+    "manual_noise_threshold": 0.0,
+    "noise_threshold_range": [
+        0.0,
+        0.5
+    ],
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\cvs\\session_402_1783507295\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\cvs\\session_402_1783507295\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.15440435048699436,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "arrival_decision_tree_max_depth": 2,
+        "case_arrival_max_depth": 2,
+        "queue_scheduling_max_depth": 4,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2,
+            "calendar_fit": 0.0
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_model_type": "activity_specific_external_delay_timer",
+        "external_delay_tree_enabled": false,
+        "fixed_runtime_controls": {
+            "arrival_time_scale": 1.0,
+            "arrival_demand_multiplier": 1.0,
+            "external_delay_global_scale": 1.0,
+            "external_delay_max_delay_quantile": 1.0,
+            "queue_strategy_name": "balanced"
+        },
+        "external_delay_activity_scale_protocol": {
+            "enabled": true,
+            "top_k_policy": "adaptive_ratio_with_min_max_caps",
+            "ratio": 0.25,
+            "min_k": 3,
+            "max_k": 8,
+            "candidate_scales": [
+                0.8,
+                1.0,
+                1.2
+            ],
+            "selection_partition": "train_validation_log",
+            "uses_test_log": false,
+            "method": "coordinate_search"
+        },
+        "external_delay_activity_scales": {
+            "Pick-up": 0.8,
+            "Pack the drugs (Production)": 0.8,
+            "Enter prescription details": 0.8
+        },
+        "case_duration_calibration": {
+            "enabled": false,
+            "reason": "disabled_activity_level_external_delay_scale_protocol",
+            "global_scale_fixed": 1.0
+        },
+        "structure_score": 0.14017978710678342,
+        "optuna_objective_score": 3.6919896006708526,
+        "runtime_score": 0.30324422285486763,
+        "validation_metrics": {
+            "aed": 25.7602811673622,
+            "ced": 8.309772363721187,
+            "red": 53.197104450111006,
+            "car": 27.319374999999997,
+            "ctd": 97.27375,
+            "cwd": 7.06355160226339
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 16069.58284375,
+            "sim_case_duration_mean": 10234.14178125,
+            "duration_ratio": 0.6368641850109009,
+            "external_delay_ratio": 0.43180703881619337
+        },
+        "arrival_guard": {
+            "enabled": true,
+            "arrival_span_ratio": 1.1104354721088328,
+            "case_count_ratio": 1.0,
+            "real_cases": 1600,
+            "sim_cases": 1600,
+            "weekday_hour_jaccard": 0.9523809523809523,
+            "passed": true
+        },
+        "ctd_tolerance": 1.5,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 96.82312499999999,
+            "ctd_tolerance": 1.5,
+            "max_allowed_ctd": 145.23468749999998,
+            "observed_ctd": 97.27375,
+            "passed": true
+        },
+        "runtime_guard_selection_mode": "joint_arrival_duration_guard_passed",
+        "runtime_search_stage": "arrival_queue_depth_grid",
+        "fixed_structure_before_runtime": true,
+        "fixed_stage1_structure": {
+            "noise_threshold": 0.15440435048699436,
+            "tree_depth": 2,
+            "structure_score": 0.14017978710678342
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.43180703881619337
+        },
+        "optuna_trial_number": 8,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "mode": "adaptive_by_resource_count",
+            "adaptive_enabled": true,
+            "resource_threshold": 50,
+            "small_resource_policy": {
+                "condition": "resources <= 50",
+                "enabled": false,
+                "coverage": 1.0,
+                "max_k": null,
+                "min_k": 1
+            },
+            "large_resource_policy": {
+                "condition": "resources > 50",
+                "enabled": true,
+                "coverage": 0.95,
+                "max_k": 30,
+                "min_k": 3
+            }
+        },
+        "final_rediscovery_calibration": {
+            "enabled": true,
+            "partition": "train_validation_log",
+            "uses_test_log": false,
+            "global_scale_calibration": {
+                "enabled": false,
+                "skipped_reason": "global_scale_removed_activity_level_protocol",
+                "fixed_global_scale": 1.0
+            },
+            "top_activity_scale_calibration": {
+                "enabled": true,
+                "top_k_policy": "adaptive_ratio_with_min_max_caps",
+                "top_k_ratio": 0.25,
+                "top_k_min": 3,
+                "top_k_max": 8,
+                "n_external_delay_activities": 9,
+                "resolved_top_k": 3,
+                "top_activities": [
+                    "Pick-up",
+                    "Pack the drugs (Production)",
+                    "Enter prescription details"
+                ],
+                "candidate_scales": [
+                    0.8,
+                    1.0,
+                    1.2
+                ],
+                "selected_activity_scales": {
+                    "Pick-up": 0.8,
+                    "Pack the drugs (Production)": 0.8,
+                    "Enter prescription details": 0.8
+                },
+                "baseline_score": 16.837448863090398,
+                "selected_score": 15.124735004834667,
+                "selected_eval": {
+                    "metrics": {
+                        "ced": 8.569623057232109,
+                        "red": 17.568090053826083,
+                        "ctd": 29.752375,
+                        "cwd": 7.192354588455642
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 9115.825577083335,
+                        "sim_case_duration_mean": 10827.110481252195,
+                        "duration_ratio": 1.1877268152728737,
+                        "external_delay_ratio": 0.4237394925864053
+                    },
+                    "score": 15.124735004834667,
+                    "time_decomposition_overlap": {}
+                },
+                "results": [
+                    {
+                        "activity": "Pick-up",
+                        "candidate_activity_scale": 0.8,
+                        "metrics": {
+                            "ced": 8.442031904902224,
+                            "red": 23.37627685455353,
+                            "ctd": 38.055125000000004,
+                            "cwd": 7.194900523422569
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 11399.53313958808,
+                            "duration_ratio": 1.250521199993762,
+                            "external_delay_ratio": 0.43298342307571314
+                        },
+                        "score": 16.189637149690462,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Pick-up",
+                        "candidate_activity_scale": 1.0,
+                        "metrics": {
+                            "ced": 8.434209404039562,
+                            "red": 26.540780645063585,
+                            "ctd": 48.24275000000001,
+                            "cwd": 7.194460407129881
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 12011.919093752243,
+                            "duration_ratio": 1.3176995316748406,
+                            "external_delay_ratio": 0.4360798979701712
+                        },
+                        "score": 16.943332703465767,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Pick-up",
+                        "candidate_activity_scale": 1.2,
+                        "metrics": {
+                            "ced": 8.327118637423174,
+                            "red": 26.815845238070374,
+                            "ctd": 56.460625,
+                            "cwd": 7.18347349064412
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 12505.074283338894,
+                            "duration_ratio": 1.3717983278196917,
+                            "external_delay_ratio": 0.43736495624196553
+                        },
+                        "score": 17.297648642021183,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Pack the drugs (Production)",
+                        "candidate_activity_scale": 0.8,
+                        "metrics": {
+                            "ced": 8.467878964674819,
+                            "red": 21.573298930411266,
+                            "ctd": 33.1695,
+                            "cwd": 7.17869581129832
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 11102.954643752266,
+                            "duration_ratio": 1.2179867363483194,
+                            "external_delay_ratio": 0.4282449833257898
+                        },
+                        "score": 15.74224408618365,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Pack the drugs (Production)",
+                        "candidate_activity_scale": 1.0,
+                        "metrics": {
+                            "ced": 8.453517479064296,
+                            "red": 24.94922061251811,
+                            "ctd": 41.149375,
+                            "cwd": 7.171910992482132
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 11585.751193751837,
+                            "duration_ratio": 1.270949196623261,
+                            "external_delay_ratio": 0.4330569839995198
+                        },
+                        "score": 16.481802704830265,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Pack the drugs (Production)",
+                        "candidate_activity_scale": 1.2,
+                        "metrics": {
+                            "ced": 8.31897137137976,
+                            "red": 27.825213038353013,
+                            "ctd": 47.80525000000001,
+                            "cwd": 7.268337453720182
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 11985.787812502726,
+                            "duration_ratio": 1.314832947509912,
+                            "external_delay_ratio": 0.4336405668169608
+                        },
+                        "score": 17.013538553700872,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Enter prescription details",
+                        "candidate_activity_scale": 0.8,
+                        "metrics": {
+                            "ced": 8.569623057232109,
+                            "red": 17.568090053826083,
+                            "ctd": 29.752375,
+                            "cwd": 7.192354588455642
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 10827.110481252195,
+                            "duration_ratio": 1.1877268152728737,
+                            "external_delay_ratio": 0.4237394925864053
+                        },
+                        "score": 15.124735004834667,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Enter prescription details",
+                        "candidate_activity_scale": 1.0,
+                        "metrics": {
+                            "ced": 8.46595191567937,
+                            "red": 21.795038406587306,
+                            "ctd": 33.966249999999995,
+                            "cwd": 7.162959597179341
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 11142.468006255496,
+                            "duration_ratio": 1.2223213259221442,
+                            "external_delay_ratio": 0.42758287195861144
+                        },
+                        "score": 15.81165234057522,
+                        "time_decomposition_overlap": {}
+                    },
+                    {
+                        "activity": "Enter prescription details",
+                        "candidate_activity_scale": 1.2,
+                        "metrics": {
+                            "ced": 8.30385039694829,
+                            "red": 27.46131816456759,
+                            "ctd": 39.835750000000004,
+                            "cwd": 7.134869991066468
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 9115.825577083335,
+                            "sim_case_duration_mean": 11506.558945840434,
+                            "duration_ratio": 1.2622618597230806,
+                            "external_delay_ratio": 0.4288612137505403
+                        },
+                        "score": 16.588754484997985,
+                        "time_decomposition_overlap": {}
+                    }
+                ],
+                "note": "Coordinate search over adaptive Top-K external-delay activities on train_validation_log only."
+            },
+            "selected_activity_scales": {
+                "Pick-up": 0.8,
+                "Pack the drugs (Production)": 0.8,
+                "Enter prescription details": 0.8
+            },
+            "baseline": {
+                "metrics": {
+                    "ced": 8.426802377190555,
+                    "red": 25.583017242319812,
+                    "ctd": 47.455625,
+                    "cwd": 7.208219485979667
+                },
+                "case_duration_guard": {
+                    "real_case_duration_mean": 9115.825577083335,
+                    "sim_case_duration_mean": 11964.763785419933,
+                    "duration_ratio": 1.3125266257286303,
+                    "external_delay_ratio": 0.43539554014723447
+                },
+                "score": 16.837448863090398,
+                "time_decomposition_overlap": {}
+            },
+            "post_global": {
+                "metrics": {
+                    "ced": 8.426802377190555,
+                    "red": 25.583017242319812,
+                    "ctd": 47.455625,
+                    "cwd": 7.208219485979667
+                },
+                "case_duration_guard": {
+                    "real_case_duration_mean": 9115.825577083335,
+                    "sim_case_duration_mean": 11964.763785419933,
+                    "duration_ratio": 1.3125266257286303,
+                    "external_delay_ratio": 0.43539554014723447
+                },
+                "score": 16.837448863090398,
+                "time_decomposition_overlap": {}
+            },
+            "final_global_scale": 1.0
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "structure_confirmation",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 3,
+            "noise_threshold": 0.15440435048699436,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.039685491591741597,
+                "ngd": 0.05328097047869582,
+                "3gd": 0.07139947736771242
+            },
+            "process_quality": {},
+            "activity_coverage": {
+                "coverage": 1.0,
+                "reference_activity_count": 15,
+                "discovered_activity_count": 15,
+                "missing_activity_count": 0,
+                "extra_activity_count": 0,
+                "missing_activities": [],
+                "extra_activities": []
+            },
+            "petri_score": 0.021462866320902982,
+            "petri_selection_score": 0.024550953330642868,
+            "optuna_objective_score": 0.05326466609073568,
+            "status": "ok",
+            "structure_score": 0.14017978710678342,
+            "activity_coverage_penalty": 0.0,
+            "noise_penalty": 0.003088087009739887,
+            "structure_selection_score": 0.1432678741165233,
+            "activity_coverage_preference": {
+                "enabled": true,
+                "mode": "full_activity_coverage",
+                "max_coverage": 1.0,
+                "threshold": 0.999,
+                "n_primary_before": 2,
+                "n_primary_after": 2,
+                "n_fallback_before": 2,
+                "n_fallback_after": 2
+            },
+            "confirmation_index": 1,
+            "confirmed_from_stage": "tree_depth_grid",
+            "confirmation_runs": 3,
+            "pre_confirmation_structure_score": 0.14017978710678342,
+            "pre_confirmation_selection_score": 0.1432678741165233,
+            "confirmation_score": 0.5773502691896257,
+            "confirmation_selection_score": 0.5804383561993656
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.982125202665124,
+        "precision": 0.7123184968710314,
+        "f_measure": 0.8257411542125431
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.054125967365967365,
+            "ngd": 0.08718281689187526,
+            "3gd": 0.11475085123686135
+        },
+        "temporal": {
+            "aed": 74.28059793013888,
+            "ced": 8.51983808608281,
+            "red": 76.0398226844958
+        },
+        "congestion": {
+            "car": 6.619100000000001,
+            "ctd": 122.13340000000001
+        },
+        "resource": {
+            "cwd": 7.215434551288423
+        },
+        "extra": {}
+    },
+    "created_at": "2026-07-09T04:40:56.449745"
+}

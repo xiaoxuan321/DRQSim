@@ -1,0 +1,113 @@
+{
+    "session_id": 282,
+    "source_xes_filename": "1782097458_acr.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_282_1782097458\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_282_1782097458\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.0,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.350860351918476,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_calendar_context_histogram",
+        "external_delay_global_scale": 0.2,
+        "external_delay_max_delay_quantile": 0.85,
+        "structure_score": 0.0,
+        "optuna_objective_score": 3.4048679927599417,
+        "runtime_score": 0.5118724883274659,
+        "validation_metrics": {
+            "aed": 171.509724135431,
+            "ced": 3.532103431984079,
+            "red": 167.91134647452162,
+            "car": 22.59477124183007,
+            "ctd": 53.02614379084963,
+            "cwd": 3.426906267264635
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 12058.925523111424,
+            "duration_ratio": 0.9633243111609616,
+            "external_delay_ratio": 0.7292155841211517
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 34.61437908496733,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 69.22875816993466,
+            "observed_ctd": 53.02614379084963,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.7292155841211517
+        },
+        "optuna_trial_number": 25,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.85,
+            "max_k": 10,
+            "min_k": 2
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "fixed_control_flow_no_validation_search",
+            "trial_number": -1,
+            "resource_budget": 0,
+            "noise_threshold": 0.0,
+            "pnml_filepath": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {},
+            "process_quality": {},
+            "optuna_objective_score": 0.0,
+            "petri_score": 0.0,
+            "structure_score": 0.0,
+            "status": "ok",
+            "selection_policy": "skip_control_flow_optimization_fixed_noise_threshold"
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 1.0,
+        "precision": 0.315238847216739,
+        "f_measure": 0.47936365000750414
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.33042180371110785,
+            "ngd": 0.46177332253268843,
+            "3gd": 0.48932735527864885
+        },
+        "temporal": {
+            "aed": 616.7506401898278,
+            "ced": 2.1964240035013693,
+            "red": 754.4972859124083
+        },
+        "congestion": {
+            "car": 189.77622485533203,
+            "ctd": 136.10041333700732
+        },
+        "resource": {
+            "cwd": 2.2913747562233455
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T11:14:35.188853"
+}

@@ -1,0 +1,71 @@
+{
+    "session_id": 284,
+    "source_xes_filename": "1782115911_purchasing.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\purchasing\\session_284_1782115912\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\purchasing\\session_284_1782115912\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.0,
+        "tree_depth": 2,
+        "arrival_time_scale": 1.9853956043506191,
+        "external_delay_global_scale": 1.6,
+        "external_delay_max_delay_quantile": 0.97
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid_fine",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 3,
+            "noise_threshold": 0.0,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.20711978323820865,
+                "ngd": 0.12488728053069646,
+                "3gd": 0.13708440119412038
+            },
+            "coarse_metrics": {
+                "cfld": 0.17682291193978686,
+                "ngd": 0.10707576706324358,
+                "3gd": 0.12271386430678466
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "coarse_structure_score": 0.0,
+            "optuna_objective_score": 0.14479581890037746,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 1.0,
+        "precision": 0.8816692226975543,
+        "f_measure": 0.9371139327385039
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.35621221943917114,
+            "ngd": 0.24319711164910257,
+            "3gd": 0.256875829914331
+        },
+        "temporal": {
+            "aed": 261.01889731298684,
+            "ced": 0.7552424634476302,
+            "red": 355.06377266232573
+        },
+        "congestion": {
+            "car": 265.3885245901639,
+            "ctd": 403.24426229508197
+        },
+        "resource": {
+            "cwd": 0.7824763510276621
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T16:24:07.010431"
+}

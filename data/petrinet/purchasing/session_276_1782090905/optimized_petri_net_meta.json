@@ -1,0 +1,116 @@
+{
+    "session_id": 276,
+    "source_xes_filename": "1782090905_purchasing.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\purchasing\\session_276_1782090905\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\purchasing\\session_276_1782090905\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.04755320099376342,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.3736786283023115,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_calendar_context_histogram",
+        "external_delay_global_scale": 1.6,
+        "external_delay_max_delay_quantile": 0.95,
+        "structure_score": 0.0,
+        "optuna_objective_score": 3.857367441032329,
+        "runtime_score": 0.19583058786579452,
+        "validation_metrics": {
+            "aed": 302.73171840529636,
+            "ced": 0.6933906126121017,
+            "red": 328.76771505184666,
+            "car": 93.76530612244898,
+            "ctd": 397.7448979591837,
+            "cwd": 0.7563069772043186
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 50315.5306122449,
+            "sim_case_duration_mean": 37221.81512902869,
+            "duration_ratio": 0.7397679141233245,
+            "external_delay_ratio": 0.9355937783046062
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 397.38775510204084,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 794.7755102040817,
+            "observed_ctd": 397.7448979591837,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.9355937783046062
+        },
+        "optuna_trial_number": 9,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.85,
+            "max_k": 10,
+            "min_k": 2
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 4,
+            "petri_candidate_index": 1,
+            "resource_budget": 1,
+            "noise_threshold": 0.04755320099376342,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.1311639838307668,
+                "ngd": 0.09505208333333333,
+                "3gd": 0.10709914320685435
+            },
+            "process_quality": {},
+            "petri_score": 0.12052480184311037,
+            "optuna_objective_score": 0.10526410451633876,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9977195295407569,
+        "precision": 0.8876852413554034,
+        "f_measure": 0.939491524638944
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.33661494229112976,
+            "ngd": 0.22937023383920369,
+            "3gd": 0.24182001532327205
+        },
+        "temporal": {
+            "aed": 422.6710468834398,
+            "ced": 0.8651148752376876,
+            "red": 370.43234069156017
+        },
+        "congestion": {
+            "car": 382.0983606557376,
+            "ctd": 390.7901639344263
+        },
+        "resource": {
+            "cwd": 0.8398226322797973
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T09:33:25.583674"
+}

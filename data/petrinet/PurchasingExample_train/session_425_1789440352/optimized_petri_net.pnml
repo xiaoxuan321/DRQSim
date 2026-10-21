@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1789441997.6699548" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1789441997.6699548</text>
+    </name>
+    <page id="n0">
+      <place id="ent_node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f">
+        <name>
+          <text>ent_node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f</text>
+        </name>
+      </place>
+      <place id="exi_node_0850efec-dc4a-4add-afa3-3dc38a7b8483">
+        <name>
+          <text>exi_node_0850efec-dc4a-4add-afa3-3dc38a7b8483</text>
+        </name>
+      </place>
+      <place id="ent_node_b2c7edd0-1e2c-4bef-afa8-88846388b45a">
+        <name>
+          <text>ent_node_b2c7edd0-1e2c-4bef-afa8-88846388b45a</text>
+        </name>
+      </place>
+      <place id="ent_node_be079474-3283-4590-9212-e5eb4f44eb4f">
+        <name>
+          <text>ent_node_be079474-3283-4590-9212-e5eb4f44eb4f</text>
+        </name>
+      </place>
+      <place id="ent_node_eb3c6801-b937-47f8-b4d3-22b261971add">
+        <name>
+          <text>ent_node_eb3c6801-b937-47f8-b4d3-22b261971add</text>
+        </name>
+      </place>
+      <place id="exi_node_f9c04f31-6e8e-4262-a3d7-325cbb97cb31">
+        <name>
+          <text>exi_node_f9c04f31-6e8e-4262-a3d7-325cbb97cb31</text>
+        </name>
+      </place>
+      <place id="ent_node_3033962b-7c74-4df4-b082-9b502d81b8d6">
+        <name>
+          <text>ent_node_3033962b-7c74-4df4-b082-9b502d81b8d6</text>
+        </name>
+      </place>
+      <place id="ent_node_0fa0dc3a-df6f-4d2a-bee9-2a46def012fa">
+        <name>
+          <text>ent_node_0fa0dc3a-df6f-4d2a-bee9-2a46def012fa</text>
+        </name>
+      </place>
+      <place id="ent_node_27c4c318-5564-45a2-80f0-c500b288350c">
+        <name>
+          <text>ent_node_27c4c318-5564-45a2-80f0-c500b288350c</text>
+        </name>
+      </place>
+      <place id="ent_node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca">
+        <name>
+          <text>ent_node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="ent_node_a73cd00a-1233-4ccd-9f0d-bf1103661059">
+        <name>
+          <text>ent_node_a73cd00a-1233-4ccd-9f0d-bf1103661059</text>
+        </name>
+      </place>
+      <place id="exi_node_feea9b4e-3144-49d9-ba05-9dafada23e7d">
+        <name>
+          <text>exi_node_feea9b4e-3144-49d9-ba05-9dafada23e7d</text>
+        </name>
+      </place>
+      <place id="ent_node_e7f24f02-5e88-42be-ab61-7da452f3e2b4">
+        <name>
+          <text>ent_node_e7f24f02-5e88-42be-ab61-7da452f3e2b4</text>
+        </name>
+      </place>
+      <place id="ent_node_d399d0c2-ee96-490b-9861-5ff4a6056bc1">
+        <name>
+          <text>ent_node_d399d0c2-ee96-490b-9861-5ff4a6056bc1</text>
+        </name>
+      </place>
+      <place id="exi_node_b2e9d4d9-b088-46ee-a5e1-55ddbea7fdd2">
+        <name>
+          <text>exi_node_b2e9d4d9-b088-46ee-a5e1-55ddbea7fdd2</text>
+        </name>
+      </place>
+      <place id="ent_node_9882bd77-a1fa-4e66-8a60-4afc598c644a">
+        <name>
+          <text>ent_node_9882bd77-a1fa-4e66-8a60-4afc598c644a</text>
+        </name>
+      </place>
+      <place id="ent_node_94a84aa6-73e2-4fa0-90a0-9d992a5d9e9b">
+        <name>
+          <text>ent_node_94a84aa6-73e2-4fa0-90a0-9d992a5d9e9b</text>
+        </name>
+      </place>
+      <place id="exi_node_ca41128d-67ea-4fca-8ba9-c74818ffa4bf">
+        <name>
+          <text>exi_node_ca41128d-67ea-4fca-8ba9-c74818ffa4bf</text>
+        </name>
+      </place>
+      <place id="ent_node_f7754f8b-045c-425f-971d-469f8faa4f61">
+        <name>
+          <text>ent_node_f7754f8b-045c-425f-971d-469f8faa4f61</text>
+        </name>
+      </place>
+      <place id="exi_node_122bfb35-b863-4e3d-bcfd-3868554f4f6b">
+        <name>
+          <text>exi_node_122bfb35-b863-4e3d-bcfd-3868554f4f6b</text>
+        </name>
+      </place>
+      <place id="ent_node_5523b5d6-0b88-4753-9ab5-40596422d106">
+        <name>
+          <text>ent_node_5523b5d6-0b88-4753-9ab5-40596422d106</text>
+        </name>
+      </place>
+      <place id="exi_node_3595bd86-bad1-42db-a6ca-3f8389da1824">
+        <name>
+          <text>exi_node_3595bd86-bad1-42db-a6ca-3f8389da1824</text>
+        </name>
+      </place>
+      <place id="ent_node_7aa4f094-e201-4e0e-84e1-6dd14b74d99f">
+        <name>
+          <text>ent_node_7aa4f094-e201-4e0e-84e1-6dd14b74d99f</text>
+        </name>
+      </place>
+      <place id="ent_node_dbf97e3e-16e1-420f-9323-23681b19917b">
+        <name>
+          <text>ent_node_dbf97e3e-16e1-420f-9323-23681b19917b</text>
+        </name>
+      </place>
+      <transition id="node_74205c34-4364-4590-8e89-34c64c6be964">
+        <name>
+          <text>Settle Dispute With Supplier</text>
+        </name>
+      </transition>
+      <transition id="node_fe44411e-577f-46cd-98ff-cd5b8c4bfab6">
+        <name>
+          <text>Amend Request for Quotation</text>
+        </name>
+      </transition>
+      <transition id="6d938553-103f-48b3-98e4-1c195ba84935">
+        <name>
+          <text>6d938553-103f-48b3-98e4-1c195ba84935</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8f2f6771-80b2-4750-a065-311f3ea83912"/>
+      </transition>
+      <transition id="node_1e906a65-ead0-4e07-bcb8-2379ed7a56b7">
+        <name>
+          <text>Approve Purchase Order for payment</text>
+        </name>
+      </transition>
+      <transition id="node_10f83494-1542-4c88-82bb-90d9ef83d40a">
+        <name>
+          <text>Analyze Purchase Requisition</text>
+        </name>
+      </transition>
+      <transition id="node_27c4c318-5564-45a2-80f0-c500b288350c">
+        <name>
+          <text>Analyze Quotation Comparison Map</text>
+        </name>
+      </transition>
+      <transition id="node_a73cd00a-1233-4ccd-9f0d-bf1103661059">
+        <name>
+          <text>Choose best option</text>
+        </name>
+      </transition>
+      <transition id="1cad6571-ec45-4162-b163-ea99b6492faa">
+        <name>
+          <text>1cad6571-ec45-4162-b163-ea99b6492faa</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ca848ef0-90c2-47b6-872b-3f3f64d8325a"/>
+      </transition>
+      <transition id="node_8e0ca25f-755e-4475-bd4c-6aa26e6f1ddf">
+        <name>
+          <text>Authorize Supplier's Invoice payment</text>
+        </name>
+      </transition>
+      <transition id="node_9882bd77-a1fa-4e66-8a60-4afc598c644a">
+        <name>
+          <text>Send Invoice</text>
+        </name>
+      </transition>
+      <transition id="node_b2c7edd0-1e2c-4bef-afa8-88846388b45a">
+        <name>
+          <text>Confirm Purchase Order</text>
+        </name>
+      </transition>
+      <transition id="node_e7f24f02-5e88-42be-ab61-7da452f3e2b4">
+        <name>
+          <text>Pay Invoice</text>
+        </name>
+      </transition>
+      <transition id="node_58637c34-4ca7-48c1-b219-6ec42b921e8b">
+        <name>
+          <text>Create Request for Quotation</text>
+        </name>
+      </transition>
+      <transition id="76be1ad2-de20-4d42-8388-7d125bdfeaa0">
+        <name>
+          <text>76be1ad2-de20-4d42-8388-7d125bdfeaa0</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="44aeb20f-1edf-4917-b134-61260b8211c8"/>
+      </transition>
+      <transition id="e0539fff-b1c7-4af0-9148-b987da463187">
+        <name>
+          <text>e0539fff-b1c7-4af0-9148-b987da463187</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f215d7db-41dd-4b1a-8d4e-099c0dcce2a4"/>
+      </transition>
+      <transition id="node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f">
+        <name>
+          <text>Deliver Goods Services</text>
+        </name>
+      </transition>
+      <transition id="f6078e20-c3b1-46be-89ae-2fc867dbbfda">
+        <name>
+          <text>f6078e20-c3b1-46be-89ae-2fc867dbbfda</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="42c481e5-ff26-4266-b03b-fdc8b5f52cde"/>
+      </transition>
+      <transition id="fbee58ab-1a90-410f-ac8f-dd90db73fe9e">
+        <name>
+          <text>fbee58ab-1a90-410f-ac8f-dd90db73fe9e</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="935a586b-e588-438a-9eef-af4803908ce1"/>
+      </transition>
+      <transition id="680b2d86-f5b9-420d-89c1-ec6cf77a2ca3">
+        <name>
+          <text>680b2d86-f5b9-420d-89c1-ec6cf77a2ca3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="37578617-6e16-4090-8f74-90716bc5ed4a"/>
+      </transition>
+      <transition id="node_41197040-2c22-4e5c-84a0-ff93cd8b2b15">
+        <name>
+          <text>Amend Purchase Requisition</text>
+        </name>
+      </transition>
+      <transition id="986f08fd-014d-4ace-a820-0dbece7bafe1">
+        <name>
+          <text>986f08fd-014d-4ace-a820-0dbece7bafe1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1f651bbc-7f21-48a3-9949-db47d397cafa"/>
+      </transition>
+      <transition id="node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca">
+        <name>
+          <text>Settle Conditions With Supplier</text>
+        </name>
+      </transition>
+      <transition id="node_a4a5d495-684a-43ad-ab92-58116abcc34b">
+        <name>
+          <text>Analyze Request for Quotation</text>
+        </name>
+      </transition>
+      <transition id="node_dbf97e3e-16e1-420f-9323-23681b19917b">
+        <name>
+          <text>node_dbf97e3e-16e1-420f-9323-23681b19917b</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="272c4103-9ff9-4003-a69a-7bdb2bce2d2a"/>
+      </transition>
+      <transition id="node_7547db21-5025-4161-8922-a899e3db3c39">
+        <name>
+          <text>Release Purchase Order</text>
+        </name>
+      </transition>
+      <transition id="1e8bb7ee-6555-4a0b-808c-bafadbd4157d">
+        <name>
+          <text>1e8bb7ee-6555-4a0b-808c-bafadbd4157d</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1669fca2-ea06-4e64-9e11-b811b01cf14d"/>
+      </transition>
+      <transition id="node_eb3c6801-b937-47f8-b4d3-22b261971add">
+        <name>
+          <text>node_eb3c6801-b937-47f8-b4d3-22b261971add</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bd6bb392-21cd-40d3-9742-430155a93d83"/>
+      </transition>
+      <transition id="node_d399d0c2-ee96-490b-9861-5ff4a6056bc1">
+        <name>
+          <text>Create Purchase Order</text>
+        </name>
+      </transition>
+      <transition id="node_80d89059-c6e7-44fc-b60a-2332c320a0d7">
+        <name>
+          <text>Release Supplier's Invoice</text>
+        </name>
+      </transition>
+      <transition id="node_285a17f5-9d62-4cb4-bea7-1050711faf66">
+        <name>
+          <text>Create Purchase Requisition</text>
+        </name>
+      </transition>
+      <transition id="node_28cc53c8-ca68-40d9-a5c8-3606feac438f">
+        <name>
+          <text>Send Request for Quotation to Supplier</text>
+        </name>
+      </transition>
+      <transition id="node_f7754f8b-045c-425f-971d-469f8faa4f61">
+        <name>
+          <text>Create Quotation comparison Map</text>
+        </name>
+      </transition>
+      <transition id="a8b04435-85ac-4a32-8f99-4042a08e0526">
+        <name>
+          <text>a8b04435-85ac-4a32-8f99-4042a08e0526</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c73cedfb-c293-4599-8324-ec6c8cea99e7"/>
+      </transition>
+      <transition id="2067f356-7ca4-4cc1-ae5f-202955b97564">
+        <name>
+          <text>2067f356-7ca4-4cc1-ae5f-202955b97564</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="940a13c7-bb44-4a7e-a477-34c9db260839"/>
+      </transition>
+      <arc id="2652583360256" source="e0539fff-b1c7-4af0-9148-b987da463187" target="ent_node_3033962b-7c74-4df4-b082-9b502d81b8d6"/>
+      <arc id="2652583346816" source="exi_node_ca41128d-67ea-4fca-8ba9-c74818ffa4bf" target="2067f356-7ca4-4cc1-ae5f-202955b97564"/>
+      <arc id="2652583347584" source="exi_node_feea9b4e-3144-49d9-ba05-9dafada23e7d" target="f6078e20-c3b1-46be-89ae-2fc867dbbfda"/>
+      <arc id="2655567940096" source="ent_node_eb3c6801-b937-47f8-b4d3-22b261971add" target="node_eb3c6801-b937-47f8-b4d3-22b261971add"/>
+      <arc id="2655567940480" source="ent_node_d399d0c2-ee96-490b-9861-5ff4a6056bc1" target="node_d399d0c2-ee96-490b-9861-5ff4a6056bc1"/>
+      <arc id="2655567939712" source="exi_node_feea9b4e-3144-49d9-ba05-9dafada23e7d" target="node_41197040-2c22-4e5c-84a0-ff93cd8b2b15"/>
+      <arc id="2655567944320" source="exi_node_f9c04f31-6e8e-4262-a3d7-325cbb97cb31" target="node_fe44411e-577f-46cd-98ff-cd5b8c4bfab6"/>
+      <arc id="2655567938176" source="ent_node_e7f24f02-5e88-42be-ab61-7da452f3e2b4" target="node_e7f24f02-5e88-42be-ab61-7da452f3e2b4"/>
+      <arc id="2655572476688" source="ent_node_3033962b-7c74-4df4-b082-9b502d81b8d6" target="node_58637c34-4ca7-48c1-b219-6ec42b921e8b"/>
+      <arc id="2652583346576" source="ent_node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca" target="node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca"/>
+      <arc id="2652583359248" source="node_eb3c6801-b937-47f8-b4d3-22b261971add" target="ent_node_dbf97e3e-16e1-420f-9323-23681b19917b"/>
+      <arc id="2652583352720" source="node_74205c34-4364-4590-8e89-34c64c6be964" target="exi_node_b2e9d4d9-b088-46ee-a5e1-55ddbea7fdd2"/>
+      <arc id="2655567953680" source="ent_node_0fa0dc3a-df6f-4d2a-bee9-2a46def012fa" target="node_10f83494-1542-4c88-82bb-90d9ef83d40a"/>
+      <arc id="2655567950224" source="ent_node_5523b5d6-0b88-4753-9ab5-40596422d106" target="node_74205c34-4364-4590-8e89-34c64c6be964"/>
+      <arc id="2655567949840" source="node_e7f24f02-5e88-42be-ab61-7da452f3e2b4" target="ent_node_eb3c6801-b937-47f8-b4d3-22b261971add"/>
+      <arc id="2655572491808" source="node_7547db21-5025-4161-8922-a899e3db3c39" target="exi_node_3595bd86-bad1-42db-a6ca-3f8389da1824"/>
+      <arc id="2652583350944" source="exi_node_3595bd86-bad1-42db-a6ca-3f8389da1824" target="node_1e906a65-ead0-4e07-bcb8-2379ed7a56b7"/>
+      <arc id="2652583354016" source="fbee58ab-1a90-410f-ac8f-dd90db73fe9e" target="ent_node_eb3c6801-b937-47f8-b4d3-22b261971add"/>
+      <arc id="2652583348640" source="node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca" target="ent_node_d399d0c2-ee96-490b-9861-5ff4a6056bc1"/>
+      <arc id="2652583352096" source="6d938553-103f-48b3-98e4-1c195ba84935" target="ent_node_be079474-3283-4590-9212-e5eb4f44eb4f"/>
+      <arc id="2652583361312" source="exi_node_feea9b4e-3144-49d9-ba05-9dafada23e7d" target="a8b04435-85ac-4a32-8f99-4042a08e0526"/>
+      <arc id="2655567942688" source="node_80d89059-c6e7-44fc-b60a-2332c320a0d7" target="exi_node_0850efec-dc4a-4add-afa3-3dc38a7b8483"/>
+      <arc id="2655567953440" source="node_f7754f8b-045c-425f-971d-469f8faa4f61" target="ent_node_27c4c318-5564-45a2-80f0-c500b288350c"/>
+      <arc id="2655567944224" source="node_1e906a65-ead0-4e07-bcb8-2379ed7a56b7" target="ent_node_9882bd77-a1fa-4e66-8a60-4afc598c644a"/>
+      <arc id="2655567938848" source="986f08fd-014d-4ace-a820-0dbece7bafe1" target="ent_node_5523b5d6-0b88-4753-9ab5-40596422d106"/>
+      <arc id="2655572488880" source="ent_node_a73cd00a-1233-4ccd-9f0d-bf1103661059" target="node_a73cd00a-1233-4ccd-9f0d-bf1103661059"/>
+      <arc id="2652583351856" source="1e8bb7ee-6555-4a0b-808c-bafadbd4157d" target="ent_node_94a84aa6-73e2-4fa0-90a0-9d992a5d9e9b"/>
+      <arc id="2652583360688" source="exi_node_122bfb35-b863-4e3d-bcfd-3868554f4f6b" target="node_80d89059-c6e7-44fc-b60a-2332c320a0d7"/>
+      <arc id="2655567951664" source="node_28cc53c8-ca68-40d9-a5c8-3606feac438f" target="ent_node_f7754f8b-045c-425f-971d-469f8faa4f61"/>
+      <arc id="2655567943216" source="exi_node_b2e9d4d9-b088-46ee-a5e1-55ddbea7fdd2" target="6d938553-103f-48b3-98e4-1c195ba84935"/>
+      <arc id="2655567947440" source="exi_node_f9c04f31-6e8e-4262-a3d7-325cbb97cb31" target="fbee58ab-1a90-410f-ac8f-dd90db73fe9e"/>
+      <arc id="2655567946288" source="node_b2c7edd0-1e2c-4bef-afa8-88846388b45a" target="ent_node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f"/>
+      <arc id="2655567952816" source="76be1ad2-de20-4d42-8388-7d125bdfeaa0" target="ent_node_94a84aa6-73e2-4fa0-90a0-9d992a5d9e9b"/>
+      <arc id="2655567946672" source="exi_node_0850efec-dc4a-4add-afa3-3dc38a7b8483" target="680b2d86-f5b9-420d-89c1-ec6cf77a2ca3"/>
+      <arc id="2655567952432" source="a8b04435-85ac-4a32-8f99-4042a08e0526" target="ent_node_dbf97e3e-16e1-420f-9323-23681b19917b"/>
+      <arc id="2652583350464" source="exi_node_ca41128d-67ea-4fca-8ba9-c74818ffa4bf" target="e0539fff-b1c7-4af0-9148-b987da463187"/>
+      <arc id="2652583362368" source="ent_node_9882bd77-a1fa-4e66-8a60-4afc598c644a" target="node_9882bd77-a1fa-4e66-8a60-4afc598c644a"/>
+      <arc id="2652583361600" source="exi_node_b2e9d4d9-b088-46ee-a5e1-55ddbea7fdd2" target="1e8bb7ee-6555-4a0b-808c-bafadbd4157d"/>
+      <arc id="2652583346240" source="node_d399d0c2-ee96-490b-9861-5ff4a6056bc1" target="ent_node_b2c7edd0-1e2c-4bef-afa8-88846388b45a"/>
+      <arc id="2652583355840" source="exi_node_0850efec-dc4a-4add-afa3-3dc38a7b8483" target="1cad6571-ec45-4162-b163-ea99b6492faa"/>
+      <arc id="2655567937984" source="1cad6571-ec45-4162-b163-ea99b6492faa" target="ent_node_5523b5d6-0b88-4753-9ab5-40596422d106"/>
+      <arc id="2655567942592" source="f6078e20-c3b1-46be-89ae-2fc867dbbfda" target="ent_node_3033962b-7c74-4df4-b082-9b502d81b8d6"/>
+      <arc id="2655572488016" source="node_fe44411e-577f-46cd-98ff-cd5b8c4bfab6" target="ent_node_7aa4f094-e201-4e0e-84e1-6dd14b74d99f"/>
+      <arc id="2655572486096" source="node_9882bd77-a1fa-4e66-8a60-4afc598c644a" target="exi_node_122bfb35-b863-4e3d-bcfd-3868554f4f6b"/>
+      <arc id="2655572484944" source="node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f" target="ent_node_be079474-3283-4590-9212-e5eb4f44eb4f"/>
+      <arc id="2652583361360" source="node_dbf97e3e-16e1-420f-9323-23681b19917b" target="sink"/>
+      <arc id="2652583352528" source="node_a73cd00a-1233-4ccd-9f0d-bf1103661059" target="ent_node_c313cf4f-41cc-4e4c-8496-691c4b1e03ca"/>
+      <arc id="2655567949264" source="2067f356-7ca4-4cc1-ae5f-202955b97564" target="ent_node_0fa0dc3a-df6f-4d2a-bee9-2a46def012fa"/>
+      <arc id="2655567951184" source="node_10f83494-1542-4c88-82bb-90d9ef83d40a" target="exi_node_feea9b4e-3144-49d9-ba05-9dafada23e7d"/>
+      <arc id="2655567945040" source="ent_node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f" target="node_c9adb5c4-ecab-4c72-8cda-0ef541862d2f"/>
+      <arc id="2655567948112" source="node_41197040-2c22-4e5c-84a0-ff93cd8b2b15" target="ent_node_0fa0dc3a-df6f-4d2a-bee9-2a46def012fa"/>
+      <arc id="2655567945808" source="exi_node_122bfb35-b863-4e3d-bcfd-3868554f4f6b" target="76be1ad2-de20-4d42-8388-7d125bdfeaa0"/>
+      <arc id="2655572488928" source="ent_node_94a84aa6-73e2-4fa0-90a0-9d992a5d9e9b" target="node_8e0ca25f-755e-4475-bd4c-6aa26e6f1ddf"/>
+      <arc id="2652583360736" source="ent_node_27c4c318-5564-45a2-80f0-c500b288350c" target="node_27c4c318-5564-45a2-80f0-c500b288350c"/>
+      <arc id="2652583362272" source="exi_node_f9c04f31-6e8e-4262-a3d7-325cbb97cb31" target="node_28cc53c8-ca68-40d9-a5c8-3606feac438f"/>
+      <arc id="2655567938656" source="680b2d86-f5b9-420d-89c1-ec6cf77a2ca3" target="ent_node_94a84aa6-73e2-4fa0-90a0-9d992a5d9e9b"/>
+      <arc id="2655567950176" source="node_27c4c318-5564-45a2-80f0-c500b288350c" target="ent_node_a73cd00a-1233-4ccd-9f0d-bf1103661059"/>
+      <arc id="2655567948256" source="node_285a17f5-9d62-4cb4-bea7-1050711faf66" target="exi_node_ca41128d-67ea-4fca-8ba9-c74818ffa4bf"/>
+      <arc id="2655567940192" source="ent_node_be079474-3283-4590-9212-e5eb4f44eb4f" target="node_7547db21-5025-4161-8922-a899e3db3c39"/>
+      <arc id="2655567946336" source="source" target="node_285a17f5-9d62-4cb4-bea7-1050711faf66"/>
+      <arc id="2655567947488" source="ent_node_b2c7edd0-1e2c-4bef-afa8-88846388b45a" target="node_b2c7edd0-1e2c-4bef-afa8-88846388b45a"/>
+      <arc id="2655567953248" source="exi_node_3595bd86-bad1-42db-a6ca-3f8389da1824" target="986f08fd-014d-4ace-a820-0dbece7bafe1"/>
+      <arc id="2655572485232" source="ent_node_7aa4f094-e201-4e0e-84e1-6dd14b74d99f" target="node_a4a5d495-684a-43ad-ab92-58116abcc34b"/>
+      <arc id="2655567952624" source="ent_node_dbf97e3e-16e1-420f-9323-23681b19917b" target="node_dbf97e3e-16e1-420f-9323-23681b19917b"/>
+      <arc id="2655567939952" source="node_8e0ca25f-755e-4475-bd4c-6aa26e6f1ddf" target="ent_node_e7f24f02-5e88-42be-ab61-7da452f3e2b4"/>
+      <arc id="2655567949936" source="node_a4a5d495-684a-43ad-ab92-58116abcc34b" target="exi_node_f9c04f31-6e8e-4262-a3d7-325cbb97cb31"/>
+      <arc id="2655567944176" source="node_58637c34-4ca7-48c1-b219-6ec42b921e8b" target="ent_node_7aa4f094-e201-4e0e-84e1-6dd14b74d99f"/>
+      <arc id="2655567952672" source="ent_node_f7754f8b-045c-425f-971d-469f8faa4f61" target="node_f7754f8b-045c-425f-971d-469f8faa4f61"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

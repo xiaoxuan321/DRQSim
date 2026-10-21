@@ -1,0 +1,825 @@
+﻿322: [Adaptive Wait Cap] enabled=True, global_max_queue_wait_min=10080.000, activity_caps=6, quantile=0.990
+324: 2026-07-28 02:35:47,277 - prosit_integration - INFO - [Candidate Resource Filter Check] resources=43, activity_candidate_size min=3, mean=20.17, max=30
+328: 2026-07-28 02:35:47,439 - prosit_integration - INFO - Running simulation with 1484 traces starting at 2012-01-18 20:48:37.518000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+338: 2026-07-28 02:42:38,234 - prosit_integration - INFO - Evaluation simulation completed. Real cases=1484, simulated events=10488
+339: 2026-07-28 02:42:38,262 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=1484, sim=1484, real_start=2012-01-18 20:48:37.518000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2012-01-18 20:48:37.518000+00:00, sim_end=2012-02-14 10:12:00.000000978+00:00
+340: 2026-07-28 02:42:38,262 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=38418.493, sim=38243.375, sim/real=0.995. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+341: 2026-07-28 02:42:38,262 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=25.906, real_median=4.615, real_p90=27.953; sim_mean=25.788, sim_median=2.540, sim_p90=32.128
+342: 2026-07-28 02:42:38,262 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=246, sim_active_hours=241, real_hourly_mean=6.033, sim_hourly_mean=6.158, weekday_hour_jaccard=0.819
+343: 2026-07-28 02:42:38,262 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=1483: decision_tree_interarrival=1483(1.000)
+344: 2026-07-28 02:42:38,263 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=1483
+345: 2026-07-28 02:42:38,264 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=1483, mean=22.326, median=4.069, p90=27.787, min=0.002, max=2422.587
+346: [Evaluation Timing] PREPROCESS 耗时: 0.1518 秒
+347: 2026-07-28 02:42:38,418 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.1518 秒
+350: 2026-07-28 02:42:38,469 - evaluation - INFO - [Evaluation Timing] AED 耗时: 0.0518 秒, 结果: 66.52353706633679
+351: [Evaluation Timing] AED 耗时: 0.0518 秒, 结果: 66.52353706633679
+352: [Evaluation Timing] RED 耗时: 0.7209 秒, 结果: 99.64538137940433
+353: 2026-07-28 02:42:39,190 - evaluation - INFO - [Evaluation Timing] RED 耗时: 0.7209 秒, 结果: 99.64538137940433
+354: 2026-07-28 02:42:39,397 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.2066 秒, 结果: 2.406163686130403
+355: [Evaluation Timing] CED 耗时: 0.2066 秒, 结果: 2.406163686130403
+356: 2026-07-28 02:42:39,967 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 0.5696 秒, 结果: 1.8030611387429292
+357: [Evaluation Timing] CWD 耗时: 0.5696 秒, 结果: 1.8030611387429292
+360: [Evaluation Timing] CAR 耗时: 0.3141 秒, 结果: 41.44339622641509
+361: 2026-07-28 02:42:40,281 - evaluation - INFO - [Evaluation Timing] CAR 耗时: 0.3141 秒, 结果: 41.44339622641509
+362: [Evaluation Timing] CTD 耗时: 0.6393 秒, 结果: 65.40768194070081
+363: [Evaluation Timing] TOTAL 总耗时: 2.6550 秒
+364: 2026-07-28 02:42:40,920 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 0.6393 秒, 结果: 65.40768194070081
+365: 2026-07-28 02:42:40,920 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 2.6550 秒
+366: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 10488, 'mean_queue_wait_min': 240.52365743865215, 'mean_external_delay_min': 1838.3124317696415, 'mean_total_wait_min': 2078.8145613288125, 'mean_component_sum_min': 2078.8360892082937, 'mean_residual_min': -0.021527879481311185, 'mean_abs_residual_min': 0.19443327294686236, 'max_abs_residual_min': 0.4998666666670033, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0041872622261363, 'component_sum_over_total_p95': 1.020288888888889, 'component_sum_over_total_gt_1_05_share': 0.03040695016003658, 'queue_external_corr': -0.015382711862895039, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+367: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13621.822, sim_case_duration_mean=16214.507
+368: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=2078.815, external_delay=1838.312, service=260.655, total_wait=2078.815
+369: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.498, external=0.440, service=0.062
+370: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=4279.306 n=3142; W_Valideren aanvraag mean=1967.497 n=1540; W_Nabellen incomplete dossiers mean=876.047 n=2239
+371: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=4540.310 n=3142; W_Valideren aanvraag mean=2168.209 n=1540; W_Nabellen incomplete dossiers mean=1085.336 n=2239
+372: 2026-07-28 02:42:41,225 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=639.233 n=30; W_Nabellen offertes mean=359.693 n=3142; W_Valideren aanvraag mean=297.712 n=1540
+374: 2026-07-28 02:42:41,228 - prosit.tuning.stagewise_tuner - INFO - Combined runtime candidate selection completed: mode=joint_arrival_duration_guard_passed, counts={'metric_valid': 16, 'arrival_passed': 16, 'duration_passed': 16, 'joint_arrival_duration_passed': 16, 'used_for_final_selection': 16}, selected_stage=arrival_queue_depth_grid, selected_duration_ratio=1.1306559542465273, fallback_reason=None
+375: 2026-07-28 02:42:41,228 - prosit.tuning.stagewise_tuner - INFO - Stage 2 GridSearchCV completed: selected arrival_depth=3, queue_depth=1, score=0.7961787979018697
+376: 2026-07-28 02:42:41,228 - prosit.tuning.stagewise_tuner - INFO - Selected hyperparameters: {'noise_threshold': 0.1708444749150065, 'tree_depth': 3, 'max_depth_tree': 3, 'decision_point_max_depth': 3, 'arrival_decision_tree_max_depth': 3, 'case_arrival_max_depth': 3, 'queue_scheduling_max_depth': 1, 'queue_strategy_name': 'balanced', 'queue_score_mixing_weights': {'tree': 0.3, 'frequency': 0.5, 'availability': 0.2, 'calendar_fit': 0.0}, 'queue_scheduling_force_empirical': False, 'arrival_model_type': 'case_arrival_decision_tree_interarrival', 'external_delay_model_type': 'activity_specific_external_delay_timer', 'external_delay_tree_enabled': False, 'fixed_runtime_controls': {'arrival_time_scale': 1.0, 'arrival_demand_multiplier': 1.0, 'external_delay_global_scale': 1.0, 'external_delay_max_delay_quantile': 1.0, 'queue_strategy_name': 'balanced'}, 'external_delay_activity_scale_protocol': {'enabled': True, 'top_k_policy': 'adaptive_ratio_with_min_max_caps', 'ratio': 0.25, 'min_k': 3, 'max_k': 8, 'candidate_scales': [0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0], 'selection_partition': 'train_validation_log', 'uses_test_log': False, 'method': 'coordinate_search'}, 'external_delay_activity_scales': {}, 'case_duration_calibration': {'enabled': False, 'reason': 'disabled_activity_level_external_delay_scale_protocol', 'global_scale_fixed': 1.0}, 'structure_score': 0.0, 'optuna_objective_score': 3.4447541968414876, 'runtime_score': 0.15190784277336405, 'validation_metrics': {'aed': 52.09559038758758, 'ced': 2.3486296120606127, 'red': 67.99602361738371, 'car': 19.876684636118597, 'ctd': 56.91374663072777, 'cwd': 1.8144124325373723}, 'case_duration_guard': {'real_case_duration_mean': 13621.821692149597, 'sim_case_duration_mean': 15401.593803913447, 'duration_ratio': 1.1306559542465273, 'external_delay_ratio': 0.4437041733817283}, 'arrival_guard': {'enabled': True, 'arrival_span_ratio': 1.0031269433236694, 'case_count_ratio': 1.0, 'real_cases': 1484, 'sim_cases': 1484, 'weekday_hour_jaccard': 0.881578947368421, 'passed': True}, 'ctd_tolerance': None, 'ctd_guard': {'enabled': False, 'best_ctd': None, 'ctd_tolerance': None, 'max_allowed_ctd': None, 'observed_ctd': 56.91374663072777, 'passed': None}, 'runtime_guard_selection_mode': 'joint_arrival_duration_guard_passed', 'runtime_search_stage': 'arrival_queue_depth_grid', 'fixed_structure_before_runtime': True, 'fixed_stage1_structure': {'noise_threshold': 0.1708444749150065, 'tree_depth': 3, 'structure_score': 0.0}, 'external_delay_ratio_guard': {'max_external_delay_ratio': None, 'observed_external_delay_ratio': 0.4437041733817283}, 'optuna_trial_number': 9, 'optuna_resource_budget': 1, 'candidate_resource_filter': {'mode': 'adaptive_by_resource_count', 'adaptive_enabled': True, 'resource_threshold': 50, 'small_resource_policy': {'condition': 'resources <= 50', 'enabled': False, 'coverage': 1.0, 'max_k': None, 'min_k': 1}, 'large_resource_policy': {'condition': 'resources > 50', 'enabled': True, 'coverage': 0.95, 'max_k': 30, 'min_k': 3}}}
+377: 2026-07-28 02:42:41,237 - prosit.tuning.stagewise_tuner - INFO - Final rediscovery on train_validation_log started: noise_threshold=0.1708444749150065, control_flow_depth=3, arrival_depth=3, queue_depth=1
+378: 2026-07-28 02:42:41,237 - prosit_integration - INFO - Discovering process model via Inductive Miner with noise_threshold=0.1708444749150065
+389: [Candidate Resource Filter] enabled=True, resources 58 -> 44, activity candidate size min=3, mean=21.00, max=30, coverage=0.95, max_k=30, min_k=3
+1118: [Adaptive Wait Cap] enabled=True, global_max_queue_wait_min=10080.000, activity_caps=6, quantile=0.990
+1120: 2026-07-28 02:47:27,331 - prosit_integration - INFO - [Candidate Resource Filter Check] resources=44, activity_candidate_size min=3, mean=21.00, max=30
+1124: 2026-07-28 02:47:27,726 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+1205: 2026-07-28 04:06:05,061 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51813
+1206: 2026-07-28 04:06:05,129 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-10 10:01:51.885999687+00:00
+1207: 2026-07-28 04:06:05,129 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=190013.253, sim/real=0.970. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+1208: 2026-07-28 04:06:05,129 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.626, sim_median=4.228, sim_p90=30.663
+1209: 2026-07-28 04:06:05,129 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1270, real_hourly_mean=5.853, sim_hourly_mean=5.839, weekday_hour_jaccard=0.792
+1210: 2026-07-28 04:06:05,129 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+1211: 2026-07-28 04:06:05,130 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+1212: 2026-07-28 04:06:05,131 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=26.009, median=4.848, p90=27.964, min=0.005, max=2635.104
+1213: 2026-07-28 04:06:05,158 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0204 秒
+1214: [Evaluation Timing] PREPROCESS 耗时: 0.0204 秒
+1215: 2026-07-28 04:06:08,884 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7265 秒, 结果: 54.9978668878477
+1216: [Evaluation Timing] RED 耗时: 3.7265 秒, 结果: 54.9978668878477
+1217: 2026-07-28 04:06:09,492 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6087 秒, 结果: 2.4958228046639803
+1218: [Evaluation Timing] CED 耗时: 0.6087 秒, 结果: 2.4958228046639803
+1219: [Evaluation Timing] CWD 耗时: 3.2433 秒, 结果: 1.8466025805504829
+1220: 2026-07-28 04:06:12,736 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2433 秒, 结果: 1.8466025805504829
+1221: [Evaluation Timing] CTD 耗时: 3.2138 秒, 结果: 51.119066882416405
+1222: [Evaluation Timing] TOTAL 总耗时: 10.8132 秒
+1223: 2026-07-28 04:06:15,950 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2138 秒, 结果: 51.119066882416405
+1224: 2026-07-28 04:06:15,950 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.8132 秒
+1225: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51813, 'mean_queue_wait_min': 223.93696017068692, 'mean_external_delay_min': 1733.3237894225385, 'mean_total_wait_min': 1957.2427135530427, 'mean_component_sum_min': 1957.260749593226, 'mean_residual_min': -0.018036040182964896, 'mean_abs_residual_min': 0.19456932333584445, 'max_abs_residual_min': 0.4999333333333347, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.014351438227022, 'component_sum_over_total_p95': 1.0222074074074075, 'component_sum_over_total_gt_1_05_share': 0.032595505072569295, 'queue_external_corr': 0.024782398657711677, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+1226: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=14977.440
+1227: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1957.243, external_delay=1733.324, service=214.727, total_wait=1957.243
+1228: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.444, service=0.055
+1229: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=4198.251 n=15540; W_Valideren aanvraag mean=1715.485 n=6893; W_Nabellen incomplete dossiers mean=817.406 n=10050
+1230: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=4484.398 n=15540; W_Valideren aanvraag mean=1896.484 n=6893; W_Nabellen incomplete dossiers mean=1049.499 n=10050
+1231: 2026-07-28 04:06:16,389 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=416.615 n=104; W_Nabellen offertes mean=306.101 n=15540; W_Valideren aanvraag mean=246.158 n=6893
+1232: 2026-07-28 04:06:16,742 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+1315: 2026-07-28 05:25:21,850 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52326
+1316: 2026-07-28 05:25:21,916 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-10 10:01:00.000000739+00:00
+1317: 2026-07-28 05:25:21,916 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=190012.388, sim/real=0.970. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+1318: 2026-07-28 05:25:21,916 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.625, sim_median=4.245, sim_p90=30.324
+1319: 2026-07-28 05:25:21,916 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1268, real_hourly_mean=5.853, sim_hourly_mean=5.849, weekday_hour_jaccard=0.833
+1320: 2026-07-28 05:25:21,916 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+1321: 2026-07-28 05:25:21,918 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+1322: 2026-07-28 05:25:21,919 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.345, median=4.719, p90=29.212, min=0.002, max=2523.384
+1323: [Evaluation Timing] PREPROCESS 耗时: 0.1550 秒
+1324: 2026-07-28 05:25:22,080 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.1550 秒
+1325: 2026-07-28 05:25:25,792 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7115 秒, 结果: 38.168243987286914
+1326: [Evaluation Timing] RED 耗时: 3.7115 秒, 结果: 38.168243987286914
+1327: 2026-07-28 05:25:26,408 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6163 秒, 结果: 2.487176327973415
+1328: [Evaluation Timing] CED 耗时: 0.6163 秒, 结果: 2.487176327973415
+1329: 2026-07-28 05:25:29,641 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2331 秒, 结果: 1.9652053579503688
+1330: [Evaluation Timing] CWD 耗时: 3.2331 秒, 结果: 1.9652053579503688
+1331: [Evaluation Timing] CTD 耗时: 3.3067 秒, 结果: 37.754449838187696
+1332: [Evaluation Timing] TOTAL 总耗时: 11.0232 秒
+1333: 2026-07-28 05:25:32,948 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.3067 秒, 结果: 37.754449838187696
+1334: 2026-07-28 05:25:32,948 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.0232 秒
+1335: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52326, 'mean_queue_wait_min': 252.43666642989461, 'mean_external_delay_min': 1097.1745798494057, 'mean_total_wait_min': 1349.5954211598566, 'mean_component_sum_min': 1349.6112462793003, 'mean_residual_min': -0.015825119443487044, 'mean_abs_residual_min': 0.1920660245384707, 'max_abs_residual_min': 0.49986666666666935, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0040874670359823, 'component_sum_over_total_p95': 1.0268875, 'component_sum_over_total_gt_1_05_share': 0.036171289490806564, 'queue_external_corr': 0.07605291723547998, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+1336: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=10896.659
+1337: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1349.595, external_delay=1097.175, service=219.683, total_wait=1349.595
+1338: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.506, external=0.411, service=0.082
+1339: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=2059.069 n=15598; W_Valideren aanvraag mean=1758.035 n=7262; W_Nabellen incomplete dossiers mean=770.342 n=10576
+1340: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=2427.498 n=15598; W_Valideren aanvraag mean=1946.055 n=7262; W_Nabellen incomplete dossiers mean=1026.775 n=10576
+1341: 2026-07-28 05:25:33,256 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=529.677 n=161; W_Nabellen offertes mean=344.238 n=15598; W_Valideren aanvraag mean=237.179 n=7262
+1342: 2026-07-28 05:25:33,617 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+1421: 2026-07-28 06:42:12,900 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=50336
+1422: 2026-07-28 06:42:13,103 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-08 18:03:37.654999676+00:00
+1423: 2026-07-28 06:42:13,103 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=187615.016, sim/real=0.957. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+1424: 2026-07-28 06:42:13,103 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.302, sim_median=4.159, sim_p90=31.073
+1425: 2026-07-28 06:42:13,103 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1266, real_hourly_mean=5.853, sim_hourly_mean=5.858, weekday_hour_jaccard=0.768
+1426: 2026-07-28 06:42:13,104 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+1427: 2026-07-28 06:42:13,105 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+1428: 2026-07-28 06:42:13,106 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.082, median=4.701, p90=28.548, min=0.000, max=2635.104
+1429: 2026-07-28 06:42:13,133 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0206 秒
+1430: [Evaluation Timing] PREPROCESS 耗时: 0.0206 秒
+1431: 2026-07-28 06:42:16,866 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7336 秒, 结果: 16.886500808991485
+1432: [Evaluation Timing] RED 耗时: 3.7336 秒, 结果: 16.886500808991485
+1433: [Evaluation Timing] CED 耗时: 0.6004 秒, 结果: 2.3965763022951103
+1434: 2026-07-28 06:42:17,467 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6004 秒, 结果: 2.3965763022951103
+1436: 2026-07-28 06:42:20,791 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3232 秒, 结果: 1.807255848934233
+1437: [Evaluation Timing] CWD 耗时: 3.3232 秒, 结果: 1.807255848934233
+1438: 2026-07-28 06:42:23,987 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.1966 秒, 结果: 23.71413160733549
+1439: 2026-07-28 06:42:23,987 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.8751 秒
+1440: [Evaluation Timing] CTD 耗时: 3.1966 秒, 结果: 23.71413160733549
+1441: [Evaluation Timing] TOTAL 总耗时: 10.8751 秒
+1442: 2026-07-28 06:42:24,290 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 50336, 'mean_queue_wait_min': 237.2783561810957, 'mean_external_delay_min': 1423.6323865978127, 'mean_total_wait_min': 1660.894515589869, 'mean_component_sum_min': 1660.9107427789083, 'mean_residual_min': -0.016227189039649703, 'mean_abs_residual_min': 0.19305175561890958, 'max_abs_residual_min': 0.4999000000016167, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0074796095549277, 'component_sum_over_total_p95': 1.0229722222222222, 'component_sum_over_total_gt_1_05_share': 0.03369211514392991, 'queue_external_corr': 0.05414085632995084, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+1443: 2026-07-28 06:42:24,290 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=12656.898
+1444: 2026-07-28 06:42:24,290 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1660.895, external_delay=1423.632, service=231.924, total_wait=1660.895
+1445: 2026-07-28 06:42:24,290 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.429, service=0.070
+1446: 2026-07-28 06:42:24,290 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3172.045 n=15169; W_Valideren aanvraag mean=1758.618 n=6667; W_Nabellen incomplete dossiers mean=781.652 n=9437
+1447: 2026-07-28 06:42:24,291 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3504.749 n=15169; W_Valideren aanvraag mean=1942.071 n=6667; W_Nabellen incomplete dossiers mean=1026.211 n=9437
+1448: 2026-07-28 06:42:24,291 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=382.460 n=150; W_Nabellen offertes mean=377.289 n=15169; W_Valideren aanvraag mean=234.540 n=6667
+1449: 2026-07-28 06:42:24,652 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+1529: 2026-07-28 07:59:36,742 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51164
+1530: 2026-07-28 07:59:36,810 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-14 10:36:00.000000726+00:00
+1531: 2026-07-28 07:59:36,810 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=195807.388, sim/real=0.999. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+1532: 2026-07-28 07:59:36,810 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.407, sim_median=4.248, sim_p90=31.362
+1533: 2026-07-28 07:59:36,810 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1302, real_hourly_mean=5.853, sim_hourly_mean=5.696, weekday_hour_jaccard=0.804
+1534: 2026-07-28 07:59:36,810 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+1535: 2026-07-28 07:59:36,811 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+1536: 2026-07-28 07:59:36,813 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=27.124, median=4.880, p90=29.807, min=0.002, max=2480.202
+1537: 2026-07-28 07:59:36,839 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0203 秒
+1538: [Evaluation Timing] PREPROCESS 耗时: 0.0203 秒
+1539: [Evaluation Timing] RED 耗时: 3.7130 秒, 结果: 54.26020856932346
+1540: 2026-07-28 07:59:40,551 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7130 秒, 结果: 54.26020856932346
+1541: [Evaluation Timing] CED 耗时: 0.6031 秒, 结果: 2.4785902062144087
+1542: 2026-07-28 07:59:41,155 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6031 秒, 结果: 2.4785902062144087
+1543: [Evaluation Timing] CWD 耗时: 3.2111 秒, 结果: 1.78764576757548
+1544: 2026-07-28 07:59:44,366 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2111 秒, 结果: 1.78764576757548
+1545: 2026-07-28 07:59:47,570 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2040 秒, 结果: 48.97977346278316
+1546: 2026-07-28 07:59:47,570 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.7521 秒
+1547: [Evaluation Timing] CTD 耗时: 3.2040 秒, 结果: 48.97977346278316
+1548: [Evaluation Timing] TOTAL 总耗时: 10.7521 秒
+1549: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51164, 'mean_queue_wait_min': 226.4401922657676, 'mean_external_delay_min': 1744.267997983934, 'mean_total_wait_min': 1970.6902704457377, 'mean_component_sum_min': 1970.7081902497016, 'mean_residual_min': -0.017919803963721795, 'mean_abs_residual_min': 0.19511353002110782, 'max_abs_residual_min': 0.4999333333333347, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0050395595313728, 'component_sum_over_total_p95': 1.02281, 'component_sum_over_total_gt_1_05_share': 0.033642149755486205, 'queue_external_corr': 0.016034086122474277, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+1550: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=14910.212
+1551: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1970.690, external_delay=1744.268, service=218.947, total_wait=1970.690
+1552: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.443, service=0.056
+1553: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=4252.403 n=15109; W_Valideren aanvraag mean=1769.248 n=6924; W_Nabellen incomplete dossiers mean=791.154 n=10575
+1554: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=4540.949 n=15109; W_Valideren aanvraag mean=1955.853 n=6924; W_Nabellen incomplete dossiers mean=1038.062 n=10575
+1555: 2026-07-28 07:59:47,874 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=415.338 n=157; W_Nabellen offertes mean=316.616 n=15109; W_Valideren aanvraag mean=239.806 n=6924
+1556: 2026-07-28 07:59:48,368 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+1692: 2026-07-28 09:20:34,079 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52608
+1693: 2026-07-28 09:20:34,153 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-14 10:02:00.000000746+00:00
+1694: 2026-07-28 09:20:34,153 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=195773.388, sim/real=0.999. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+1695: 2026-07-28 09:20:34,154 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.402, sim_median=4.063, sim_p90=32.661
+1696: 2026-07-28 09:20:34,154 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1315, real_hourly_mean=5.853, sim_hourly_mean=5.640, weekday_hour_jaccard=0.771
+1697: 2026-07-28 09:20:34,154 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+1698: 2026-07-28 09:20:34,155 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+1699: 2026-07-28 09:20:34,156 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=26.828, median=4.682, p90=30.486, min=0.002, max=2635.104
+1700: [Evaluation Timing] PREPROCESS 耗时: 0.0206 秒
+1701: 2026-07-28 09:20:34,183 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0206 秒
+1702: 2026-07-28 09:20:37,966 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7831 秒, 结果: 107.88888235070722
+1703: [Evaluation Timing] RED 耗时: 3.7831 秒, 结果: 107.88888235070722
+1704: 2026-07-28 09:20:38,563 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.5972 秒, 结果: 2.4692015540029004
+1705: [Evaluation Timing] CED 耗时: 0.5972 秒, 结果: 2.4692015540029004
+1706: 2026-07-28 09:20:41,924 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3607 秒, 结果: 1.8648773273295982
+1707: [Evaluation Timing] CWD 耗时: 3.3607 秒, 结果: 1.8648773273295982
+1708: [Evaluation Timing] CTD 耗时: 3.0890 秒, 结果: 87.89563106796118
+1709: [Evaluation Timing] TOTAL 总耗时: 10.8512 秒
+1710: 2026-07-28 09:20:45,014 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.0890 秒, 结果: 87.89563106796118
+1711: 2026-07-28 09:20:45,014 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.8512 秒
+1712: 2026-07-28 09:20:45,318 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52608, 'mean_queue_wait_min': 235.18742552562156, 'mean_external_delay_min': 2063.814493269322, 'mean_total_wait_min': 2298.9844906107796, 'mean_component_sum_min': 2299.001918794944, 'mean_residual_min': -0.017428184164001555, 'mean_abs_residual_min': 0.19905053691137484, 'max_abs_residual_min': 0.5, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.003743285526753, 'component_sum_over_total_p95': 1.0237419871794873, 'component_sum_over_total_gt_1_05_share': 0.03444200174928492, 'queue_external_corr': 0.036472048733229685, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+1713: 2026-07-28 09:20:45,318 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=17756.776
+1714: 2026-07-28 09:20:45,318 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=2298.984, external_delay=2063.814, service=232.706, total_wait=2298.984
+1715: 2026-07-28 09:20:45,318 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.449, service=0.051
+1716: 2026-07-28 09:20:45,318 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=5261.363 n=15712; W_Valideren aanvraag mean=1745.106 n=7045; W_Nabellen incomplete dossiers mean=809.581 n=10928
+1717: 2026-07-28 09:20:45,318 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=5581.144 n=15712; W_Valideren aanvraag mean=1921.464 n=7045; W_Nabellen incomplete dossiers mean=1042.532 n=10928
+1718: 2026-07-28 09:20:45,319 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=465.992 n=128; W_Nabellen offertes mean=379.916 n=15712; W_Valideren aanvraag mean=239.365 n=7045
+1719: 2026-07-28 09:20:45,686 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+2007: 2026-07-28 10:40:53,454 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51761
+2008: 2026-07-28 10:40:53,524 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-14 18:04:46.060999679+00:00
+2009: 2026-07-28 10:40:53,524 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=196256.156, sim/real=1.002. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+2010: 2026-07-28 10:40:53,524 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.467, sim_median=4.191, sim_p90=32.883
+2011: 2026-07-28 10:40:53,524 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1327, real_hourly_mean=5.853, sim_hourly_mean=5.589, weekday_hour_jaccard=0.787
+2012: 2026-07-28 10:40:53,525 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+2013: 2026-07-28 10:40:53,526 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+2014: 2026-07-28 10:40:53,527 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.717, median=4.596, p90=29.653, min=0.002, max=2635.104
+2015: 2026-07-28 10:40:53,554 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0213 秒
+2016: [Evaluation Timing] PREPROCESS 耗时: 0.0213 秒
+2017: 2026-07-28 10:40:57,304 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7499 秒, 结果: 145.81661125226373
+2018: [Evaluation Timing] RED 耗时: 3.7499 秒, 结果: 145.81661125226373
+2019: [Evaluation Timing] CED 耗时: 0.6120 秒, 结果: 2.4964148945910063
+2020: 2026-07-28 10:40:57,916 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6120 秒, 结果: 2.4964148945910063
+2021: [Evaluation Timing] CWD 耗时: 3.2609 秒, 结果: 1.9180649203045652
+2022: 2026-07-28 10:41:01,177 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2609 秒, 结果: 1.9180649203045652
+2023: [Evaluation Timing] CTD 耗时: 3.2315 秒, 结果: 119.91329557713054
+2024: [Evaluation Timing] TOTAL 总耗时: 10.8762 秒
+2025: 2026-07-28 10:41:04,408 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2315 秒, 结果: 119.91329557713054
+2026: 2026-07-28 10:41:04,408 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.8762 秒
+2027: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51761, 'mean_queue_wait_min': 241.67108751151125, 'mean_external_delay_min': 2368.3858070118754, 'mean_total_wait_min': 2610.0436266819293, 'mean_component_sum_min': 2610.056894523386, 'mean_residual_min': -0.013267841457201498, 'mean_abs_residual_min': 0.19864828265166834, 'max_abs_residual_min': 0.49986666666666935, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0109087573004838, 'component_sum_over_total_p95': 1.0229722222222222, 'component_sum_over_total_gt_1_05_share': 0.034343239728336784, 'queue_external_corr': 0.04616447778113502, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+2028: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=19673.216
+2029: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=2610.044, external_delay=2368.386, service=237.877, total_wait=2610.044
+2030: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.454, service=0.046
+2031: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=6258.364 n=15647; W_Valideren aanvraag mean=1754.136 n=7073; W_Nabellen incomplete dossiers mean=786.198 n=10038
+2032: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=6596.015 n=15647; W_Valideren aanvraag mean=1932.890 n=7073; W_Nabellen incomplete dossiers mean=1027.233 n=10038
+2033: 2026-07-28 10:41:04,717 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=442.206 n=141; W_Nabellen offertes mean=389.337 n=15647; W_Valideren aanvraag mean=248.175 n=7073
+2034: 2026-07-28 10:41:05,082 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+2564: 2026-07-28 12:03:32,987 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52262
+2565: 2026-07-28 12:03:33,060 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-15 10:01:06.001999789+00:00
+2566: 2026-07-28 12:03:33,060 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=197212.488, sim/real=1.006. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+2567: 2026-07-28 12:03:33,060 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.596, sim_median=4.049, sim_p90=33.101
+2568: 2026-07-28 12:03:33,060 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1311, real_hourly_mean=5.853, sim_hourly_mean=5.657, weekday_hour_jaccard=0.771
+2569: 2026-07-28 12:03:33,061 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+2570: 2026-07-28 12:03:33,062 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+2571: 2026-07-28 12:03:33,063 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=27.438, median=4.793, p90=32.334, min=0.002, max=2635.104
+2572: 2026-07-28 12:03:33,090 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0210 秒
+2573: [Evaluation Timing] PREPROCESS 耗时: 0.0210 秒
+2574: 2026-07-28 12:03:37,242 - evaluation - INFO - [Evaluation Timing] RED 耗时: 4.1511 秒, 结果: 226.20101083019068
+2575: [Evaluation Timing] RED 耗时: 4.1511 秒, 结果: 226.20101083019068
+2576: [Evaluation Timing] CED 耗时: 0.6319 秒, 结果: 2.409980927031956
+2577: 2026-07-28 12:03:37,874 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6319 秒, 结果: 2.409980927031956
+2578: [Evaluation Timing] CWD 耗时: 3.6278 秒, 结果: 1.8330099036936036
+2579: 2026-07-28 12:03:41,502 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.6278 秒, 结果: 1.8330099036936036
+2580: 2026-07-28 12:03:44,842 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.3408 秒, 结果: 179.85706580366778
+2581: 2026-07-28 12:03:44,842 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.7733 秒
+2582: [Evaluation Timing] CTD 耗时: 3.3408 秒, 结果: 179.85706580366778
+2583: [Evaluation Timing] TOTAL 总耗时: 11.7733 秒
+2584: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52262, 'mean_queue_wait_min': 219.56999139403104, 'mean_external_delay_min': 2887.117925645147, 'mean_total_wait_min': 3106.6775456399455, 'mean_component_sum_min': 3106.687917039178, 'mean_residual_min': -0.010371399232062201, 'mean_abs_residual_min': 0.19761877527329855, 'max_abs_residual_min': 0.5, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.003875617340571, 'component_sum_over_total_p95': 1.0227429298073756, 'component_sum_over_total_gt_1_05_share': 0.034229771172446334, 'queue_external_corr': 0.013832108711170984, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+2585: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=23415.375
+2586: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=3106.678, external_delay=2887.118, service=242.387, total_wait=3106.678
+2587: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.498, external=0.463, service=0.039
+2588: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=8287.181 n=15105; W_Valideren aanvraag mean=1751.453 n=7306; W_Nabellen incomplete dossiers mean=790.555 n=10629
+2589: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=8568.840 n=15105; W_Valideren aanvraag mean=1919.172 n=7306; W_Nabellen incomplete dossiers mean=1021.114 n=10629
+2590: 2026-07-28 12:03:45,175 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Nabellen offertes mean=397.692 n=15105; W_Beoordelen fraude mean=394.702 n=124; W_Valideren aanvraag mean=255.939 n=7306
+2591: 2026-07-28 12:03:45,694 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+2731: 2026-07-28 13:29:49,869 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52196
+2732: 2026-07-28 13:29:49,938 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-08 10:01:00.000000821+00:00
+2733: 2026-07-28 13:29:49,938 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=187132.388, sim/real=0.955. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+2734: 2026-07-28 13:29:49,938 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.237, sim_median=4.077, sim_p90=31.681
+2735: 2026-07-28 13:29:49,938 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1309, real_hourly_mean=5.853, sim_hourly_mean=5.665, weekday_hour_jaccard=0.714
+2736: 2026-07-28 13:29:49,938 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+2737: 2026-07-28 13:29:49,940 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+2738: 2026-07-28 13:29:49,941 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.453, median=4.648, p90=29.456, min=0.002, max=2433.569
+2739: 2026-07-28 13:29:50,102 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.1554 秒
+2740: [Evaluation Timing] PREPROCESS 耗时: 0.1554 秒
+2741: 2026-07-28 13:29:53,760 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.6580 秒, 结果: 378.6883934300173
+2742: [Evaluation Timing] RED 耗时: 3.6580 秒, 结果: 378.6883934300173
+2743: 2026-07-28 13:29:54,395 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6351 秒, 结果: 2.423942848496926
+2744: [Evaluation Timing] CED 耗时: 0.6351 秒, 结果: 2.423942848496926
+2745: 2026-07-28 13:29:57,625 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2300 秒, 结果: 1.784488999946831
+2746: [Evaluation Timing] CWD 耗时: 3.2300 秒, 结果: 1.784488999946831
+2747: [Evaluation Timing] CTD 耗时: 3.2468 秒, 结果: 306.6433387270766
+2748: [Evaluation Timing] TOTAL 总耗时: 10.9261 秒
+2749: 2026-07-28 13:30:00,873 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2468 秒, 结果: 306.6433387270766
+2750: 2026-07-28 13:30:00,873 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9261 秒
+2751: 2026-07-28 13:30:01,304 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52196, 'mean_queue_wait_min': 215.10679264033232, 'mean_external_delay_min': 3995.1242509058798, 'mean_total_wait_min': 4210.20095694411, 'mean_component_sum_min': 4210.231043546212, 'mean_residual_min': -0.030086602102250976, 'mean_abs_residual_min': 0.21068675026175618, 'max_abs_residual_min': 0.49986666666666935, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0000742161698317, 'component_sum_over_total_p95': 1.0239777777777779, 'component_sum_over_total_gt_1_05_share': 0.035555451523805064, 'queue_external_corr': 0.015835219716168882, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+2752: 2026-07-28 13:30:01,305 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=31127.247
+2753: 2026-07-28 13:30:01,305 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=4210.201, external_delay=3995.124, service=241.367, total_wait=4210.201
+2754: 2026-07-28 13:30:01,305 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.498, external=0.473, service=0.029
+2755: 2026-07-28 13:30:01,305 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=11841.629 n=15437; W_Valideren aanvraag mean=1752.108 n=7263; W_Nabellen incomplete dossiers mean=807.025 n=10431
+2756: 2026-07-28 13:30:01,305 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=12109.027 n=15437; W_Valideren aanvraag mean=1914.438 n=7263; W_Nabellen incomplete dossiers mean=1034.879 n=10431
+2757: 2026-07-28 13:30:01,305 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=433.753 n=162; W_Nabellen offertes mean=367.420 n=15437; W_Valideren aanvraag mean=251.644 n=7263
+2758: 2026-07-28 13:30:01,665 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+3013: 2026-07-28 14:55:42,054 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=50480
+3014: 2026-07-28 14:55:42,163 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-13 18:02:00.000000813+00:00
+3015: 2026-07-28 14:55:42,163 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=194813.388, sim/real=0.994. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+3016: 2026-07-28 14:55:42,163 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.273, sim_median=4.191, sim_p90=31.873
+3017: 2026-07-28 14:55:42,163 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1305, real_hourly_mean=5.853, sim_hourly_mean=5.683, weekday_hour_jaccard=0.781
+3018: 2026-07-28 14:55:42,163 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+3019: 2026-07-28 14:55:42,164 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+3020: 2026-07-28 14:55:42,166 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.934, median=4.657, p90=29.898, min=0.002, max=2635.104
+3021: 2026-07-28 14:55:42,490 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.3175 秒
+3022: [Evaluation Timing] PREPROCESS 耗时: 0.3175 秒
+3026: [Evaluation Timing] RED 耗时: 3.9749 秒, 结果: 16.681027744418824
+3027: 2026-07-28 14:55:46,466 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.9749 秒, 结果: 16.681027744418824
+3029: [Evaluation Timing] CED 耗时: 0.6519 秒, 结果: 2.383907081137848
+3030: 2026-07-28 14:55:47,118 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6519 秒, 结果: 2.383907081137848
+3031: [Evaluation Timing] CWD 耗时: 3.3316 秒, 结果: 1.8379713439660577
+3032: 2026-07-28 14:55:50,450 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3316 秒, 结果: 1.8379713439660577
+3033: [Evaluation Timing] CTD 耗时: 3.4203 秒, 结果: 25.313646170442297
+3034: [Evaluation Timing] TOTAL 总耗时: 11.6974 秒
+3035: 2026-07-28 14:55:53,870 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.4203 秒, 结果: 25.313646170442297
+3036: 2026-07-28 14:55:53,870 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.6974 秒
+3037: 2026-07-28 14:55:54,210 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 50480, 'mean_queue_wait_min': 237.28070583028892, 'mean_external_delay_min': 1291.3459424480816, 'mean_total_wait_min': 1528.6082612978005, 'mean_component_sum_min': 1528.6266482783708, 'mean_residual_min': -0.018386980569858335, 'mean_abs_residual_min': 0.19241771947636305, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.008906575127527, 'component_sum_over_total_p95': 1.028175682290354, 'component_sum_over_total_gt_1_05_share': 0.03768573504723245, 'queue_external_corr': 0.05466145059312263, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+3038: 2026-07-28 14:55:54,211 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=11842.149
+3039: 2026-07-28 14:55:54,211 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1528.608, external_delay=1291.346, service=239.693, total_wait=1528.608
+3040: 2026-07-28 14:55:54,211 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.422, service=0.078
+3041: 2026-07-28 14:55:54,211 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3114.736 n=15129; W_Valideren aanvraag mean=896.917 n=6893; W_Nabellen incomplete dossiers mean=757.885 n=10022
+3042: 2026-07-28 14:55:54,211 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3431.720 n=15129; W_Valideren aanvraag mean=1091.080 n=6893; W_Nabellen incomplete dossiers mean=1000.410 n=10022
+3043: 2026-07-28 14:55:54,211 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=507.503 n=155; W_Nabellen offertes mean=379.857 n=15129; W_Valideren aanvraag mean=254.743 n=6893
+3044: 2026-07-28 14:55:54,618 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+3481: 2026-07-28 16:30:13,506 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52046
+3482: 2026-07-28 16:30:13,584 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-17 10:01:00.000000679+00:00
+3483: 2026-07-28 16:30:13,584 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=200092.388, sim/real=1.021. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+3484: 2026-07-28 16:30:13,584 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.985, sim_median=4.255, sim_p90=32.601
+3485: 2026-07-28 16:30:13,584 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1333, real_hourly_mean=5.853, sim_hourly_mean=5.563, weekday_hour_jaccard=0.826
+3486: 2026-07-28 16:30:13,584 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+3487: 2026-07-28 16:30:13,585 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+3488: 2026-07-28 16:30:13,587 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=27.091, median=4.990, p90=30.535, min=0.000, max=2635.104
+3489: 2026-07-28 16:30:13,614 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0213 秒
+3490: [Evaluation Timing] PREPROCESS 耗时: 0.0213 秒
+3491: 2026-07-28 16:30:17,362 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7480 秒, 结果: 20.300688374910454
+3492: [Evaluation Timing] RED 耗时: 3.7480 秒, 结果: 20.300688374910454
+3493: [Evaluation Timing] CED 耗时: 0.6147 秒, 结果: 2.5254223088229653
+3494: 2026-07-28 16:30:17,977 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6147 秒, 结果: 2.5254223088229653
+3495: [Evaluation Timing] CWD 耗时: 3.2523 秒, 结果: 1.9256318529092733
+3496: 2026-07-28 16:30:21,229 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2523 秒, 结果: 1.9256318529092733
+3498: [Evaluation Timing] CTD 耗时: 3.2216 秒, 结果: 25.15439590075512
+3499: [Evaluation Timing] TOTAL 总耗时: 10.8584 秒
+3500: 2026-07-28 16:30:24,451 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2216 秒, 结果: 25.15439590075512
+3501: 2026-07-28 16:30:24,451 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.8584 秒
+3502: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52046, 'mean_queue_wait_min': 240.61714257310715, 'mean_external_delay_min': 1354.996917560187, 'mean_total_wait_min': 1595.5994082611523, 'mean_component_sum_min': 1595.6140601332945, 'mean_residual_min': -0.014651872141946706, 'mean_abs_residual_min': 0.1924414718870508, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0100725226759095, 'component_sum_over_total_p95': 1.0240026785714285, 'component_sum_over_total_gt_1_05_share': 0.034705271044299976, 'queue_external_corr': 0.0593354876638557, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+3503: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=12659.338
+3504: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1595.599, external_delay=1354.997, service=235.767, total_wait=1595.599
+3505: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.425, service=0.074
+3506: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3136.286 n=15402; W_Valideren aanvraag mean=1284.330 n=7109; W_Nabellen incomplete dossiers mean=809.028 n=10527
+3507: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3453.873 n=15402; W_Valideren aanvraag mean=1501.963 n=7109; W_Nabellen incomplete dossiers mean=1065.061 n=10527
+3508: 2026-07-28 16:30:24,755 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Nabellen offertes mean=372.272 n=15402; W_Beoordelen fraude mean=345.177 n=141; W_Valideren aanvraag mean=263.340 n=7109
+3509: 2026-07-28 16:30:25,266 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+3761: 2026-07-28 17:55:02,006 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51889
+3762: 2026-07-28 17:55:02,079 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-07 18:02:21.085999650+00:00
+3763: 2026-07-28 17:55:02,079 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=186173.740, sim/real=0.950. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+3764: 2026-07-28 17:55:02,079 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.108, sim_median=3.895, sim_p90=31.244
+3765: 2026-07-28 17:55:02,079 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1258, real_hourly_mean=5.853, sim_hourly_mean=5.895, weekday_hour_jaccard=0.755
+3766: 2026-07-28 17:55:02,079 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+3767: 2026-07-28 17:55:02,080 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+3768: 2026-07-28 17:55:02,082 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=26.258, median=4.686, p90=31.283, min=0.000, max=2523.384
+3769: 2026-07-28 17:55:02,109 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0214 秒
+3770: [Evaluation Timing] PREPROCESS 耗时: 0.0214 秒
+3771: 2026-07-28 17:55:06,077 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.9665 秒, 结果: 20.4535570292995
+3772: [Evaluation Timing] RED 耗时: 3.9665 秒, 结果: 20.4535570292995
+3773: 2026-07-28 17:55:06,683 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6071 秒, 结果: 2.3963011535463394
+3774: [Evaluation Timing] CED 耗时: 0.6071 秒, 结果: 2.3963011535463394
+3775: 2026-07-28 17:55:09,954 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2706 秒, 结果: 1.7626199040648733
+3776: [Evaluation Timing] CWD 耗时: 3.2706 秒, 结果: 1.7626199040648733
+3777: 2026-07-28 17:55:13,082 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.1273 秒, 结果: 25.159924487594402
+3778: 2026-07-28 17:55:13,082 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9936 秒
+3779: [Evaluation Timing] CTD 耗时: 3.1273 秒, 结果: 25.159924487594402
+3780: [Evaluation Timing] TOTAL 总耗时: 10.9936 秒
+3781: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51889, 'mean_queue_wait_min': 243.24845636152037, 'mean_external_delay_min': 1422.348393826646, 'mean_total_wait_min': 1665.58116656985, 'mean_component_sum_min': 1665.5968501881664, 'mean_residual_min': -0.01568361831666023, 'mean_abs_residual_min': 0.19369700153211858, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0104767635192227, 'component_sum_over_total_p95': 1.0232860161815618, 'component_sum_over_total_gt_1_05_share': 0.03445031482955779, 'queue_external_corr': 0.05909039196090723, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+3782: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=13030.683
+3783: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1665.581, external_delay=1422.348, service=222.943, total_wait=1665.581
+3784: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.503, external=0.430, service=0.067
+3785: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3136.156 n=15615; W_Valideren aanvraag mean=1719.832 n=7233; W_Nabellen incomplete dossiers mean=794.670 n=10367
+3786: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3477.337 n=15615; W_Valideren aanvraag mean=1900.888 n=7233; W_Nabellen incomplete dossiers mean=1041.444 n=10367
+3787: 2026-07-28 17:55:13,524 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=473.854 n=130; W_Nabellen offertes mean=358.986 n=15615; W_Valideren aanvraag mean=215.781 n=7233
+3788: 2026-07-28 17:55:13,888 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+3879: 2026-07-28 19:22:33,352 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51482
+3880: 2026-07-28 19:22:33,429 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-07 18:01:00.000000678+00:00
+3881: 2026-07-28 19:22:33,429 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=186172.388, sim/real=0.950. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+3882: 2026-07-28 19:22:33,429 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.108, sim_median=3.989, sim_p90=31.058
+3883: 2026-07-28 19:22:33,429 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1269, real_hourly_mean=5.853, sim_hourly_mean=5.844, weekday_hour_jaccard=0.785
+3884: 2026-07-28 19:22:33,430 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+3885: 2026-07-28 19:22:33,431 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+3886: 2026-07-28 19:22:33,432 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.088, median=4.357, p90=30.070, min=0.000, max=2480.202
+3887: 2026-07-28 19:22:33,462 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0216 秒
+3888: [Evaluation Timing] PREPROCESS 耗时: 0.0216 秒
+3889: 2026-07-28 19:22:37,486 - evaluation - INFO - [Evaluation Timing] RED 耗时: 4.0241 秒, 结果: 27.345275381867683
+3890: [Evaluation Timing] RED 耗时: 4.0241 秒, 结果: 27.345275381867683
+3891: [Evaluation Timing] CED 耗时: 0.6215 秒, 结果: 2.423592417841192
+3892: 2026-07-28 19:22:38,108 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6215 秒, 结果: 2.423592417841192
+3893: [Evaluation Timing] CWD 耗时: 3.3065 秒, 结果: 1.8235691085856174
+3894: 2026-07-28 19:22:41,415 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3065 秒, 结果: 1.8235691085856174
+3895: [Evaluation Timing] CTD 耗时: 3.2430 秒, 结果: 30.36502157497305
+3896: [Evaluation Timing] TOTAL 总耗时: 11.2173 秒
+3897: 2026-07-28 19:22:44,658 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2430 秒, 结果: 30.36502157497305
+3898: 2026-07-28 19:22:44,658 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.2173 秒
+3899: 2026-07-28 19:22:44,994 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51482, 'mean_queue_wait_min': 242.76950959930846, 'mean_external_delay_min': 1475.7729270375244, 'mean_total_wait_min': 1718.5306882636962, 'mean_component_sum_min': 1718.542436636833, 'mean_residual_min': -0.011748373136886932, 'mean_abs_residual_min': 0.1943043030411943, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0061321741080411, 'component_sum_over_total_p95': 1.0243641666666667, 'component_sum_over_total_gt_1_05_share': 0.03445081067901987, 'queue_external_corr': 0.0599327690917546, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+3900: 2026-07-28 19:22:44,994 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=13375.924
+3901: 2026-07-28 19:22:44,994 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1718.531, external_delay=1475.773, service=236.630, total_wait=1718.531
+3902: 2026-07-28 19:22:44,994 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.430, service=0.069
+3903: 2026-07-28 19:22:44,994 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3120.311 n=15358; W_Valideren aanvraag mean=2176.973 n=7068; W_Nabellen incomplete dossiers mean=808.694 n=10186
+3904: 2026-07-28 19:22:44,995 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3449.520 n=15358; W_Valideren aanvraag mean=2387.633 n=7068; W_Nabellen incomplete dossiers mean=1048.863 n=10186
+3905: 2026-07-28 19:22:44,995 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=468.865 n=155; W_Nabellen offertes mean=377.610 n=15358; W_Valideren aanvraag mean=266.357 n=7068
+3906: 2026-07-28 19:22:45,561 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4001: 2026-07-28 20:54:39,792 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51242
+4002: 2026-07-28 20:54:39,881 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-13 18:03:00.000000849+00:00
+4003: 2026-07-28 20:54:39,881 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=194814.388, sim/real=0.994. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4004: 2026-07-28 20:54:39,881 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.273, sim_median=4.036, sim_p90=31.454
+4005: 2026-07-28 20:54:39,881 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1286, real_hourly_mean=5.853, sim_hourly_mean=5.767, weekday_hour_jaccard=0.843
+4006: 2026-07-28 20:54:39,881 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4007: 2026-07-28 20:54:39,883 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4008: 2026-07-28 20:54:39,884 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.747, median=4.610, p90=28.782, min=0.000, max=2635.104
+4009: 2026-07-28 20:54:39,912 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0217 秒
+4010: [Evaluation Timing] PREPROCESS 耗时: 0.0217 秒
+4011: 2026-07-28 20:54:44,025 - evaluation - INFO - [Evaluation Timing] RED 耗时: 4.1127 秒, 结果: 31.35967157758662
+4012: [Evaluation Timing] RED 耗时: 4.1127 秒, 结果: 31.35967157758662
+4013: 2026-07-28 20:54:44,673 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6478 秒, 结果: 2.441634638505727
+4014: [Evaluation Timing] CED 耗时: 0.6478 秒, 结果: 2.441634638505727
+4015: 2026-07-28 20:54:48,092 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.4192 秒, 结果: 1.910812432923218
+4016: [Evaluation Timing] CWD 耗时: 3.4192 秒, 结果: 1.910812432923218
+4017: 2026-07-28 20:54:51,457 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.3642 秒, 结果: 32.48853829557711
+4018: 2026-07-28 20:54:51,457 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.5663 秒
+4019: [Evaluation Timing] CTD 耗时: 3.3642 秒, 结果: 32.48853829557711
+4020: [Evaluation Timing] TOTAL 总耗时: 11.5663 秒
+4021: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51242, 'mean_queue_wait_min': 241.28774679379546, 'mean_external_delay_min': 1515.1740714452176, 'mean_total_wait_min': 1756.4461910387504, 'mean_component_sum_min': 1756.461818239013, 'mean_residual_min': -0.01562720026215164, 'mean_abs_residual_min': 0.19399801294185978, 'max_abs_residual_min': 0.4999000000002525, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0088344760165386, 'component_sum_over_total_p95': 1.0242143059431772, 'component_sum_over_total_gt_1_05_share': 0.035225625782996386, 'queue_external_corr': 0.051600817746650554, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4022: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=13567.767
+4023: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1756.446, external_delay=1515.174, service=236.143, total_wait=1756.446
+4024: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.432, service=0.067
+4025: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3164.172 n=15059; W_Valideren aanvraag mean=2486.571 n=6906; W_Nabellen incomplete dossiers mean=815.791 n=10145
+4026: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3491.396 n=15059; W_Valideren aanvraag mean=2679.638 n=6906; W_Nabellen incomplete dossiers mean=1056.659 n=10145
+4027: 2026-07-28 20:54:51,812 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=495.874 n=183; W_Nabellen offertes mean=375.592 n=15059; W_Valideren aanvraag mean=267.048 n=6906
+4028: 2026-07-28 20:54:52,181 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4171: 2026-07-28 22:20:01,461 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52489
+4172: 2026-07-28 22:20:01,535 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-10 10:02:00.000000686+00:00
+4173: 2026-07-28 22:20:01,535 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=190013.388, sim/real=0.970. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4174: 2026-07-28 22:20:01,535 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.626, sim_median=3.897, sim_p90=32.269
+4175: 2026-07-28 22:20:01,536 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1290, real_hourly_mean=5.853, sim_hourly_mean=5.749, weekday_hour_jaccard=0.765
+4176: 2026-07-28 22:20:01,536 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4177: 2026-07-28 22:20:01,537 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4178: 2026-07-28 22:20:01,538 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.460, median=4.659, p90=29.813, min=0.000, max=2483.851
+4179: 2026-07-28 22:20:01,565 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0205 秒
+4180: [Evaluation Timing] PREPROCESS 耗时: 0.0205 秒
+4181: [Evaluation Timing] RED 耗时: 3.8980 秒, 结果: 34.492264568816935
+4182: 2026-07-28 22:20:05,462 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.8980 秒, 结果: 34.492264568816935
+4183: 2026-07-28 22:20:06,077 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6144 秒, 结果: 2.3437804332143424
+4184: [Evaluation Timing] CED 耗时: 0.6144 秒, 结果: 2.3437804332143424
+4185: [Evaluation Timing] CWD 耗时: 3.2342 秒, 结果: 1.744619859198772
+4186: 2026-07-28 22:20:09,311 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2342 秒, 结果: 1.744619859198772
+4187: 2026-07-28 22:20:12,539 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2274 秒, 结果: 41.51793419633225
+4188: 2026-07-28 22:20:12,539 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9950 秒
+4189: [Evaluation Timing] CTD 耗时: 3.2274 秒, 结果: 41.51793419633225
+4190: [Evaluation Timing] TOTAL 总耗时: 10.9950 秒
+4191: 2026-07-28 22:20:12,849 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52489, 'mean_queue_wait_min': 247.4148390463843, 'mean_external_delay_min': 1618.4055564173764, 'mean_total_wait_min': 1865.8094931643905, 'mean_component_sum_min': 1865.8203954637609, 'mean_residual_min': -0.01090229937065855, 'mean_abs_residual_min': 0.19278403141610492, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0102759441612472, 'component_sum_over_total_p95': 1.0219186274509804, 'component_sum_over_total_gt_1_05_share': 0.03410166603559258, 'queue_external_corr': 0.041245240196143416, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4192: 2026-07-28 22:20:12,850 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=14661.715
+4193: 2026-07-28 22:20:12,850 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1865.809, external_delay=1618.406, service=233.119, total_wait=1865.809
+4194: 2026-07-28 22:20:12,850 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.502, external=0.435, service=0.063
+4195: 2026-07-28 22:20:12,850 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Valideren aanvraag mean=3240.357 n=7160; W_Nabellen offertes mean=3117.923 n=15472; W_Nabellen incomplete dossiers mean=813.832 n=10779
+4196: 2026-07-28 22:20:12,850 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3456.657 n=15472; W_Valideren aanvraag mean=3443.049 n=7160; W_Nabellen incomplete dossiers mean=1063.728 n=10779
+4197: 2026-07-28 22:20:12,850 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=498.149 n=175; W_Nabellen offertes mean=373.889 n=15472; W_Valideren aanvraag mean=266.310 n=7160
+4198: 2026-07-28 22:20:13,368 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4280: 2026-07-28 23:38:43,842 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51170
+4281: 2026-07-28 23:38:43,909 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-14 10:01:00.000000798+00:00
+4282: 2026-07-28 23:38:43,909 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=195772.388, sim/real=0.999. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4283: 2026-07-28 23:38:43,909 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.402, sim_median=4.150, sim_p90=31.451
+4284: 2026-07-28 23:38:43,909 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1284, real_hourly_mean=5.853, sim_hourly_mean=5.776, weekday_hour_jaccard=0.824
+4285: 2026-07-28 23:38:43,909 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4286: 2026-07-28 23:38:43,910 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4287: 2026-07-28 23:38:43,911 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=27.127, median=4.827, p90=30.248, min=0.005, max=2523.384
+4288: 2026-07-28 23:38:43,940 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0218 秒
+4289: [Evaluation Timing] PREPROCESS 耗时: 0.0218 秒
+4290: [Evaluation Timing] RED 耗时: 3.8630 秒, 结果: 52.98445837946177
+4291: 2026-07-28 23:38:47,803 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.8630 秒, 结果: 52.98445837946177
+4292: [Evaluation Timing] CED 耗时: 0.6015 秒, 结果: 2.3790864038490085
+4293: 2026-07-28 23:38:48,405 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6015 秒, 结果: 2.3790864038490085
+4294: [Evaluation Timing] CWD 耗时: 3.2273 秒, 结果: 1.840242307745134
+4295: 2026-07-28 23:38:51,632 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2273 秒, 结果: 1.840242307745134
+4296: 2026-07-28 23:38:54,854 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2220 秒, 结果: 51.16572276159659
+4297: 2026-07-28 23:38:54,854 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9362 秒
+4298: [Evaluation Timing] CTD 耗时: 3.2220 秒, 结果: 51.16572276159659
+4299: [Evaluation Timing] TOTAL 总耗时: 10.9362 秒
+4300: 2026-07-28 23:38:55,293 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51170, 'mean_queue_wait_min': 237.67200500057228, 'mean_external_delay_min': 1737.0831941468798, 'mean_total_wait_min': 1974.745309671278, 'mean_component_sum_min': 1974.755199147452, 'mean_residual_min': -0.009889476174192917, 'mean_abs_residual_min': 0.1954530607940793, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0484788075644778, 'component_sum_over_total_p95': 1.0218857171610636, 'component_sum_over_total_gt_1_05_share': 0.03466581857324592, 'queue_external_corr': 0.05342810594884402, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4301: 2026-07-28 23:38:55,294 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=15079.489
+4302: 2026-07-28 23:38:55,294 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1974.745, external_delay=1737.083, service=237.534, total_wait=1974.745
+4303: 2026-07-28 23:38:55,294 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.440, service=0.060
+4304: 2026-07-28 23:38:55,294 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Valideren aanvraag mean=4035.927 n=6985; W_Nabellen offertes mean=3150.497 n=15360; W_Nabellen incomplete dossiers mean=765.446 n=10344
+4305: 2026-07-28 23:38:55,294 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Valideren aanvraag mean=4240.356 n=6985; W_Nabellen offertes mean=3478.355 n=15360; W_Nabellen incomplete dossiers mean=997.068 n=10344
+4306: 2026-07-28 23:38:55,294 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=390.198 n=121; W_Nabellen offertes mean=375.747 n=15360; W_Valideren aanvraag mean=268.513 n=6985
+4307: 2026-07-28 23:38:55,659 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4389: 2026-07-29 00:57:30,501 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51476
+4390: 2026-07-29 00:57:30,569 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-10 10:03:22.089999660+00:00
+4391: 2026-07-29 00:57:30,569 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=190014.756, sim/real=0.970. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4392: 2026-07-29 00:57:30,569 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.626, sim_median=3.930, sim_p90=30.883
+4393: 2026-07-29 00:57:30,569 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1260, real_hourly_mean=5.853, sim_hourly_mean=5.886, weekday_hour_jaccard=0.798
+4394: 2026-07-29 00:57:30,570 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4395: 2026-07-29 00:57:30,571 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4396: 2026-07-29 00:57:30,572 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.755, median=4.685, p90=28.634, min=0.002, max=2523.384
+4397: 2026-07-29 00:57:30,732 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.1543 秒
+4398: [Evaluation Timing] PREPROCESS 耗时: 0.1543 秒
+4399: [Evaluation Timing] RED 耗时: 3.7272 秒, 结果: 20.48335744460959
+4400: 2026-07-29 00:57:34,460 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7272 秒, 结果: 20.48335744460959
+4401: 2026-07-29 00:57:35,075 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6150 秒, 结果: 2.3562877478813973
+4402: [Evaluation Timing] CED 耗时: 0.6150 秒, 结果: 2.3562877478813973
+4403: 2026-07-29 00:57:38,308 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2342 秒, 结果: 1.8130521505725583
+4404: [Evaluation Timing] CWD 耗时: 3.2342 秒, 结果: 1.8130521505725583
+4405: [Evaluation Timing] CTD 耗时: 3.2011 秒, 结果: 23.280744336569597
+4406: [Evaluation Timing] TOTAL 总耗时: 10.9324 秒
+4407: 2026-07-29 00:57:41,510 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2011 秒, 结果: 23.280744336569597
+4408: 2026-07-29 00:57:41,510 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9324 秒
+4409: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51476, 'mean_queue_wait_min': 235.16557029062665, 'mean_external_delay_min': 1367.2101047878298, 'mean_total_wait_min': 1602.358456295755, 'mean_component_sum_min': 1602.3756750784569, 'mean_residual_min': -0.017218782701320694, 'mean_abs_residual_min': 0.19289541210143432, 'max_abs_residual_min': 0.4999750000000347, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.00460502349587, 'component_sum_over_total_p95': 1.026527777777778, 'component_sum_over_total_gt_1_05_share': 0.03542728341826735, 'queue_external_corr': 0.06485922758927341, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4410: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=12568.804
+4411: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1602.358, external_delay=1367.210, service=235.599, total_wait=1602.358
+4412: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.427, service=0.074
+4413: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3218.788 n=15447; W_Valideren aanvraag mean=1729.940 n=6980; W_Nabellen incomplete dossiers mean=408.369 n=9998
+4414: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3554.297 n=15447; W_Valideren aanvraag mean=1905.088 n=6980; W_Nabellen incomplete dossiers mean=636.605 n=9998
+4415: 2026-07-29 00:57:41,817 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=501.285 n=144; W_Nabellen offertes mean=379.734 n=15447; W_Valideren aanvraag mean=241.278 n=6980
+4416: 2026-07-29 00:57:42,182 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4498: 2026-07-29 02:16:39,925 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51765
+4499: 2026-07-29 02:16:39,998 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-06 10:01:00.000000754+00:00
+4500: 2026-07-29 02:16:39,998 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=184252.388, sim/real=0.940. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4501: 2026-07-29 02:16:39,998 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=24.849, sim_median=3.453, sim_p90=31.011
+4502: 2026-07-29 02:16:39,998 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1249, real_hourly_mean=5.853, sim_hourly_mean=5.938, weekday_hour_jaccard=0.740
+4503: 2026-07-29 02:16:39,998 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4504: 2026-07-29 02:16:40,000 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4505: 2026-07-29 02:16:40,001 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=23.954, median=4.493, p90=28.255, min=0.000, max=2523.384
+4506: 2026-07-29 02:16:40,029 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0212 秒
+4507: [Evaluation Timing] PREPROCESS 耗时: 0.0212 秒
+4508: [Evaluation Timing] RED 耗时: 3.8732 秒, 结果: 15.698136906932387
+4509: 2026-07-29 02:16:43,901 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.8732 秒, 结果: 15.698136906932387
+4510: [Evaluation Timing] CED 耗时: 0.6090 秒, 结果: 2.4497806541751306
+4511: 2026-07-29 02:16:44,510 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6090 秒, 结果: 2.4497806541751306
+4512: 2026-07-29 02:16:47,777 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2659 秒, 结果: 1.8628110125750084
+4513: [Evaluation Timing] CWD 耗时: 3.2659 秒, 结果: 1.8628110125750084
+4514: [Evaluation Timing] CTD 耗时: 3.2207 秒, 结果: 20.500134843581446
+4515: [Evaluation Timing] TOTAL 总耗时: 10.9906 秒
+4516: 2026-07-29 02:16:50,998 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2207 秒, 结果: 20.500134843581446
+4517: 2026-07-29 02:16:50,998 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9906 秒
+4518: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51765, 'mean_queue_wait_min': 233.49768011348596, 'mean_external_delay_min': 1360.7207377354391, 'mean_total_wait_min': 1594.2029442881212, 'mean_component_sum_min': 1594.2184178489251, 'mean_residual_min': -0.015473560803627927, 'mean_abs_residual_min': 0.19283619981326214, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.005957442537058, 'component_sum_over_total_p95': 1.0269048076923077, 'component_sum_over_total_gt_1_05_share': 0.03601321851557035, 'queue_external_corr': 0.058302928236337336, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4519: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=12500.362
+4520: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1594.203, external_delay=1360.721, service=224.754, total_wait=1594.203
+4521: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.428, service=0.071
+4522: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3144.647 n=15162; W_Valideren aanvraag mean=1705.811 n=7116; W_Nabellen incomplete dossiers mean=598.072 n=10141
+4523: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3469.895 n=15162; W_Valideren aanvraag mean=1897.207 n=7116; W_Nabellen incomplete dossiers mean=825.423 n=10141
+4524: 2026-07-29 02:16:51,307 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=508.558 n=120; W_Nabellen offertes mean=362.058 n=15162; W_Valideren aanvraag mean=235.263 n=7116
+4525: 2026-07-29 02:16:51,672 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4606: 2026-07-29 03:35:10,952 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51408
+4607: 2026-07-29 03:35:11,020 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-13 12:01:00.000000677+00:00
+4608: 2026-07-29 03:35:11,020 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=194452.388, sim/real=0.992. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4609: 2026-07-29 03:35:11,020 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.224, sim_median=4.093, sim_p90=31.944
+4610: 2026-07-29 03:35:11,020 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1281, real_hourly_mean=5.853, sim_hourly_mean=5.789, weekday_hour_jaccard=0.785
+4611: 2026-07-29 03:35:11,020 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4612: 2026-07-29 03:35:11,021 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4613: 2026-07-29 03:35:11,023 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.395, median=4.538, p90=28.925, min=0.002, max=2523.384
+4614: 2026-07-29 03:35:11,049 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0206 秒
+4615: [Evaluation Timing] PREPROCESS 耗时: 0.0206 秒
+4616: [Evaluation Timing] RED 耗时: 3.8627 秒, 结果: 22.03033875000748
+4617: 2026-07-29 03:35:14,912 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.8627 秒, 结果: 22.03033875000748
+4618: 2026-07-29 03:35:15,523 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6116 秒, 结果: 2.3776496224579495
+4619: [Evaluation Timing] CED 耗时: 0.6116 秒, 结果: 2.3776496224579495
+4620: 2026-07-29 03:35:18,764 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2403 秒, 结果: 1.796215426626264
+4621: [Evaluation Timing] CWD 耗时: 3.2403 秒, 结果: 1.796215426626264
+4623: [Evaluation Timing] CTD 耗时: 3.2231 秒, 结果: 26.12189859762676
+4624: [Evaluation Timing] TOTAL 总耗时: 10.9590 秒
+4625: 2026-07-29 03:35:21,987 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2231 秒, 结果: 26.12189859762676
+4626: 2026-07-29 03:35:21,987 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9590 秒
+4627: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51408, 'mean_queue_wait_min': 234.1438611759149, 'mean_external_delay_min': 1413.8823103428294, 'mean_total_wait_min': 1648.009738082233, 'mean_component_sum_min': 1648.0261715187441, 'mean_residual_min': -0.016433436511174238, 'mean_abs_residual_min': 0.1932005063252187, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0107140889845243, 'component_sum_over_total_p95': 1.024304598822528, 'component_sum_over_total_gt_1_05_share': 0.03541365008466881, 'queue_external_corr': 0.059081709506407745, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4628: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=12846.992
+4629: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1648.010, external_delay=1413.882, service=232.375, total_wait=1648.010
+4630: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.429, service=0.071
+4631: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3141.881 n=15148; W_Valideren aanvraag mean=1782.409 n=7141; W_Nabellen incomplete dossiers mean=797.340 n=10059
+4632: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3456.647 n=15148; W_Valideren aanvraag mean=1978.021 n=7141; W_Nabellen incomplete dossiers mean=1037.702 n=10059
+4633: 2026-07-29 03:35:22,307 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=480.692 n=156; W_Nabellen offertes mean=378.578 n=15148; W_Valideren aanvraag mean=229.393 n=7141
+4634: 2026-07-29 03:35:22,668 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4718: 2026-07-29 04:56:58,852 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=53165
+4719: 2026-07-29 04:56:58,921 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-09 10:02:00.000000751+00:00
+4720: 2026-07-29 04:56:58,921 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=188573.388, sim/real=0.962. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4721: 2026-07-29 04:56:58,921 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=25.431, sim_median=4.061, sim_p90=30.174
+4722: 2026-07-29 04:56:58,921 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1271, real_hourly_mean=5.853, sim_hourly_mean=5.835, weekday_hour_jaccard=0.822
+4723: 2026-07-29 04:56:58,921 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4724: 2026-07-29 04:56:58,922 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4725: 2026-07-29 04:56:58,924 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=25.455, median=4.426, p90=27.607, min=0.002, max=2523.384
+4726: 2026-07-29 04:56:58,950 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0205 秒
+4727: [Evaluation Timing] PREPROCESS 耗时: 0.0205 秒
+4728: [Evaluation Timing] RED 耗时: 3.8924 秒, 结果: 32.45165370237291
+4729: 2026-07-29 04:57:02,842 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.8924 秒, 结果: 32.45165370237291
+4730: [Evaluation Timing] CED 耗时: 0.6164 秒, 结果: 2.3831779965938162
+4731: 2026-07-29 04:57:03,459 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6164 秒, 结果: 2.3831779965938162
+4732: 2026-07-29 04:57:06,719 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.2594 秒, 结果: 1.8101606482672343
+4733: [Evaluation Timing] CWD 耗时: 3.2594 秒, 结果: 1.8101606482672343
+4734: 2026-07-29 04:57:09,942 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2235 秒, 结果: 34.33481661272924
+4735: 2026-07-29 04:57:09,942 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.0128 秒
+4736: [Evaluation Timing] CTD 耗时: 3.2235 秒, 结果: 34.33481661272924
+4737: [Evaluation Timing] TOTAL 总耗时: 11.0128 秒
+4738: 2026-07-29 04:57:10,258 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 53165, 'mean_queue_wait_min': 251.9298936535964, 'mean_external_delay_min': 1467.618352438321, 'mean_total_wait_min': 1719.5342950454892, 'mean_component_sum_min': 1719.548246091917, 'mean_residual_min': -0.013951046427783201, 'mean_abs_residual_min': 0.1945822033606097, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.006560379311442, 'component_sum_over_total_p95': 1.0219186274509804, 'component_sum_over_total_gt_1_05_share': 0.03331610356656172, 'queue_external_corr': 0.061791428261659204, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4739: 2026-07-29 04:57:10,259 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=13800.958
+4740: 2026-07-29 04:57:10,259 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1719.534, external_delay=1467.618, service=230.952, total_wait=1719.534
+4741: 2026-07-29 04:57:10,259 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.503, external=0.429, service=0.068
+4742: 2026-07-29 04:57:10,259 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3145.192 n=15964; W_Valideren aanvraag mean=1745.269 n=7290; W_Nabellen incomplete dossiers mean=959.963 n=11049
+4743: 2026-07-29 04:57:10,259 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3493.555 n=15964; W_Valideren aanvraag mean=1949.084 n=7290; W_Nabellen incomplete dossiers mean=1217.962 n=11049
+4744: 2026-07-29 04:57:10,259 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=512.954 n=151; W_Nabellen offertes mean=363.667 n=15964; W_Valideren aanvraag mean=232.488 n=7290
+4745: 2026-07-29 04:57:10,619 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4827: 2026-07-29 06:15:25,134 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51433
+4828: 2026-07-29 06:15:25,201 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-14 10:02:23.853999669+00:00
+4829: 2026-07-29 06:15:25,201 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=195773.786, sim/real=0.999. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4830: 2026-07-29 06:15:25,201 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.402, sim_median=4.288, sim_p90=31.585
+4831: 2026-07-29 06:15:25,202 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1294, real_hourly_mean=5.853, sim_hourly_mean=5.731, weekday_hour_jaccard=0.779
+4832: 2026-07-29 06:15:25,202 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4833: 2026-07-29 06:15:25,203 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4834: 2026-07-29 06:15:25,204 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=26.250, median=4.945, p90=30.498, min=0.000, max=2523.384
+4835: 2026-07-29 06:15:25,232 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0209 秒
+4836: [Evaluation Timing] PREPROCESS 耗时: 0.0209 秒
+4837: 2026-07-29 06:15:28,996 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7643 秒, 结果: 34.04925169625953
+4838: [Evaluation Timing] RED 耗时: 3.7643 秒, 结果: 34.04925169625953
+4839: 2026-07-29 06:15:29,598 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6020 秒, 结果: 2.3952992408771614
+4840: [Evaluation Timing] CED 耗时: 0.6020 秒, 结果: 2.3952992408771614
+4841: [Evaluation Timing] CWD 耗时: 3.3796 秒, 结果: 1.8667981655609571
+4842: 2026-07-29 06:15:32,977 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3796 秒, 结果: 1.8667981655609571
+4843: 2026-07-29 06:15:36,211 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2325 秒, 结果: 33.2953074433657
+4844: 2026-07-29 06:15:36,211 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 11.0000 秒
+4845: [Evaluation Timing] CTD 耗时: 3.2325 秒, 结果: 33.2953074433657
+4846: [Evaluation Timing] TOTAL 总耗时: 11.0000 秒
+4847: 2026-07-29 06:15:36,520 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51433, 'mean_queue_wait_min': 241.0500669173031, 'mean_external_delay_min': 1493.8933186864465, 'mean_total_wait_min': 1734.9271886096017, 'mean_component_sum_min': 1734.9433856037494, 'mean_residual_min': -0.016196994147722722, 'mean_abs_residual_min': 0.19551253605014116, 'max_abs_residual_min': 0.49992500000007567, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0244645388458682, 'component_sum_over_total_p95': 1.0233677133189825, 'component_sum_over_total_gt_1_05_share': 0.03421671401979034, 'queue_external_corr': 0.05943614146090173, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4848: 2026-07-29 06:15:36,521 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=13504.468
+4849: 2026-07-29 06:15:36,521 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1734.927, external_delay=1493.893, service=240.128, total_wait=1734.927
+4850: 2026-07-29 06:15:36,521 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.431, service=0.069
+4851: 2026-07-29 06:15:36,521 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3104.589 n=15479; W_Valideren aanvraag mean=1711.622 n=7145; W_Nabellen incomplete dossiers mean=1200.170 n=10082
+4852: 2026-07-29 06:15:36,521 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3440.586 n=15479; W_Valideren aanvraag mean=1887.669 n=7145; W_Nabellen incomplete dossiers mean=1451.258 n=10082
+4853: 2026-07-29 06:15:36,521 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=523.749 n=171; W_Nabellen offertes mean=365.237 n=15479; W_Valideren aanvraag mean=242.051 n=7145
+4854: 2026-07-29 06:15:36,886 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+4937: 2026-07-29 07:35:27,045 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=52372
+4938: 2026-07-29 07:35:27,113 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-17 10:01:13.156999653+00:00
+4939: 2026-07-29 07:35:27,113 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=200092.608, sim/real=1.021. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+4940: 2026-07-29 07:35:27,113 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.985, sim_median=4.558, sim_p90=32.824
+4941: 2026-07-29 07:35:27,113 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1343, real_hourly_mean=5.853, sim_hourly_mean=5.522, weekday_hour_jaccard=0.779
+4942: 2026-07-29 07:35:27,113 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+4943: 2026-07-29 07:35:27,114 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+4944: 2026-07-29 07:35:27,116 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=27.444, median=4.915, p90=30.682, min=0.005, max=2635.104
+4945: 2026-07-29 07:35:27,143 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0208 秒
+4946: [Evaluation Timing] PREPROCESS 耗时: 0.0208 秒
+4947: [Evaluation Timing] RED 耗时: 3.7441 秒, 结果: 45.80421505861613
+4948: 2026-07-29 07:35:30,887 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7441 秒, 结果: 45.80421505861613
+4949: [Evaluation Timing] CED 耗时: 0.6057 秒, 结果: 2.327552414189329
+4950: 2026-07-29 07:35:31,492 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6057 秒, 结果: 2.327552414189329
+4951: 2026-07-29 07:35:34,884 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3910 秒, 结果: 1.7991049826285566
+4952: [Evaluation Timing] CWD 耗时: 3.3910 秒, 结果: 1.7991049826285566
+4953: [Evaluation Timing] CTD 耗时: 3.2104 秒, 结果: 42.89320388349514
+4954: [Evaluation Timing] TOTAL 总耗时: 10.9727 秒
+4955: 2026-07-29 07:35:38,094 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.2104 秒, 结果: 42.89320388349514
+4956: 2026-07-29 07:35:38,094 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9727 秒
+4957: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 52372, 'mean_queue_wait_min': 244.35529631542522, 'mean_external_delay_min': 1535.3576335053401, 'mean_total_wait_min': 1779.7001752583717, 'mean_component_sum_min': 1779.7129298207656, 'mean_residual_min': -0.012754562393389146, 'mean_abs_residual_min': 0.1953861713638338, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0184764100370522, 'component_sum_over_total_p95': 1.02154875, 'component_sum_over_total_gt_1_05_share': 0.03350644999162339, 'queue_external_corr': 0.05684983410773744, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+4958: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=14110.218
+4959: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1779.700, external_delay=1535.358, service=246.309, total_wait=1779.700
+4960: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.500, external=0.431, service=0.069
+4961: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3111.737 n=15220; W_Valideren aanvraag mean=1746.425 n=7258; W_Nabellen incomplete dossiers mean=1452.087 n=11037
+4962: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3444.029 n=15220; W_Valideren aanvraag mean=1935.883 n=7258; W_Nabellen incomplete dossiers mean=1714.478 n=11037
+4963: 2026-07-29 07:35:38,402 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=542.320 n=153; W_Nabellen offertes mean=380.037 n=15220; W_Nabellen incomplete dossiers mean=250.725 n=11037
+4964: 2026-07-29 07:35:38,767 - prosit_integration - INFO - Running simulation with 7416 traces starting at 2011-10-01 11:08:36.700000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+5046: 2026-07-29 08:54:47,190 - prosit_integration - INFO - Evaluation simulation completed. Real cases=7416, simulated events=51517
+5047: 2026-07-29 08:54:47,389 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] cases: real=7416, sim=7416, real_start=2011-10-01 11:08:36.700000+00:00, real_end=2012-02-14 13:07:07.094000+00:00, sim_start=2011-10-01 11:08:36.700000+00:00, sim_end=2012-02-14 10:03:58.920999668+00:00
+5048: 2026-07-29 08:54:47,389 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] span_min: real=195958.507, sim=195775.370, sim/real=0.999. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+5049: 2026-07-29 08:54:47,389 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] inter_arrival_min: real_mean=26.427, real_median=4.698, real_p90=29.620; sim_mean=26.403, sim_median=4.300, sim_p90=30.918
+5050: 2026-07-29 08:54:47,389 - prosit_integration - INFO - [Single Eval] [Arrival Diagnostics] hourly_distribution: real_active_hours=1267, sim_active_hours=1297, real_hourly_mean=5.853, sim_hourly_mean=5.718, weekday_hour_jaccard=0.813
+5051: 2026-07-29 08:54:47,390 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] source_usage total_samples=7415: decision_tree_interarrival=7415(1.000)
+5052: 2026-07-29 08:54:47,391 - prosit_integration - INFO - [Single Eval] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=5000
+5053: 2026-07-29 08:54:47,392 - prosit_integration - INFO - [Single Eval] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=5000, mean=26.030, median=4.714, p90=29.909, min=0.000, max=2455.809
+5054: 2026-07-29 08:54:47,420 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0209 秒
+5055: [Evaluation Timing] PREPROCESS 耗时: 0.0209 秒
+5056: 2026-07-29 08:54:51,165 - evaluation - INFO - [Evaluation Timing] RED 耗时: 3.7454 秒, 结果: 57.62946963704553
+5057: [Evaluation Timing] RED 耗时: 3.7454 秒, 结果: 57.62946963704553
+5058: [Evaluation Timing] CED 耗时: 0.6084 秒, 结果: 2.3653170434806263
+5059: 2026-07-29 08:54:51,774 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.6084 秒, 结果: 2.3653170434806263
+5060: 2026-07-29 08:54:55,134 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 3.3610 秒, 结果: 1.803394724120264
+5061: [Evaluation Timing] CWD 耗时: 3.3610 秒, 结果: 1.803394724120264
+5062: [Evaluation Timing] CTD 耗时: 3.1817 秒, 结果: 53.65871089536144
+5063: [Evaluation Timing] TOTAL 总耗时: 10.9181 秒
+5064: 2026-07-29 08:54:58,316 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 3.1817 秒, 结果: 53.65871089536144
+5065: 2026-07-29 08:54:58,316 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.9181 秒
+5066: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Wait Component Consistency] {'available': True, 'n_events': 51517, 'mean_queue_wait_min': 250.8410384335805, 'mean_external_delay_min': 1671.0746495784563, 'mean_total_wait_min': 1921.9023191758602, 'mean_component_sum_min': 1921.915688012037, 'mean_residual_min': -0.013368836177051658, 'mean_abs_residual_min': 0.19501313110235627, 'max_abs_residual_min': 0.4999000000007072, 'negative_residual_share_gt_1min': 0.0, 'component_sum_over_total_mean': 1.0061675986779772, 'component_sum_over_total_p95': 1.0197861742499217, 'component_sum_over_total_gt_1_05_share': 0.03233716103032216, 'queue_external_corr': 0.04341400568227245, 'possible_double_count': False, 'interpretation': 'queue_wait and external_delay are additively consistent with total_wait'}
+5067: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Time Decomposition] real_case_duration_mean=13002.765, sim_case_duration_mean=14876.856
+5068: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Time Decomposition] sim_event_mean: queue_wait=1921.902, external_delay=1671.075, service=246.882, total_wait=1921.902
+5069: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Time Decomposition] sim_component_ratios: queue=0.501, external=0.435, service=0.064
+5070: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Time Decomposition] Top external-delay activities: W_Nabellen offertes mean=3123.866 n=15338; W_Nabellen incomplete dossiers mean=2112.093 n=10139; W_Valideren aanvraag mean=1723.074 n=7048
+5071: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Time Decomposition] Top queue-wait activities: W_Nabellen offertes mean=3473.462 n=15338; W_Nabellen incomplete dossiers mean=2367.434 n=10139; W_Valideren aanvraag mean=1915.829 n=7048
+5072: 2026-07-29 08:54:58,627 - prosit_integration - INFO - [Time Decomposition] Top service-time activities: W_Beoordelen fraude mean=373.674 n=135; W_Nabellen offertes mean=356.908 n=15338; W_Nabellen incomplete dossiers mean=295.875 n=10139
+5077: 2026-07-29 08:54:58,770 - prosit_integration - INFO - Running simulation with 1200 traces starting at 2012-02-14 13:25:17.110000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+5087: 2026-07-29 09:00:35,710 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Diagnostics] cases: real=1200, sim=1200, real_start=2012-02-14 13:25:17.110000+00:00, real_end=2012-03-01 20:16:46.734000+00:00, sim_start=2012-02-14 13:25:17.110000+00:00, sim_end=2012-03-07 10:01:00.000000992+00:00
+5088: 2026-07-29 09:00:35,710 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Diagnostics] span_min: real=23451.494, sim=31475.715, sim/real=1.342. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+5089: 2026-07-29 09:00:35,710 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Diagnostics] inter_arrival_min: real_mean=19.559, real_median=3.408, real_p90=21.651; sim_mean=26.252, sim_median=4.538, sim_p90=28.302
+5090: 2026-07-29 09:00:35,710 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Diagnostics] hourly_distribution: real_active_hours=163, sim_active_hours=199, real_hourly_mean=7.362, sim_hourly_mean=6.030, weekday_hour_jaccard=0.944
+5091: 2026-07-29 09:00:35,710 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Bucket Diagnostics] source_usage total_samples=1199: decision_tree_interarrival=1199(1.000)
+5092: 2026-07-29 09:00:35,711 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=1199
+5093: 2026-07-29 09:00:35,712 - prosit_integration - INFO - [Repeated Eval run 1/5] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=1199, mean=25.061, median=4.815, p90=27.341, min=0.024, max=2480.202
+5094: [Evaluation Timing] PREPROCESS 耗时: 0.0162 秒
+5095: 2026-07-29 09:00:35,729 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0162 秒
+5096: [Evaluation Timing] CFLD 耗时: 5.2402 秒, 结果: 0.1957688819150864
+5097: 2026-07-29 09:00:40,969 - evaluation - INFO - [Evaluation Timing] CFLD 耗时: 5.2402 秒, 结果: 0.1957688819150864
+5098: 2026-07-29 09:00:42,436 - evaluation - INFO - [Evaluation Timing] NGD 耗时: 1.4663 秒, 结果: 0.18383029384706964
+5099: [Evaluation Timing] NGD 耗时: 1.4663 秒, 结果: 0.18383029384706964
+5100: 2026-07-29 09:00:43,910 - evaluation - INFO - [Evaluation Timing] 3GD 耗时: 1.4743 秒, 结果: 0.19124479141721346
+5103: [Evaluation Timing] 3GD 耗时: 1.4743 秒, 结果: 0.19124479141721346
+5104: 2026-07-29 09:00:44,083 - evaluation - INFO - [Evaluation Timing] AED 耗时: 0.1733 秒, 结果: 151.87656544103743
+5105: [Evaluation Timing] AED 耗时: 0.1733 秒, 结果: 151.87656544103743
+5106: [Evaluation Timing] RED 耗时: 0.5762 秒, 结果: 105.5114816084214
+5107: 2026-07-29 09:00:44,659 - evaluation - INFO - [Evaluation Timing] RED 耗时: 0.5762 秒, 结果: 105.5114816084214
+5108: 2026-07-29 09:00:44,716 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.0560 秒, 结果: 2.4009849600270052
+5109: [Evaluation Timing] CED 耗时: 0.0560 秒, 结果: 2.4009849600270052
+5110: 2026-07-29 09:00:45,298 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 0.5823 秒, 结果: 1.944027934508696
+5111: [Evaluation Timing] CWD 耗时: 0.5823 秒, 结果: 1.944027934508696
+5112: [Evaluation Timing] CAR 耗时: 0.2535 秒, 结果: 41.779999999999994
+5115: 2026-07-29 09:00:45,552 - evaluation - INFO - [Evaluation Timing] CAR 耗时: 0.2535 秒, 结果: 41.779999999999994
+5116: [Evaluation Timing] CTD 耗时: 0.5218 秒, 结果: 72.33500000000001
+5117: [Evaluation Timing] TOTAL 总耗时: 10.3613 秒
+5118: 2026-07-29 09:00:46,074 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 0.5218 秒, 结果: 72.33500000000001
+5119: 2026-07-29 09:00:46,074 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.3613 秒
+5121: 2026-07-29 09:00:46,318 - prosit_integration - INFO - Running simulation with 1200 traces starting at 2012-02-14 13:25:17.110000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+5131: 2026-07-29 09:06:23,826 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Diagnostics] cases: real=1200, sim=1200, real_start=2012-02-14 13:25:17.110000+00:00, real_end=2012-03-01 20:16:46.734000+00:00, sim_start=2012-02-14 13:31:19.446000+00:00, sim_end=2012-03-06 10:06:15.540999943+00:00
+5132: 2026-07-29 09:06:23,826 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Diagnostics] span_min: real=23451.494, sim=30034.935, sim/real=1.281. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+5133: 2026-07-29 09:06:23,826 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Diagnostics] inter_arrival_min: real_mean=19.559, real_median=3.408, real_p90=21.651; sim_mean=25.050, sim_median=3.792, sim_p90=30.558
+5134: 2026-07-29 09:06:23,826 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Diagnostics] hourly_distribution: real_active_hours=163, sim_active_hours=204, real_hourly_mean=7.362, sim_hourly_mean=5.882, weekday_hour_jaccard=0.800
+5135: 2026-07-29 09:06:23,826 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Bucket Diagnostics] source_usage total_samples=1199: decision_tree_interarrival=1199(1.000)
+5136: 2026-07-29 09:06:23,827 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=1199
+5137: 2026-07-29 09:06:23,828 - prosit_integration - INFO - [Repeated Eval run 2/5] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=1199, mean=24.419, median=5.004, p90=27.838, min=0.005, max=2523.384
+5138: 2026-07-29 09:06:23,846 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0168 秒
+5139: [Evaluation Timing] PREPROCESS 耗时: 0.0168 秒
+5140: [Evaluation Timing] CFLD 耗时: 5.2889 秒, 结果: 0.1764740277116185
+5141: 2026-07-29 09:06:29,135 - evaluation - INFO - [Evaluation Timing] CFLD 耗时: 5.2889 秒, 结果: 0.1764740277116185
+5142: [Evaluation Timing] NGD 耗时: 1.4624 秒, 结果: 0.18062343868795483
+5143: 2026-07-29 09:06:30,598 - evaluation - INFO - [Evaluation Timing] NGD 耗时: 1.4624 秒, 结果: 0.18062343868795483
+5144: [Evaluation Timing] 3GD 耗时: 1.4590 秒, 结果: 0.18891130969539732
+5145: 2026-07-29 09:06:32,057 - evaluation - INFO - [Evaluation Timing] 3GD 耗时: 1.4590 秒, 结果: 0.18891130969539732
+5148: [Evaluation Timing] AED 耗时: 0.2184 秒, 结果: 142.87319747372584
+5149: 2026-07-29 09:06:32,275 - evaluation - INFO - [Evaluation Timing] AED 耗时: 0.2184 秒, 结果: 142.87319747372584
+5150: 2026-07-29 09:06:32,850 - evaluation - INFO - [Evaluation Timing] RED 耗时: 0.5738 秒, 结果: 93.87104539172077
+5151: [Evaluation Timing] RED 耗时: 0.5738 秒, 结果: 93.87104539172077
+5152: [Evaluation Timing] CED 耗时: 0.0552 秒, 结果: 2.5450315650849427
+5153: 2026-07-29 09:06:32,904 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.0552 秒, 结果: 2.5450315650849427
+5154: 2026-07-29 09:06:33,485 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 0.5799 秒, 结果: 2.1410354817151402
+5155: [Evaluation Timing] CWD 耗时: 0.5799 秒, 结果: 2.1410354817151402
+5158: 2026-07-29 09:06:33,738 - evaluation - INFO - [Evaluation Timing] CAR 耗时: 0.2533 秒, 结果: 46.69499999999999
+5159: [Evaluation Timing] CAR 耗时: 0.2533 秒, 结果: 46.69499999999999
+5160: [Evaluation Timing] CTD 耗时: 0.5188 秒, 结果: 73.90333333333334
+5161: [Evaluation Timing] TOTAL 总耗时: 10.4278 秒
+5162: 2026-07-29 09:06:34,256 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 0.5188 秒, 结果: 73.90333333333334
+5163: 2026-07-29 09:06:34,256 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.4278 秒
+5165: 2026-07-29 09:06:34,515 - prosit_integration - INFO - Running simulation with 1200 traces starting at 2012-02-14 13:25:17.110000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+5174: 2026-07-29 09:11:55,849 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Diagnostics] cases: real=1200, sim=1200, real_start=2012-02-14 13:25:17.110000+00:00, real_end=2012-03-01 20:16:46.734000+00:00, sim_start=2012-02-14 13:38:32.479000+00:00, sim_end=2012-03-07 18:05:00.000000968+00:00
+5175: 2026-07-29 09:11:55,849 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Diagnostics] span_min: real=23451.494, sim=31946.459, sim/real=1.362. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+5176: 2026-07-29 09:11:55,849 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Diagnostics] inter_arrival_min: real_mean=19.559, real_median=3.408, real_p90=21.651; sim_mean=26.644, sim_median=5.017, sim_p90=31.544
+5177: 2026-07-29 09:11:55,849 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Diagnostics] hourly_distribution: real_active_hours=163, sim_active_hours=220, real_hourly_mean=7.362, sim_hourly_mean=5.455, weekday_hour_jaccard=0.895
+5178: 2026-07-29 09:11:55,849 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Bucket Diagnostics] source_usage total_samples=1199: decision_tree_interarrival=1199(1.000)
+5179: 2026-07-29 09:11:55,850 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=1199
+5180: 2026-07-29 09:11:55,851 - prosit_integration - INFO - [Repeated Eval run 3/5] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=1199, mean=26.630, median=5.314, p90=28.903, min=0.002, max=2422.587
+5181: 2026-07-29 09:11:55,868 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0155 秒
+5182: [Evaluation Timing] PREPROCESS 耗时: 0.0155 秒
+5183: [Evaluation Timing] CFLD 耗时: 5.1597 秒, 结果: 0.18857473464417301
+5184: 2026-07-29 09:12:01,028 - evaluation - INFO - [Evaluation Timing] CFLD 耗时: 5.1597 秒, 结果: 0.18857473464417301
+5185: 2026-07-29 09:12:02,483 - evaluation - INFO - [Evaluation Timing] NGD 耗时: 1.4554 秒, 结果: 0.1722151442973467
+5186: [Evaluation Timing] NGD 耗时: 1.4554 秒, 结果: 0.1722151442973467
+5187: 2026-07-29 09:12:04,103 - evaluation - INFO - [Evaluation Timing] 3GD 耗时: 1.6201 秒, 结果: 0.18016916833716326
+5190: [Evaluation Timing] 3GD 耗时: 1.6201 秒, 结果: 0.18016916833716326
+5191: 2026-07-29 09:12:04,141 - evaluation - INFO - [Evaluation Timing] AED 耗时: 0.0375 秒, 结果: 158.48818207994532
+5192: [Evaluation Timing] AED 耗时: 0.0375 秒, 结果: 158.48818207994532
+5193: 2026-07-29 09:12:04,713 - evaluation - INFO - [Evaluation Timing] RED 耗时: 0.5729 秒, 结果: 86.18735553574948
+5194: [Evaluation Timing] RED 耗时: 0.5729 秒, 结果: 86.18735553574948
+5195: [Evaluation Timing] CED 耗时: 0.0550 秒, 结果: 2.353206318839845
+5196: 2026-07-29 09:12:04,769 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.0550 秒, 结果: 2.353206318839845
+5197: 2026-07-29 09:12:05,325 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 0.5559 秒, 结果: 1.9856899626339077
+5198: [Evaluation Timing] CWD 耗时: 0.5559 秒, 结果: 1.9856899626339077
+5201: 2026-07-29 09:12:05,581 - evaluation - INFO - [Evaluation Timing] CAR 耗时: 0.2560 秒, 结果: 76.16
+5202: [Evaluation Timing] CAR 耗时: 0.2560 秒, 结果: 76.16
+5203: [Evaluation Timing] CTD 耗时: 0.5229 秒, 结果: 71.25333333333333
+5204: [Evaluation Timing] TOTAL 总耗时: 10.2521 秒
+5205: 2026-07-29 09:12:06,104 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 0.5229 秒, 结果: 71.25333333333333
+5206: 2026-07-29 09:12:06,104 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.2521 秒
+5208: 2026-07-29 09:12:06,348 - prosit_integration - INFO - Running simulation with 1200 traces starting at 2012-02-14 13:25:17.110000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+5218: 2026-07-29 09:17:42,052 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Diagnostics] cases: real=1200, sim=1200, real_start=2012-02-14 13:25:17.110000+00:00, real_end=2012-03-01 20:16:46.734000+00:00, sim_start=2012-02-14 13:25:17.110000+00:00, sim_end=2012-03-06 10:07:48.814999938+00:00
+5219: 2026-07-29 09:17:42,052 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Diagnostics] span_min: real=23451.494, sim=30042.528, sim/real=1.281. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+5220: 2026-07-29 09:17:42,052 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Diagnostics] inter_arrival_min: real_mean=19.559, real_median=3.408, real_p90=21.651; sim_mean=25.056, sim_median=3.923, sim_p90=33.513
+5221: 2026-07-29 09:17:42,052 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Diagnostics] hourly_distribution: real_active_hours=163, sim_active_hours=211, real_hourly_mean=7.362, sim_hourly_mean=5.687, weekday_hour_jaccard=0.807
+5222: 2026-07-29 09:17:42,052 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Bucket Diagnostics] source_usage total_samples=1199: decision_tree_interarrival=1199(1.000)
+5223: 2026-07-29 09:17:42,053 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=1199
+5224: 2026-07-29 09:17:42,054 - prosit_integration - INFO - [Repeated Eval run 4/5] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=1199, mean=24.426, median=4.636, p90=31.600, min=0.000, max=2480.202
+5225: [Evaluation Timing] PREPROCESS 耗时: 0.0168 秒
+5226: 2026-07-29 09:17:42,072 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0168 秒
+5227: [Evaluation Timing] CFLD 耗时: 5.2580 秒, 结果: 0.19867312851571728
+5228: 2026-07-29 09:17:47,331 - evaluation - INFO - [Evaluation Timing] CFLD 耗时: 5.2580 秒, 结果: 0.19867312851571728
+5229: [Evaluation Timing] NGD 耗时: 1.4652 秒, 结果: 0.1853613708849127
+5230: 2026-07-29 09:17:48,795 - evaluation - INFO - [Evaluation Timing] NGD 耗时: 1.4652 秒, 结果: 0.1853613708849127
+5231: 2026-07-29 09:17:50,275 - evaluation - INFO - [Evaluation Timing] 3GD 耗时: 1.4788 秒, 结果: 0.19575099287047226
+5234: [Evaluation Timing] 3GD 耗时: 1.4788 秒, 结果: 0.19575099287047226
+5235: [Evaluation Timing] AED 耗时: 0.1737 秒, 结果: 157.3964683784593
+5236: 2026-07-29 09:17:50,448 - evaluation - INFO - [Evaluation Timing] AED 耗时: 0.1737 秒, 结果: 157.3964683784593
+5237: 2026-07-29 09:17:51,024 - evaluation - INFO - [Evaluation Timing] RED 耗时: 0.5760 秒, 结果: 105.17470730488824
+5238: [Evaluation Timing] RED 耗时: 0.5760 秒, 结果: 105.17470730488824
+5239: [Evaluation Timing] CED 耗时: 0.0553 秒, 结果: 2.499875475081392
+5240: 2026-07-29 09:17:51,080 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.0553 秒, 结果: 2.499875475081392
+5241: 2026-07-29 09:17:51,659 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 0.5795 秒, 结果: 2.057535628462694
+5242: [Evaluation Timing] CWD 耗时: 0.5795 秒, 结果: 2.057535628462694
+5245: 2026-07-29 09:17:51,912 - evaluation - INFO - [Evaluation Timing] CAR 耗时: 0.2529 秒, 结果: 42.56166666666666
+5246: [Evaluation Timing] CAR 耗时: 0.2529 秒, 结果: 42.56166666666666
+5247: [Evaluation Timing] CTD 耗时: 0.5257 秒, 结果: 74.485
+5248: [Evaluation Timing] TOTAL 总耗时: 10.3830 秒
+5249: 2026-07-29 09:17:52,438 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 0.5257 秒, 结果: 74.485
+5250: 2026-07-29 09:17:52,438 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.3830 秒
+5252: 2026-07-29 09:17:52,683 - prosit_integration - INFO - Running simulation with 1200 traces starting at 2012-02-14 13:25:17.110000+00:00, DBN enabled=True, queue scheduling enabled=True, external delay enabled=True
+5261: 2026-07-29 09:23:10,183 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Diagnostics] cases: real=1200, sim=1200, real_start=2012-02-14 13:25:17.110000+00:00, real_end=2012-03-01 20:16:46.734000+00:00, sim_start=2012-02-14 13:25:17.110000+00:00, sim_end=2012-03-07 14:22:04.572999941+00:00
+5262: 2026-07-29 09:23:10,183 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Diagnostics] span_min: real=23451.494, sim=31736.791, sim/real=1.353. Interpretation: >1 means simulated arrivals are too sparse; <1 means simulated arrivals are too dense.
+5263: 2026-07-29 09:23:10,183 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Diagnostics] inter_arrival_min: real_mean=19.559, real_median=3.408, real_p90=21.651; sim_mean=26.469, sim_median=4.653, sim_p90=32.246
+5264: 2026-07-29 09:23:10,183 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Diagnostics] hourly_distribution: real_active_hours=163, sim_active_hours=217, real_hourly_mean=7.362, sim_hourly_mean=5.530, weekday_hour_jaccard=0.859
+5265: 2026-07-29 09:23:10,183 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Bucket Diagnostics] source_usage total_samples=1199: decision_tree_interarrival=1199(1.000)
+5266: 2026-07-29 09:23:10,184 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Trend Diagnostics] enabled=False, forecast_multiplier=1.000, applied_multiplier_mean=1.000, min=1.000, max=1.000, n=1199
+5267: 2026-07-29 09:23:10,185 - prosit_integration - INFO - [Repeated Eval run 5/5] [Arrival Bucket Diagnostics] sampled_delta_min[decision_tree_interarrival]: n=1199, mean=26.469, median=4.849, p90=30.889, min=0.014, max=2428.338
+5268: 2026-07-29 09:23:10,201 - evaluation - INFO - [Evaluation Timing] PREPROCESS 耗时: 0.0160 秒
+5269: [Evaluation Timing] PREPROCESS 耗时: 0.0160 秒
+5270: [Evaluation Timing] CFLD 耗时: 5.1793 秒, 结果: 0.1947821117222548
+5271: 2026-07-29 09:23:15,380 - evaluation - INFO - [Evaluation Timing] CFLD 耗时: 5.1793 秒, 结果: 0.1947821117222548
+5272: [Evaluation Timing] NGD 耗时: 1.4677 秒, 结果: 0.18201522814427834
+5273: 2026-07-29 09:23:16,848 - evaluation - INFO - [Evaluation Timing] NGD 耗时: 1.4677 秒, 结果: 0.18201522814427834
+5274: [Evaluation Timing] 3GD 耗时: 1.4727 秒, 结果: 0.19129112930907666
+5275: 2026-07-29 09:23:18,321 - evaluation - INFO - [Evaluation Timing] 3GD 耗时: 1.4727 秒, 结果: 0.19129112930907666
+5278: [Evaluation Timing] AED 耗时: 0.1719 秒, 结果: 152.3000970882738
+5279: 2026-07-29 09:23:18,493 - evaluation - INFO - [Evaluation Timing] AED 耗时: 0.1719 秒, 结果: 152.3000970882738
+5280: 2026-07-29 09:23:19,068 - evaluation - INFO - [Evaluation Timing] RED 耗时: 0.5749 秒, 结果: 84.08065309110162
+5281: [Evaluation Timing] RED 耗时: 0.5749 秒, 结果: 84.08065309110162
+5282: 2026-07-29 09:23:19,123 - evaluation - INFO - [Evaluation Timing] CED 耗时: 0.0550 秒, 结果: 2.4469208506755633
+5283: [Evaluation Timing] CED 耗时: 0.0550 秒, 结果: 2.4469208506755633
+5284: 2026-07-29 09:23:19,683 - evaluation - INFO - [Evaluation Timing] CWD 耗时: 0.5599 秒, 结果: 2.0509347005819722
+5285: [Evaluation Timing] CWD 耗时: 0.5599 秒, 结果: 2.0509347005819722
+5288: 2026-07-29 09:23:19,940 - evaluation - INFO - [Evaluation Timing] CAR 耗时: 0.2564 秒, 结果: 65.61416666666666
+5289: [Evaluation Timing] CAR 耗时: 0.2564 秒, 结果: 65.61416666666666
+5290: [Evaluation Timing] CTD 耗时: 0.5221 秒, 结果: 68.16999999999999
+5291: [Evaluation Timing] TOTAL 总耗时: 10.2770 秒
+5292: 2026-07-29 09:23:20,462 - evaluation - INFO - [Evaluation Timing] CTD 耗时: 0.5221 秒, 结果: 68.16999999999999
+5293: 2026-07-29 09:23:20,462 - evaluation - INFO - [Evaluation Timing] TOTAL 总耗时: 10.2770 秒
+5303: 2026-07-29 09:23:20,623 - prosit_integration - INFO - [Arrival Diagnostics] repeated span_ratio_sim_over_real: mean=1.324, std=0.040, min=1.281, max=1.362, n=5
+5304: 2026-07-29 09:23:20,624 - prosit_integration - INFO - [Wait Component Consistency] repeated summary: {'available': True, 'n_runs': 5, 'mean_queue_wait_min.mean': 194.36921323167792, 'mean_external_delay_min.mean': 1380.3574980769365, 'mean_total_wait_min.mean': 1574.709757010895, 'mean_component_sum_min.mean': 1574.7267113086145, 'mean_residual_min.mean': -0.016954297719851026, 'mean_abs_residual_min.mean': 0.19360983173750063, 'negative_residual_share_gt_1min.mean': 0.0, 'component_sum_over_total_gt_1_05_share.mean': 0.03434312899934131, 'possible_double_count': False}
+5305: 2026-07-29 09:23:20,625 - prosit_integration - INFO - [Time Decomposition] repeated diagnostics over 5 runs
+5306: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] summary.simulated.case_duration_min.mean: mean=12705.183, std=424.112
+5307: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] summary.simulated.service_time_min.mean: mean=286.474, std=5.388
+5308: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] summary.simulated.total_wait_min.mean: mean=1574.710, std=25.891
+5309: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] summary.simulated.queue_wait_min.mean: mean=1574.710, std=25.891
+5310: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] summary.simulated.external_delay_min.mean: mean=1380.357, std=24.243
+5311: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] simulated_decomposition.component_ratios.queue_wait_ratio: mean=0.486, std=0.002
+5312: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] simulated_decomposition.component_ratios.external_delay_ratio: mean=0.426, std=0.002
+5313: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] simulated_decomposition.component_ratios.service_time_ratio: mean=0.088, std=0.002
+5314: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] representative real_case_duration_mean=11747.453, sim_case_duration_mean=12808.454
+5315: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] representative sim_event_mean: queue_wait=1545.070, external_delay=1344.304, service=287.747, total_wait=1545.070
+5316: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] representative sim_component_ratios: queue=0.486, external=0.423, service=0.091
+5317: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] representative Top external-delay activities: W_Nabellen offertes mean=3082.309 n=2529; W_Valideren aanvraag mean=1690.863 n=1182; W_Nabellen incomplete dossiers mean=568.499 n=1741
+5318: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] representative Top queue-wait activities: W_Nabellen offertes mean=3343.142 n=2529; W_Valideren aanvraag mean=1822.843 n=1182; W_Nabellen incomplete dossiers mean=765.203 n=1741
+5319: 2026-07-29 09:23:20,626 - prosit_integration - INFO - [Time Decomposition] representative Top service-time activities: W_Beoordelen fraude mean=527.462 n=13; W_Nabellen offertes mean=451.283 n=2529; W_Valideren aanvraag mean=297.719 n=1182

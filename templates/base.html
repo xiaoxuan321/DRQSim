@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}DRQSim - Dynamic Resource- and Queue-aware Process Simulation{% endblock %}</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Custom CSS -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark drq-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand drq-brand" href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='img/drqsim-logo.png') }}"
+                     alt="DRQSim logo"
+                     class="drq-brand-logo">
+                <span>
+                    <span class="drq-brand-title d-block">DRQSim</span>
+                    <span class="drq-brand-subtitle d-block">
+                        Dynamic Resource- and<br class="d-none d-md-block">
+                        Queue-aware Process Simulation
+                    </span>
+                </span>
+            </a>
+
+            <div class="drq-nav ms-lg-auto">
+                <a class="drq-nav-link active" href="{{ url_for('index') }}">
+                    <i data-feather="home"></i>
+                    Home
+                </a>
+
+                <button type="button"
+                        class="drq-nav-link"
+                        data-bs-toggle="modal"
+                        data-bs-target="#recentSessionsModal">
+                    <i data-feather="clock"></i>
+                    Recent Sessions
+                </button>
+
+                <button type="button"
+                        class="drq-nav-link"
+                        data-bs-toggle="modal"
+                        data-bs-target="#helpModal">
+                    <i data-feather="help-circle"></i>
+                    Help
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container-fluid py-4">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Loading Modal -->
+    <div class="modal fade" id="loadingModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content drq-loading-modal-content">
+                <div class="modal-body text-center py-5">
+                    <div class="drq-thinking-loader mb-4" role="status" aria-label="Loading">
+                        <span class="drq-thinking-dot dot-blue"></span>
+                        <span class="drq-thinking-dot dot-green"></span>
+                        <span class="drq-thinking-dot dot-yellow"></span>
+                    </div>
+
+                    <h5 id="loadingMessage" class="drq-loading-title">Processing...</h5>
+                    <p class="text-muted mb-3" id="loadingDetail">Please wait while we process your request.</p>
+
+                    <div class="drq-loading-stage-single" id="loadingStageSingle" data-stage="petri">
+                        <span class="drq-loading-stage-dot"></span>
+                        <span id="loadingStageText">Petri net mining</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Center Alert Container -->
+    <div id="alertContainer" class="drq-center-alert-container"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SVG Pan Zoom for Petri net modal viewer -->
+    <script src="https://unpkg.com/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+    <!-- Initialize Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

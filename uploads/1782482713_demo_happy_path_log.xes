@@ -1,0 +1,1636 @@
+<?xml version='1.0' encoding='utf-8'?>
+<log xmlns="http://www.xes-standard.org/" xes.version="1849-2016" xes.features="nested-attributes"><extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace><string key="concept:name" value="1" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-01T00:00:00+00:00" />
+			<date key="time:timestamp" value="2011-01-01T00:37:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-01T05:37:00+00:00" />
+			<date key="time:timestamp" value="2011-01-01T05:45:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-01T06:41:00+00:00" />
+			<date key="time:timestamp" value="2011-01-01T06:55:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-01T11:43:00+00:00" />
+			<date key="time:timestamp" value="2011-01-01T12:09:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-01T23:13:00+00:00" />
+			<date key="time:timestamp" value="2011-01-01T23:13:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-02T09:58:00+00:00" />
+			<date key="time:timestamp" value="2011-01-02T10:10:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-02T14:09:00+00:00" />
+			<date key="time:timestamp" value="2011-01-02T14:43:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-01-02T20:49:00+00:00" />
+			<date key="time:timestamp" value="2011-01-03T03:37:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-01-03T11:20:00+00:00" />
+			<date key="time:timestamp" value="2011-01-03T11:21:00+00:00" />
+			<string key="org:resource" value="Elvira Lores" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-01-03T19:09:00+00:00" />
+			<date key="time:timestamp" value="2011-01-03T19:10:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-01-04T15:22:00+00:00" />
+			<date key="time:timestamp" value="2011-01-04T15:31:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="3" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-01T02:23:00+00:00" />
+			<date key="time:timestamp" value="2011-01-01T03:03:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-02T01:50:00+00:00" />
+			<date key="time:timestamp" value="2011-01-02T01:58:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-02T02:01:00+00:00" />
+			<date key="time:timestamp" value="2011-01-02T02:03:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-02T03:27:00+00:00" />
+			<date key="time:timestamp" value="2011-01-02T03:48:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-02T15:29:00+00:00" />
+			<date key="time:timestamp" value="2011-01-02T15:55:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-03T03:47:00+00:00" />
+			<date key="time:timestamp" value="2011-01-03T03:47:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-03T23:51:00+00:00" />
+			<date key="time:timestamp" value="2011-01-03T23:59:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-04T03:47:00+00:00" />
+			<date key="time:timestamp" value="2011-01-04T04:10:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-01-04T14:53:00+00:00" />
+			<date key="time:timestamp" value="2011-01-05T14:20:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-01-05T21:54:00+00:00" />
+			<date key="time:timestamp" value="2011-01-05T21:55:00+00:00" />
+			<string key="org:resource" value="Elvira Lores" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-01-06T13:46:00+00:00" />
+			<date key="time:timestamp" value="2011-01-06T13:47:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-01-07T16:24:00+00:00" />
+			<date key="time:timestamp" value="2011-01-07T16:31:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="40" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-05T08:02:00+00:00" />
+			<date key="time:timestamp" value="2011-01-05T08:28:00+00:00" />
+			<string key="org:resource" value="Miu Hanwan" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-06T01:30:00+00:00" />
+			<date key="time:timestamp" value="2011-01-06T01:36:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-06T01:40:00+00:00" />
+			<date key="time:timestamp" value="2011-01-06T01:41:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-06T15:44:00+00:00" />
+			<date key="time:timestamp" value="2011-01-06T16:10:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-09T08:06:00+00:00" />
+			<date key="time:timestamp" value="2011-01-09T08:26:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-10T12:09:00+00:00" />
+			<date key="time:timestamp" value="2011-01-10T12:09:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-12T03:05:00+00:00" />
+			<date key="time:timestamp" value="2011-01-12T03:18:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-13T01:14:00+00:00" />
+			<date key="time:timestamp" value="2011-01-13T01:22:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-01-14T03:48:00+00:00" />
+			<date key="time:timestamp" value="2011-01-14T17:22:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-01-15T00:36:00+00:00" />
+			<date key="time:timestamp" value="2011-01-15T00:37:00+00:00" />
+			<string key="org:resource" value="Miu Hanwan" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-01-15T09:06:00+00:00" />
+			<date key="time:timestamp" value="2011-01-15T09:07:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-01-16T21:10:00+00:00" />
+			<date key="time:timestamp" value="2011-01-16T21:17:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="61" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-08T13:50:00+00:00" />
+			<date key="time:timestamp" value="2011-01-08T14:05:00+00:00" />
+			<string key="org:resource" value="Esmana Liubiata" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-08T18:14:00+00:00" />
+			<date key="time:timestamp" value="2011-01-08T18:26:00+00:00" />
+			<string key="org:resource" value="Esmana Liubiata" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-10T06:02:00+00:00" />
+			<date key="time:timestamp" value="2011-01-10T06:14:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-17T05:17:00+00:00" />
+			<date key="time:timestamp" value="2011-01-17T05:37:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-17T14:02:00+00:00" />
+			<date key="time:timestamp" value="2011-01-17T14:02:00+00:00" />
+			<string key="org:resource" value="Immanuel Karagianni" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-18T03:01:00+00:00" />
+			<date key="time:timestamp" value="2011-01-18T03:13:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-18T11:10:00+00:00" />
+			<date key="time:timestamp" value="2011-01-18T11:25:00+00:00" />
+			<string key="org:resource" value="Kiu Kan" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-01-19T12:30:00+00:00" />
+			<date key="time:timestamp" value="2011-01-20T21:51:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-01-21T05:29:00+00:00" />
+			<date key="time:timestamp" value="2011-01-21T05:30:00+00:00" />
+			<string key="org:resource" value="Miu Hanwan" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-01-21T19:02:00+00:00" />
+			<date key="time:timestamp" value="2011-01-21T19:03:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-01-22T22:42:00+00:00" />
+			<date key="time:timestamp" value="2011-01-22T22:49:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="87" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-12T04:17:00+00:00" />
+			<date key="time:timestamp" value="2011-01-12T04:36:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-12T15:20:00+00:00" />
+			<date key="time:timestamp" value="2011-01-12T15:26:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-12T15:31:00+00:00" />
+			<date key="time:timestamp" value="2011-01-12T15:34:00+00:00" />
+			<string key="org:resource" value="Maris Freeman" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-12T17:45:00+00:00" />
+			<date key="time:timestamp" value="2011-01-12T17:51:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-14T00:15:00+00:00" />
+			<date key="time:timestamp" value="2011-01-14T00:34:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-14T18:56:00+00:00" />
+			<date key="time:timestamp" value="2011-01-14T18:56:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-16T20:54:00+00:00" />
+			<date key="time:timestamp" value="2011-01-16T21:05:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-17T06:35:00+00:00" />
+			<date key="time:timestamp" value="2011-01-17T06:53:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-01-17T22:45:00+00:00" />
+			<date key="time:timestamp" value="2011-01-18T17:06:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-01-19T00:29:00+00:00" />
+			<date key="time:timestamp" value="2011-01-19T00:30:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-01-19T13:07:00+00:00" />
+			<date key="time:timestamp" value="2011-01-19T13:08:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-01-21T03:02:00+00:00" />
+			<date key="time:timestamp" value="2011-01-21T03:09:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="140" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-18T11:22:00+00:00" />
+			<date key="time:timestamp" value="2011-01-18T11:36:00+00:00" />
+			<string key="org:resource" value="Anna Kaufmann" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-18T17:54:00+00:00" />
+			<date key="time:timestamp" value="2011-01-18T18:00:00+00:00" />
+			<string key="org:resource" value="Clement Duchot" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-21T23:26:00+00:00" />
+			<date key="time:timestamp" value="2011-01-21T23:52:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-22T19:58:00+00:00" />
+			<date key="time:timestamp" value="2011-01-22T20:12:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-23T08:42:00+00:00" />
+			<date key="time:timestamp" value="2011-01-23T08:42:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-24T01:45:00+00:00" />
+			<date key="time:timestamp" value="2011-01-24T01:52:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-24T06:59:00+00:00" />
+			<date key="time:timestamp" value="2011-01-24T07:04:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-01-26T12:52:00+00:00" />
+			<date key="time:timestamp" value="2011-01-27T07:45:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-01-27T14:47:00+00:00" />
+			<date key="time:timestamp" value="2011-01-27T14:48:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-01-27T22:50:00+00:00" />
+			<date key="time:timestamp" value="2011-01-27T22:51:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-01-28T21:24:00+00:00" />
+			<date key="time:timestamp" value="2011-01-28T21:30:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="145" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-18T23:20:00+00:00" />
+			<date key="time:timestamp" value="2011-01-18T23:58:00+00:00" />
+			<string key="org:resource" value="Immanuel Karagianni" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-19T16:35:00+00:00" />
+			<date key="time:timestamp" value="2011-01-19T16:41:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-19T16:48:00+00:00" />
+			<date key="time:timestamp" value="2011-01-19T16:50:00+00:00" />
+			<string key="org:resource" value="Maris Freeman" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-23T07:40:00+00:00" />
+			<date key="time:timestamp" value="2011-01-23T07:57:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-01-25T22:09:00+00:00" />
+			<date key="time:timestamp" value="2011-01-25T22:22:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-01-26T10:36:00+00:00" />
+			<date key="time:timestamp" value="2011-01-26T10:36:00+00:00" />
+			<string key="org:resource" value="Alberto Duport" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-01-30T07:08:00+00:00" />
+			<date key="time:timestamp" value="2011-01-30T07:21:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-01-31T20:40:00+00:00" />
+			<date key="time:timestamp" value="2011-01-31T20:53:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-02-01T07:07:00+00:00" />
+			<date key="time:timestamp" value="2011-02-01T21:48:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-02-02T05:39:00+00:00" />
+			<date key="time:timestamp" value="2011-02-02T05:40:00+00:00" />
+			<string key="org:resource" value="Miu Hanwan" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-02-02T22:12:00+00:00" />
+			<date key="time:timestamp" value="2011-02-02T22:13:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-02-04T03:13:00+00:00" />
+			<date key="time:timestamp" value="2011-02-04T03:23:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="226" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-30T01:12:00+00:00" />
+			<date key="time:timestamp" value="2011-01-30T01:44:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-01-30T23:10:00+00:00" />
+			<date key="time:timestamp" value="2011-01-30T23:16:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-30T23:22:00+00:00" />
+			<date key="time:timestamp" value="2011-01-30T23:23:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-01-31T11:10:00+00:00" />
+			<date key="time:timestamp" value="2011-01-31T11:13:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-02-01T07:05:00+00:00" />
+			<date key="time:timestamp" value="2011-02-01T07:29:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-02-01T21:47:00+00:00" />
+			<date key="time:timestamp" value="2011-02-01T21:47:00+00:00" />
+			<string key="org:resource" value="Anne Olwada" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-02-04T09:16:00+00:00" />
+			<date key="time:timestamp" value="2011-02-04T09:22:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-02-04T22:13:00+00:00" />
+			<date key="time:timestamp" value="2011-02-04T22:19:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-02-05T18:11:00+00:00" />
+			<date key="time:timestamp" value="2011-02-05T21:50:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-02-06T05:39:00+00:00" />
+			<date key="time:timestamp" value="2011-02-06T05:40:00+00:00" />
+			<string key="org:resource" value="Elvira Lores" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-02-07T02:18:00+00:00" />
+			<date key="time:timestamp" value="2011-02-07T02:19:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-02-09T09:02:00+00:00" />
+			<date key="time:timestamp" value="2011-02-09T09:09:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="245" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-02-02T13:14:00+00:00" />
+			<date key="time:timestamp" value="2011-02-02T14:11:00+00:00" />
+			<string key="org:resource" value="Penn Osterwalder" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-02-02T16:13:00+00:00" />
+			<date key="time:timestamp" value="2011-02-02T16:19:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-02-05T17:58:00+00:00" />
+			<date key="time:timestamp" value="2011-02-05T18:15:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-02-11T00:44:00+00:00" />
+			<date key="time:timestamp" value="2011-02-11T01:12:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-02-11T15:33:00+00:00" />
+			<date key="time:timestamp" value="2011-02-11T15:33:00+00:00" />
+			<string key="org:resource" value="Clement Duchot" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-02-12T19:48:00+00:00" />
+			<date key="time:timestamp" value="2011-02-12T19:58:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-02-13T17:56:00+00:00" />
+			<date key="time:timestamp" value="2011-02-13T18:13:00+00:00" />
+			<string key="org:resource" value="Kiu Kan" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-02-14T18:32:00+00:00" />
+			<date key="time:timestamp" value="2011-02-16T07:57:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-02-16T15:13:00+00:00" />
+			<date key="time:timestamp" value="2011-02-16T15:14:00+00:00" />
+			<string key="org:resource" value="Miu Hanwan" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-02-17T01:37:00+00:00" />
+			<date key="time:timestamp" value="2011-02-17T01:38:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-02-18T05:46:00+00:00" />
+			<date key="time:timestamp" value="2011-02-18T05:57:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="325" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-02-14T18:12:00+00:00" />
+			<date key="time:timestamp" value="2011-02-14T18:26:00+00:00" />
+			<string key="org:resource" value="Alberto Duport" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-02-15T02:16:00+00:00" />
+			<date key="time:timestamp" value="2011-02-15T02:27:00+00:00" />
+			<string key="org:resource" value="Immanuel Karagianni" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-02-15T14:40:00+00:00" />
+			<date key="time:timestamp" value="2011-02-15T14:54:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-02-16T06:41:00+00:00" />
+			<date key="time:timestamp" value="2011-02-16T06:56:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-02-17T23:26:00+00:00" />
+			<date key="time:timestamp" value="2011-02-17T23:26:00+00:00" />
+			<string key="org:resource" value="Immanuel Karagianni" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-02-19T05:18:00+00:00" />
+			<date key="time:timestamp" value="2011-02-19T05:25:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-02-20T11:02:00+00:00" />
+			<date key="time:timestamp" value="2011-02-20T11:22:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-02-23T02:53:00+00:00" />
+			<date key="time:timestamp" value="2011-02-23T23:32:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-02-24T07:00:00+00:00" />
+			<date key="time:timestamp" value="2011-02-24T07:01:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-02-24T13:27:00+00:00" />
+			<date key="time:timestamp" value="2011-02-24T13:28:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-02-26T09:36:00+00:00" />
+			<date key="time:timestamp" value="2011-02-26T09:49:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="374" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-02-23T00:23:00+00:00" />
+			<date key="time:timestamp" value="2011-02-23T00:49:00+00:00" />
+			<string key="org:resource" value="Anne Olwada" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-02-24T01:44:00+00:00" />
+			<date key="time:timestamp" value="2011-02-24T01:49:00+00:00" />
+			<string key="org:resource" value="Maris Freeman" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-02-24T01:57:00+00:00" />
+			<date key="time:timestamp" value="2011-02-24T01:58:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-02-28T20:51:00+00:00" />
+			<date key="time:timestamp" value="2011-02-28T21:26:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-03-02T05:50:00+00:00" />
+			<date key="time:timestamp" value="2011-03-02T06:13:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-03-03T03:25:00+00:00" />
+			<date key="time:timestamp" value="2011-03-03T03:25:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-03-04T11:45:00+00:00" />
+			<date key="time:timestamp" value="2011-03-04T11:57:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-03-05T22:19:00+00:00" />
+			<date key="time:timestamp" value="2011-03-05T22:42:00+00:00" />
+			<string key="org:resource" value="Kiu Kan" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-03-06T21:26:00+00:00" />
+			<date key="time:timestamp" value="2011-03-08T03:11:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-03-08T10:53:00+00:00" />
+			<date key="time:timestamp" value="2011-03-08T10:54:00+00:00" />
+			<string key="org:resource" value="Anne Olwada" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-03-08T19:05:00+00:00" />
+			<date key="time:timestamp" value="2011-03-08T19:06:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-03-11T11:10:00+00:00" />
+			<date key="time:timestamp" value="2011-03-11T11:18:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="462" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-03-08T09:49:00+00:00" />
+			<date key="time:timestamp" value="2011-03-08T10:17:00+00:00" />
+			<string key="org:resource" value="Anna Kaufmann" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-03-08T14:48:00+00:00" />
+			<date key="time:timestamp" value="2011-03-08T14:57:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-03-09T01:03:00+00:00" />
+			<date key="time:timestamp" value="2011-03-09T01:26:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-03-09T03:47:00+00:00" />
+			<date key="time:timestamp" value="2011-03-09T04:12:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-03-09T16:02:00+00:00" />
+			<date key="time:timestamp" value="2011-03-09T16:02:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-03-10T15:16:00+00:00" />
+			<date key="time:timestamp" value="2011-03-10T15:24:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-03-10T21:59:00+00:00" />
+			<date key="time:timestamp" value="2011-03-10T22:04:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-03-14T07:07:00+00:00" />
+			<date key="time:timestamp" value="2011-03-14T13:45:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-03-14T21:47:00+00:00" />
+			<date key="time:timestamp" value="2011-03-14T21:48:00+00:00" />
+			<string key="org:resource" value="Anne Olwada" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-03-15T08:46:00+00:00" />
+			<date key="time:timestamp" value="2011-03-15T08:47:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-03-16T07:02:00+00:00" />
+			<date key="time:timestamp" value="2011-03-16T07:08:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="519" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-03-14T15:28:00+00:00" />
+			<date key="time:timestamp" value="2011-03-14T16:01:00+00:00" />
+			<string key="org:resource" value="Alberto Duport" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-03-15T10:56:00+00:00" />
+			<date key="time:timestamp" value="2011-03-15T11:01:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-03-15T11:08:00+00:00" />
+			<date key="time:timestamp" value="2011-03-15T11:10:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-03-22T06:17:00+00:00" />
+			<date key="time:timestamp" value="2011-03-22T06:40:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-03-22T11:51:00+00:00" />
+			<date key="time:timestamp" value="2011-03-22T12:22:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-03-23T08:08:00+00:00" />
+			<date key="time:timestamp" value="2011-03-23T08:08:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-03-25T07:20:00+00:00" />
+			<date key="time:timestamp" value="2011-03-25T07:33:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-03-26T04:18:00+00:00" />
+			<date key="time:timestamp" value="2011-03-26T04:51:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-03-27T06:44:00+00:00" />
+			<date key="time:timestamp" value="2011-03-28T01:47:00+00:00" />
+			<string key="org:resource" value="Kiu Kan" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-03-28T09:06:00+00:00" />
+			<date key="time:timestamp" value="2011-03-28T09:07:00+00:00" />
+			<string key="org:resource" value="Clement Duchot" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-03-29T10:14:00+00:00" />
+			<date key="time:timestamp" value="2011-03-29T10:15:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-03-31T11:57:00+00:00" />
+			<date key="time:timestamp" value="2011-03-31T12:11:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="672" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-04-07T07:11:00+00:00" />
+			<date key="time:timestamp" value="2011-04-07T07:48:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-04-07T19:50:00+00:00" />
+			<date key="time:timestamp" value="2011-04-07T19:54:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-04-07T20:01:00+00:00" />
+			<date key="time:timestamp" value="2011-04-07T20:04:00+00:00" />
+			<string key="org:resource" value="Maris Freeman" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-04-11T11:49:00+00:00" />
+			<date key="time:timestamp" value="2011-04-11T12:03:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-04-12T12:21:00+00:00" />
+			<date key="time:timestamp" value="2011-04-12T12:41:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-04-13T06:41:00+00:00" />
+			<date key="time:timestamp" value="2011-04-13T06:41:00+00:00" />
+			<string key="org:resource" value="Clement Duchot" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-04-13T19:23:00+00:00" />
+			<date key="time:timestamp" value="2011-04-13T19:29:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-04-14T07:13:00+00:00" />
+			<date key="time:timestamp" value="2011-04-14T07:28:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-04-14T21:39:00+00:00" />
+			<date key="time:timestamp" value="2011-04-16T06:34:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-04-16T14:03:00+00:00" />
+			<date key="time:timestamp" value="2011-04-16T14:04:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-04-17T00:05:00+00:00" />
+			<date key="time:timestamp" value="2011-04-17T00:06:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-04-19T00:45:00+00:00" />
+			<date key="time:timestamp" value="2011-04-19T00:56:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="703" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-04-12T05:03:00+00:00" />
+			<date key="time:timestamp" value="2011-04-12T05:37:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-04-12T11:09:00+00:00" />
+			<date key="time:timestamp" value="2011-04-12T11:18:00+00:00" />
+			<string key="org:resource" value="Penn Osterwalder" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-04-17T05:29:00+00:00" />
+			<date key="time:timestamp" value="2011-04-17T05:54:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-04-18T20:15:00+00:00" />
+			<date key="time:timestamp" value="2011-04-18T20:44:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-04-19T13:56:00+00:00" />
+			<date key="time:timestamp" value="2011-04-19T13:56:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-04-20T20:02:00+00:00" />
+			<date key="time:timestamp" value="2011-04-20T20:08:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-04-21T00:13:00+00:00" />
+			<date key="time:timestamp" value="2011-04-21T00:36:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-04-24T05:52:00+00:00" />
+			<date key="time:timestamp" value="2011-04-25T01:58:00+00:00" />
+			<string key="org:resource" value="Sean Manney" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-04-25T09:16:00+00:00" />
+			<date key="time:timestamp" value="2011-04-25T09:17:00+00:00" />
+			<string key="org:resource" value="Penn Osterwalder" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-04-26T03:13:00+00:00" />
+			<date key="time:timestamp" value="2011-04-26T03:14:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-04-28T16:13:00+00:00" />
+			<date key="time:timestamp" value="2011-04-28T16:27:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="872" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-05-09T04:06:00+00:00" />
+			<date key="time:timestamp" value="2011-05-09T04:20:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-05-09T05:46:00+00:00" />
+			<date key="time:timestamp" value="2011-05-09T05:54:00+00:00" />
+			<string key="org:resource" value="Anna Kaufmann" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-05-31T22:23:00+00:00" />
+			<date key="time:timestamp" value="2011-05-31T22:43:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-08-02T21:42:00+00:00" />
+			<date key="time:timestamp" value="2011-08-02T22:08:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-08-03T14:34:00+00:00" />
+			<date key="time:timestamp" value="2011-08-03T14:34:00+00:00" />
+			<string key="org:resource" value="Esmana Liubiata" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-08-05T20:30:00+00:00" />
+			<date key="time:timestamp" value="2011-08-05T20:39:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-08-08T21:06:00+00:00" />
+			<date key="time:timestamp" value="2011-08-08T21:39:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-08-17T10:48:00+00:00" />
+			<date key="time:timestamp" value="2011-08-18T02:12:00+00:00" />
+			<string key="org:resource" value="Kiu Kan" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-08-18T10:01:00+00:00" />
+			<date key="time:timestamp" value="2011-08-18T10:02:00+00:00" />
+			<string key="org:resource" value="Esmana Liubiata" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-08-18T23:12:00+00:00" />
+			<date key="time:timestamp" value="2011-08-18T23:13:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-08-20T18:55:00+00:00" />
+			<date key="time:timestamp" value="2011-08-20T19:01:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="931" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-05-16T09:54:00+00:00" />
+			<date key="time:timestamp" value="2011-05-16T10:29:00+00:00" />
+			<string key="org:resource" value="Penn Osterwalder" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-05-17T08:33:00+00:00" />
+			<date key="time:timestamp" value="2011-05-17T08:42:00+00:00" />
+			<string key="org:resource" value="Francis Odell" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-05-17T08:48:00+00:00" />
+			<date key="time:timestamp" value="2011-05-17T08:50:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-05-21T19:04:00+00:00" />
+			<date key="time:timestamp" value="2011-05-21T19:36:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-05-22T03:00:00+00:00" />
+			<date key="time:timestamp" value="2011-05-22T03:32:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-05-22T16:47:00+00:00" />
+			<date key="time:timestamp" value="2011-05-22T16:47:00+00:00" />
+			<string key="org:resource" value="Nico Ojenbeer" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-05-24T08:39:00+00:00" />
+			<date key="time:timestamp" value="2011-05-24T08:45:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-05-24T20:44:00+00:00" />
+			<date key="time:timestamp" value="2011-05-24T20:55:00+00:00" />
+			<string key="org:resource" value="Kiu Kan" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-05-25T11:46:00+00:00" />
+			<date key="time:timestamp" value="2011-05-26T01:42:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-05-26T08:50:00+00:00" />
+			<date key="time:timestamp" value="2011-05-26T08:51:00+00:00" />
+			<string key="org:resource" value="Penn Osterwalder" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-05-27T14:25:00+00:00" />
+			<date key="time:timestamp" value="2011-05-27T14:26:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-05-29T20:49:00+00:00" />
+			<date key="time:timestamp" value="2011-05-29T20:55:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="1088" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-06-07T06:51:00+00:00" />
+			<date key="time:timestamp" value="2011-06-07T07:34:00+00:00" />
+			<string key="org:resource" value="Immanuel Karagianni" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-06-07T07:46:00+00:00" />
+			<date key="time:timestamp" value="2011-06-07T07:57:00+00:00" />
+			<string key="org:resource" value="Esmana Liubiata" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-06-09T18:35:00+00:00" />
+			<date key="time:timestamp" value="2011-06-09T18:47:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-06-10T08:06:00+00:00" />
+			<date key="time:timestamp" value="2011-06-10T08:42:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-06-11T08:55:00+00:00" />
+			<date key="time:timestamp" value="2011-06-11T08:55:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-06-13T04:05:00+00:00" />
+			<date key="time:timestamp" value="2011-06-13T04:14:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-06-14T23:42:00+00:00" />
+			<date key="time:timestamp" value="2011-06-15T00:12:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-06-19T04:11:00+00:00" />
+			<date key="time:timestamp" value="2011-06-19T23:10:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-06-20T06:35:00+00:00" />
+			<date key="time:timestamp" value="2011-06-20T06:36:00+00:00" />
+			<string key="org:resource" value="Tesca Lobes" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-06-21T07:18:00+00:00" />
+			<date key="time:timestamp" value="2011-06-21T07:19:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-06-22T12:21:00+00:00" />
+			<date key="time:timestamp" value="2011-06-22T12:30:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="1476" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-07-31T06:04:00+00:00" />
+			<date key="time:timestamp" value="2011-07-31T06:51:00+00:00" />
+			<string key="org:resource" value="Esmana Liubiata" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-07-31T10:40:00+00:00" />
+			<date key="time:timestamp" value="2011-07-31T10:52:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-08-02T03:15:00+00:00" />
+			<date key="time:timestamp" value="2011-08-02T03:45:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-08-02T11:07:00+00:00" />
+			<date key="time:timestamp" value="2011-08-02T11:37:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-08-03T01:36:00+00:00" />
+			<date key="time:timestamp" value="2011-08-03T01:36:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-08-04T00:52:00+00:00" />
+			<date key="time:timestamp" value="2011-08-04T01:01:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-08-04T05:12:00+00:00" />
+			<date key="time:timestamp" value="2011-08-04T05:30:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-08-07T07:35:00+00:00" />
+			<date key="time:timestamp" value="2011-08-08T09:47:00+00:00" />
+			<string key="org:resource" value="Carmen Finacse" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-08-08T17:33:00+00:00" />
+			<date key="time:timestamp" value="2011-08-08T17:34:00+00:00" />
+			<string key="org:resource" value="Kim Passa" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-08-10T08:44:00+00:00" />
+			<date key="time:timestamp" value="2011-08-10T08:45:00+00:00" />
+			<string key="org:resource" value="Magdalena Predutta" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-08-13T00:47:00+00:00" />
+			<date key="time:timestamp" value="2011-08-13T00:55:00+00:00" />
+			<string key="org:resource" value="Karalda Nimwada" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace><trace><string key="concept:name" value="1592" />
+		<event>
+			<string key="concept:name" value="Create Purchase Requisition" />
+			<date key="start:timestamp" value="2011-08-18T11:23:00+00:00" />
+			<date key="time:timestamp" value="2011-08-18T12:06:00+00:00" />
+			<string key="org:resource" value="Christian Francois" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Purchase Requisition" />
+			<date key="start:timestamp" value="2011-08-19T03:29:00+00:00" />
+			<date key="time:timestamp" value="2011-08-19T03:34:00+00:00" />
+			<string key="org:resource" value="Heinz Gutschmidt" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Request for Quotation" />
+			<date key="start:timestamp" value="2011-08-19T03:41:00+00:00" />
+			<date key="time:timestamp" value="2011-08-19T03:42:00+00:00" />
+			<string key="org:resource" value="Maris Freeman" />
+			<string key="org:role" value="Role 4" />
+		</event>
+		<event>
+			<string key="concept:name" value="Analyze Request for Quotation" />
+			<date key="start:timestamp" value="2011-08-20T08:21:00+00:00" />
+			<date key="time:timestamp" value="2011-08-20T08:36:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Send Request for Quotation to Supplier" />
+			<date key="start:timestamp" value="2011-08-20T20:39:00+00:00" />
+			<date key="time:timestamp" value="2011-08-20T20:59:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Choose best option" />
+			<date key="start:timestamp" value="2011-08-22T05:14:00+00:00" />
+			<date key="time:timestamp" value="2011-08-22T05:14:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Purchase Order" />
+			<date key="start:timestamp" value="2011-08-23T15:18:00+00:00" />
+			<date key="time:timestamp" value="2011-08-23T15:26:00+00:00" />
+			<string key="org:resource" value="Francois de Perrier" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Confirm Purchase Order" />
+			<date key="start:timestamp" value="2011-08-24T00:41:00+00:00" />
+			<date key="time:timestamp" value="2011-08-24T01:08:00+00:00" />
+			<string key="org:resource" value="Karen Clarens" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Deliver Goods Services" />
+			<date key="start:timestamp" value="2011-08-25T11:51:00+00:00" />
+			<date key="time:timestamp" value="2011-08-26T03:35:00+00:00" />
+			<string key="org:resource" value="Esmeralda Clay" />
+			<string key="org:role" value="Role 2" />
+		</event>
+		<event>
+			<string key="concept:name" value="Release Purchase Order" />
+			<date key="start:timestamp" value="2011-08-26T11:07:00+00:00" />
+			<date key="time:timestamp" value="2011-08-26T11:08:00+00:00" />
+			<string key="org:resource" value="Fjodor Kowalski" />
+			<string key="org:role" value="Role 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Purchase Order for payment" />
+			<date key="start:timestamp" value="2011-08-26T20:21:00+00:00" />
+			<date key="time:timestamp" value="2011-08-26T20:22:00+00:00" />
+			<string key="org:resource" value="Karel de Groot" />
+			<string key="org:role" value="Role 3" />
+		</event>
+		<event>
+			<string key="concept:name" value="Pay Invoice" />
+			<date key="start:timestamp" value="2011-09-01T19:27:00+00:00" />
+			<date key="time:timestamp" value="2011-09-01T19:40:00+00:00" />
+			<string key="org:resource" value="Pedro Alvares" />
+			<string key="org:role" value="Role 5" />
+		</event>
+	</trace></log>

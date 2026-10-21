@@ -1,0 +1,126 @@
+{
+    "session_id": 311,
+    "source_xes_filename": "1782185070_acr.xes",
+    "uploaded_pnml_filename": "1782185070_optimized_petri_net.pnml",
+    "used_pnml_filepath": "uploads\\1782185070_optimized_petri_net.pnml",
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_311_1782185071\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_311_1782185071\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2,
+            "calendar_fit": 0.0
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.0472437906275975,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_global_scale": 0.8,
+        "external_delay_max_delay_quantile": 0.95,
+        "structure_score": 0.0,
+        "optuna_objective_score": 3.115511204630059,
+        "runtime_score": 0.22276804952575552,
+        "validation_metrics": {
+            "aed": 80.67825443786982,
+            "ced": 2.4812299824360515,
+            "red": 69.03208845761273,
+            "car": 29.779411764705884,
+            "ctd": 56.33782679738559,
+            "cwd": 2.7364412838625682
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 15399.211982338593,
+            "duration_ratio": 1.2301622766370974,
+            "external_delay_ratio": 0.3682987908450371
+        },
+        "arrival_guard": {
+            "enabled": true,
+            "arrival_span_ratio": 0.8162367779022668,
+            "case_count_ratio": 0.9411764705882353,
+            "real_cases": 153,
+            "sim_cases": 144,
+            "weekday_hour_jaccard": 0.47,
+            "passed": true
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 43.833264774441226,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 87.66652954888245,
+            "observed_ctd": 56.33782679738559,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.3682987908450371
+        },
+        "optuna_trial_number": 25,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.95,
+            "max_k": 20,
+            "min_k": 3
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.1850328034538561,
+                "ngd": 0.22209567198177677,
+                "3gd": 0.2692867540029112
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.20293091237523384,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9560057983117121,
+        "precision": 0.6443879173290938,
+        "f_measure": 0.7698587907563195
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.24166928087450645,
+            "ngd": 0.30428307794933446,
+            "3gd": 0.33631201707718195
+        },
+        "temporal": {
+            "aed": 146.43900728945698,
+            "ced": 1.7626111262959536,
+            "red": 94.09142234143567
+        },
+        "congestion": {
+            "car": 228.39582106045737,
+            "ctd": 123.44816745771996
+        },
+        "resource": {
+            "cwd": 1.83530814591809
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-23T11:40:27.387382"
+}

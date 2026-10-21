@@ -1,0 +1,116 @@
+{
+    "session_id": 277,
+    "source_xes_filename": "1782092306_acr.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_277_1782092307\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_277_1782092307\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.14096910003965724,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.1874437625240812,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_calendar_context_histogram",
+        "external_delay_global_scale": 0.5,
+        "external_delay_max_delay_quantile": 0.9,
+        "structure_score": 0.0,
+        "optuna_objective_score": 2.9179785791629875,
+        "runtime_score": 0.46852759222377593,
+        "validation_metrics": {
+            "aed": 50.88951292641278,
+            "ced": 3.278099310460888,
+            "red": 41.88896092291807,
+            "car": 21.076409460666763,
+            "ctd": 40.222739455494434,
+            "cwd": 3.6326629140697557
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 11784.788211307747,
+            "duration_ratio": 0.9414249191669843,
+            "external_delay_ratio": 0.7846387408376301
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 27.688675470188077,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 55.377350940376154,
+            "observed_ctd": 40.222739455494434,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.7846387408376301
+        },
+        "optuna_trial_number": 29,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.85,
+            "max_k": 10,
+            "min_k": 2
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": 0.14096910003965724,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.19433772246272246,
+                "ngd": 0.24728726442033125,
+                "3gd": 0.2861328125
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.21673424177751224,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9738515889236731,
+        "precision": 0.49774176866057573,
+        "f_measure": 0.6587779290870174
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.7476984402238795,
+            "ngd": 0.9180359813649972,
+            "3gd": 0.9423102003699005
+        },
+        "temporal": {
+            "aed": 11665.94663320057,
+            "ced": 2.2242317614002767,
+            "red": 11877.667711496018
+        },
+        "congestion": {
+            "car": 228.18102902276897,
+            "ctd": 6860.364572228418
+        },
+        "resource": {
+            "cwd": 2.469924003627157
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T10:03:38.893844"
+}

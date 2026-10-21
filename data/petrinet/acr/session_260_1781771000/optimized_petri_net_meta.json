@@ -1,0 +1,107 @@
+{
+    "session_id": 260,
+    "source_xes_filename": "1781770999_acr.xes",
+    "uploaded_pnml_filename": "1781770999_optimized_petri_net.pnml",
+    "used_pnml_filepath": "uploads\\1781770999_optimized_petri_net.pnml",
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_260_1781771000\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_260_1781771000\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 3,
+        "max_depth_tree": 3,
+        "decision_point_max_depth": 3,
+        "queue_scheduling_max_depth": 3,
+        "external_delay_max_depth": 3,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 0.6853905618042485,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_calendar_context_histogram",
+        "external_delay_global_scale": 0.5,
+        "external_delay_max_delay_quantile": 0.8,
+        "structure_score": 0.0,
+        "optuna_objective_score": 3.075633702803595,
+        "runtime_score": 0.0,
+        "validation_metrics": {
+            "aed": 72.06811826213827,
+            "ced": 2.9779253930625456,
+            "red": 31.445455098115783,
+            "car": 81.58424354081679,
+            "ctd": 29.9727595736281,
+            "cwd": 3.285178820294224
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 13208.5594697008,
+            "duration_ratio": 1.0551625373414746,
+            "external_delay_ratio": 0.7815032977122832
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": 0.85,
+            "observed_external_delay_ratio": 0.7815032977122832
+        },
+        "optuna_trial_number": 0,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.9,
+            "max_k": 20,
+            "min_k": 3
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 3,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 3,
+            "max_depth_tree": 3,
+            "decision_point_max_depth": 3,
+            "metrics": {
+                "cfld": 0.2303012766554433,
+                "ngd": 0.2763761467889908,
+                "3gd": 0.3248407643312102
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.24419209382706178,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9560057983117121,
+        "precision": 0.6443879173290938,
+        "f_measure": 0.7698587907563195
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.2258562418730894,
+            "ngd": 0.2896053734443963,
+            "3gd": 0.3197887714856229
+        },
+        "temporal": {
+            "aed": 328.5741607636755,
+            "ced": 2.406279942484214,
+            "red": 47.60756092594444
+        },
+        "congestion": {
+            "car": 370.90728348251776,
+            "ctd": 94.94672213670995
+        },
+        "resource": {
+            "cwd": 2.238193494111756
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-18T16:28:39.298408"
+}

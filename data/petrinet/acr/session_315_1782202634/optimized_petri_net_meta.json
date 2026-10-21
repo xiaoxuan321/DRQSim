@@ -1,0 +1,148 @@
+{
+    "session_id": 315,
+    "source_xes_filename": "1782202634_acr.xes",
+    "uploaded_pnml_filename": "1782202634_optimized_petri_net.pnml",
+    "used_pnml_filepath": "uploads\\1782202634_optimized_petri_net.pnml",
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_315_1782202634\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_315_1782202634\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 1,
+        "max_depth_tree": 1,
+        "decision_point_max_depth": 1,
+        "queue_scheduling_max_depth": 1,
+        "external_delay_max_depth": 1,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2,
+            "calendar_fit": 0.0
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 0.9441434970899878,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "weekday_hour_count_rate_with_trend",
+        "external_delay_global_scale": 0.8,
+        "external_delay_max_delay_quantile": 0.9,
+        "external_delay_model_type": "hierarchical_edge_activity_external_delay_timer",
+        "external_delay_hierarchy": "edge_activity_global",
+        "structure_score": 0.5773502691896257,
+        "optuna_objective_score": 3.112617514982255,
+        "runtime_score": 0.39012788432864454,
+        "validation_metrics": {
+            "aed": 65.07805067293191,
+            "ced": 2.987197904513817,
+            "red": 76.47273828170322,
+            "car": 17.21595304788582,
+            "ctd": 89.6954781912765,
+            "cwd": 2.8268744253060434
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 8795.086394557935,
+            "duration_ratio": 0.7025933219672629,
+            "external_delay_ratio": 0.3127551004110827
+        },
+        "arrival_guard": {
+            "enabled": true,
+            "arrival_span_ratio": 0.8042971391843206,
+            "case_count_ratio": 0.9607843137254902,
+            "real_cases": 153,
+            "sim_cases": 147,
+            "weekday_hour_jaccard": 0.3652173913043478,
+            "passed": true
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 71.40847387906213,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 142.81694775812426,
+            "observed_ctd": 89.6954781912765,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.3127551004110827
+        },
+        "optuna_trial_number": 19,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.95,
+            "max_k": 20,
+            "min_k": 3
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 1,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 1,
+            "max_depth_tree": 1,
+            "decision_point_max_depth": 1,
+            "metrics": {
+                "cfld": 0.21178937120717942,
+                "ngd": 0.24957167332952598,
+                "3gd": 0.3170731707317073
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.23010363250928642,
+            "status": "ok",
+            "structure_score": 0.5773502691896257
+        },
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.21739861016176806,
+                "ngd": 0.25842696629213485,
+                "3gd": 0.31414868105515587
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.23325595404817512,
+            "status": "ok",
+            "structure_score": 0.816496580927726
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9560057983117121,
+        "precision": 0.6443879173290938,
+        "f_measure": 0.7698587907563195
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.22575773391932064,
+            "ngd": 0.2804484297704748,
+            "3gd": 0.3272013136158153
+        },
+        "temporal": {
+            "aed": 223.4277117190689,
+            "ced": 1.7460062441225186,
+            "red": 46.82961363136434
+        },
+        "congestion": {
+            "car": 255.33627295979772,
+            "ctd": 57.48000704729243
+        },
+        "resource": {
+            "cwd": 1.8330909205233232
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-23T16:33:34.772959"
+}

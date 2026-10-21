@@ -1,0 +1,3715 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="Case101" />
+		<event>
+			<string key="concept:name" value="Setup" />
+			<date key="start:timestamp" value="2012-03-14T01:47:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T03:03:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T03:38:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T06:03:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T06:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T06:49:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T06:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T08:06:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T08:06:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T13:28:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T14:02:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T14:48:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T14:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T18:10:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T18:11:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T20:30:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-14T20:33:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T21:48:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-15T16:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T17:55:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-23T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T19:40:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-25T06:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T07:45:00+00:00" />
+			<string key="org:resource" value="ID4528" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-25T07:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T14:45:00+00:00" />
+			<string key="org:resource" value="ID4528" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-25T14:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T19:31:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-25T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T19:00:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-25T19:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T19:29:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-26T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T09:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="27" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case104" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T03:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T09:26:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="33" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T09:27:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T13:41:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="33" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T18:07:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="33" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-20T16:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T18:54:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="33" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-21T13:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T14:41:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="33" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-21T16:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T16:49:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="33" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case105" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T06:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T13:34:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T14:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T17:31:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case106" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T17:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T22:44:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T23:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T03:38:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-19T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T14:28:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-19T16:38:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T17:51:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-19T21:42:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T22:20:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-21T22:27:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T00:57:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-22T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-22T18:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T20:05:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case107" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T14:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:47:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="20" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case111" />
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-13T04:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T07:13:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-13T07:13:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T13:39:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-13T14:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T23:10:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-13T23:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T02:42:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-14T02:44:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T13:45:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-14T13:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T17:59:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning Q.C." />
+			<date key="start:timestamp" value="2012-03-14T20:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T22:05:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T18:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T00:50:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T03:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T14:00:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T19:41:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-23T14:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T19:41:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-24T13:31:00+00:00" />
+			<date key="time:timestamp" value="2012-03-24T22:53:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-24T20:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-24T22:52:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T06:52:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T14:45:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T15:06:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T23:32:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T03:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T14:43:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-26T15:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T17:22:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-26T23:42:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T00:00:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-27T00:02:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T01:43:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T08:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T15:52:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T15:35:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T18:59:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T18:56:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T14:56:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-27T19:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T21:26:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="300" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case113" />
+		<event>
+			<string key="concept:name" value="SETUP     Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T10:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T13:49:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="28" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T14:06:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T22:56:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="28" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-16T14:03:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T18:04:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="28" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-16T18:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T18:39:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="28" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case118" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T09:15:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T04:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T06:11:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T06:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T09:29:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-30T18:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:41:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case119" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T14:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T22:57:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T21:35:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T22:30:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T14:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T00:48:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T08:16:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T13:51:00+00:00" />
+			<string key="org:resource" value="ID4641" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T15:19:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T01:45:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T16:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T02:00:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T16:17:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T01:47:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T05:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T12:21:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T15:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T01:37:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T05:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T14:42:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T15:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T01:18:00+00:00" />
+			<string key="org:resource" value="ID4132" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cylinder" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case123" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T08:15:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T06:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T09:00:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T09:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T13:30:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T14:31:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T15:51:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T17:39:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T00:56:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T02:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T08:27:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T08:28:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T10:30:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T10:31:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T11:47:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T14:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T14:12:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T14:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T19:48:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-16T15:31:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T16:32:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-17T20:22:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T07:57:00+00:00" />
+			<string key="org:resource" value="ID4641" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T07:56:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T09:26:00+00:00" />
+			<string key="org:resource" value="ID4641" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T07:57:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T14:13:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T13:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T16:20:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-18T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T16:41:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T16:19:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T16:21:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T16:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T18:30:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-18T22:03:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T22:53:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="80" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case124" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T13:59:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T21:34:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T21:35:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T22:58:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T22:59:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T00:54:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T00:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T05:36:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-21T19:28:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T21:07:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-21T23:01:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T23:20:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-22T14:32:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T14:46:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-23T17:31:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T19:16:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-25T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T18:15:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-26T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T09:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="12" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case125" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T09:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T14:42:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="48" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T15:26:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T21:22:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="48" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-29T21:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T00:03:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="48" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T23:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T23:58:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="48" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T00:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T01:29:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="48" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case126" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T08:15:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T03:27:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T13:51:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T13:57:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T14:57:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-22T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T15:00:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T14:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T18:14:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-23T00:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T00:53:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-25T23:40:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T23:41:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-26T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T09:15:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-26T16:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T17:14:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-26T17:05:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T17:52:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-27T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T07:45:00+00:00" />
+			<string key="org:resource" value="ID4528" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-27T14:56:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T15:48:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-27T15:48:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T18:24:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-27T21:26:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T23:27:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-28T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T09:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case133" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T09:15:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T04:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T12:43:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T12:44:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T14:40:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T14:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T00:03:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case134" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T01:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T03:49:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T03:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T08:00:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T13:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:25:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-31T07:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-31T13:45:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="72" />
+			<string key="Part Desc." value="Spring" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case135" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T05:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T13:30:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T14:01:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T16:59:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T16:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T19:17:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T03:13:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T08:23:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T09:56:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T09:57:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T09:57:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T13:31:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-23T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T19:29:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-24T20:32:00+00:00" />
+			<date key="time:timestamp" value="2012-03-24T22:49:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-24T23:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T06:49:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T06:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T14:45:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T15:08:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T18:39:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T20:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T20:27:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T03:39:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T07:36:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T07:42:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T14:38:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T14:53:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T17:11:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-26T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T16:00:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T20:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T23:41:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T23:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T07:37:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T07:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T14:33:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T23:00:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T16:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T17:26:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T23:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T00:00:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T00:07:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T02:08:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T03:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T07:33:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T07:33:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T09:16:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T09:16:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T14:40:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T15:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T00:09:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T17:47:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T22:48:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T00:13:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T07:40:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T07:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T14:41:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T14:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T00:04:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-29T20:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T23:05:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T00:47:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T07:28:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T08:01:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T13:45:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T13:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:27:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-30T14:11:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T15:11:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case136" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T03:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T07:34:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="600" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T07:34:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T13:55:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="600" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-30T14:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T15:21:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="600" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case137" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T02:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T07:38:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T09:17:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T12:11:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T15:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T00:09:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-30T18:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:50:00+00:00" />
+			<string key="org:resource" value="ID4163" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case138" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T01:13:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T02:01:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T03:42:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T08:44:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T08:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T14:34:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T16:06:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T00:04:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T00:06:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T02:09:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T18:30:00+00:00" />
+			<string key="org:resource" value="ID4163" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T18:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T19:00:00+00:00" />
+			<string key="org:resource" value="ID4163" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T19:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T19:45:00+00:00" />
+			<string key="org:resource" value="ID4163" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-28T22:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T22:43:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="40" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case139" />
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-15T13:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T14:45:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="247" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case140" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T14:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T00:59:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T03:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T04:35:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-20T18:02:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T19:02:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-20T20:37:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T21:52:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-27T16:27:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T18:22:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-27T20:34:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T00:14:00+00:00" />
+			<string key="org:resource" value="ID4355" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-28T00:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T01:06:00+00:00" />
+			<string key="org:resource" value="ID4355" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-28T01:07:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T01:43:00+00:00" />
+			<string key="org:resource" value="ID4355" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Grinding Rework" />
+			<date key="start:timestamp" value="2012-03-30T05:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T06:19:00+00:00" />
+			<string key="org:resource" value="ID4528" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-30T07:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T08:26:00+00:00" />
+			<string key="org:resource" value="ID4385" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-30T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T09:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-30T15:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T17:03:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case141" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T09:15:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="37" />
+			<string key="Part Desc." value="Piston" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case142" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-22T21:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T23:06:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="18" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-26T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T19:10:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="18" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case144" />
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-30T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T09:00:00+00:00" />
+			<string key="org:resource" value="ID4491" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="1" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-30T16:56:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T17:57:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="1" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case174" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T04:42:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T09:14:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T14:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T19:12:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-19T18:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T19:37:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T19:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T23:01:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T23:40:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T00:49:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T02:57:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T06:28:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T10:03:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T13:40:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T14:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T20:29:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-20T21:37:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T23:00:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-21T13:45:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T14:16:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-29T16:26:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T17:20:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-29T17:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T18:48:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-29T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T18:58:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-29T18:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T20:51:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-29T18:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T20:13:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-29T18:59:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T22:35:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-29T22:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T23:46:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-30T01:53:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T05:36:00+00:00" />
+			<string key="org:resource" value="ID4528" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-30T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T09:00:00+00:00" />
+			<string key="org:resource" value="ID4491" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-30T16:40:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T18:17:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="55" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case264" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T16:38:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T23:28:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T23:28:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T00:01:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T23:42:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T01:52:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T04:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T14:34:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T15:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T15:26:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-27T16:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T23:56:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T01:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T02:30:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T04:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T14:42:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T15:27:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T15:05:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T15:31:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T15:41:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T15:48:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-28T15:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T20:05:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-28T16:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T18:39:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-29T20:24:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T20:43:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="132" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case4" />
+		<event>
+			<string key="concept:name" value="SETUP     Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T08:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T12:59:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T16:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T22:17:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-14T20:22:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T22:22:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T22:19:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T22:43:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T22:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T06:37:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T06:38:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T10:08:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-15T15:15:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T16:16:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-15T17:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T17:56:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-15T18:02:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T19:17:00+00:00" />
+			<string key="org:resource" value="ID4493" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-15T18:03:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T19:18:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case45" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T21:22:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T03:05:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T03:07:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T06:19:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T06:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T10:23:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-21T14:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T17:03:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fix" />
+			<date key="start:timestamp" value="2012-03-26T22:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T23:57:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T14:53:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T15:31:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T14:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T16:08:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case5" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T14:17:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:14:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T19:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T19:43:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case53" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T20:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T22:56:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-14T23:24:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T00:32:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T00:33:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T01:52:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T01:53:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T03:53:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T03:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T05:39:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T05:39:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T09:26:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T15:00:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-15T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T15:00:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T18:30:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-15T20:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T20:31:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-16T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T16:08:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-19T16:39:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T18:21:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-21T00:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T00:21:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-21T23:35:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T00:45:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Round Grinding" />
+			<date key="start:timestamp" value="2012-03-22T01:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T03:21:00+00:00" />
+			<string key="org:resource" value="ID4872" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-22T17:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T20:30:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-23T17:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T17:44:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-25T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T09:00:00+00:00" />
+			<string key="org:resource" value="ID4491" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Wheel" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case54" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T16:24:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T23:10:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T03:08:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T06:46:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T14:32:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T15:17:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T16:37:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T23:04:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-19T19:39:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T20:38:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T23:05:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T05:59:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-20T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T14:15:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-20T20:50:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T21:50:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-20T21:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T23:06:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-20T23:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T00:19:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-21T00:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T01:00:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-21T00:22:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T00:23:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-21T00:23:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T01:38:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-21T01:02:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T01:03:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-22T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-22T16:07:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T16:30:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="24" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case59" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T16:47:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T22:54:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T23:11:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T00:59:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T03:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T04:18:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-21T16:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T17:10:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-21T21:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T21:56:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-21T23:57:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T00:35:00+00:00" />
+			<string key="org:resource" value="ID0420" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-22T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-22T16:27:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T18:08:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-23T19:18:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T20:33:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="10" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case60" />
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-16T05:23:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T07:10:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-16T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T14:20:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-16T16:53:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T19:30:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning Q.C." />
+			<date key="start:timestamp" value="2012-03-18T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T15:00:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-18T14:01:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T15:39:00+00:00" />
+			<string key="org:resource" value="ID4219" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning" />
+			<date key="start:timestamp" value="2012-03-18T23:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T06:30:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning Q.C." />
+			<date key="start:timestamp" value="2012-03-20T00:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T00:58:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning Q.C." />
+			<date key="start:timestamp" value="2012-03-20T14:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T15:00:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-20T18:59:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T19:35:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-20T19:36:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T19:47:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-20T20:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T21:30:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-21T00:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T00:05:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-21T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="15" />
+			<string key="Part Desc." value="Assembly 1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case64" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T23:29:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T06:59:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T07:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T14:00:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-16T14:10:00+00:00" />
+			<date key="time:timestamp" value="2012-03-16T19:49:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-17T15:23:00+00:00" />
+			<date key="time:timestamp" value="2012-03-17T22:00:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T20:22:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T23:04:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-18T23:40:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T00:59:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T03:07:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T03:08:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-19T03:08:00+00:00" />
+			<date key="time:timestamp" value="2012-03-19T13:10:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="260" />
+			<string key="Part Desc." value="Cable Head" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case65" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T14:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T15:00:00+00:00" />
+			<string key="org:resource" value="ID3846" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-22T18:08:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T18:59:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-29T18:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T00:02:00+00:00" />
+			<string key="org:resource" value="ID4641" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T00:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T07:41:00+00:00" />
+			<string key="org:resource" value="ID3846" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T07:55:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T13:54:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-30T17:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T20:00:00+00:00" />
+			<string key="org:resource" value="ID0937" />
+			<string key="org:role" value="Role 9" />
+			<int key="Work Order Qty" value="500" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case69" />
+		<event>
+			<string key="concept:name" value="Milling" />
+			<date key="start:timestamp" value="2012-03-13T14:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T22:57:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-20T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-20T16:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-20T17:58:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="5" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case71" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T17:03:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T19:26:00+00:00" />
+			<string key="org:resource" value="ID4641" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-15T19:26:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T22:43:00+00:00" />
+			<string key="org:resource" value="ID4641" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-22T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning Q.C." />
+			<date key="start:timestamp" value="2012-03-22T16:43:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T16:47:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-22T17:24:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T18:00:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-22T21:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T21:50:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-22T21:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T23:06:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="39" />
+			<string key="Part Desc." value="Spur Gear" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case79" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-13T00:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T01:01:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="112" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-13T17:47:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T21:36:00+00:00" />
+			<string key="org:resource" value="ID4355" />
+			<string key="org:role" value="Role 2" />
+			<int key="Work Order Qty" value="112" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-14T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T08:15:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="112" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-14T18:17:00+00:00" />
+			<date key="time:timestamp" value="2012-03-14T19:44:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="112" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-15T21:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-15T22:57:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="112" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-18T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T08:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="112" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case81" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-23T18:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T19:44:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="79" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-25T19:48:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T01:59:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="79" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-26T14:48:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T00:08:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="79" />
+			<string key="Part Desc." value="Bearing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case83" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-13T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-13T08:15:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-20T18:08:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T00:56:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T05:34:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T07:12:00+00:00" />
+			<string key="org:resource" value="ID4167" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T07:13:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T13:32:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T13:57:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T17:10:00+00:00" />
+			<string key="org:resource" value="ID4429" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-21T14:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T15:30:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T17:31:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T22:58:00+00:00" />
+			<string key="org:resource" value="ID4932" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T23:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T04:30:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-22T22:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T23:30:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-25T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T09:15:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-25T18:08:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T18:41:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-25T19:38:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T20:54:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-25T20:54:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T23:19:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Flat Grinding" />
+			<date key="start:timestamp" value="2012-03-25T23:19:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T23:41:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-25T23:41:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T00:10:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="84" />
+			<string key="Part Desc." value="Housing" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case85" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T14:21:00+00:00" />
+			<date key="time:timestamp" value="2012-03-21T23:57:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="25" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-21T23:58:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T01:00:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="25" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T03:22:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T07:31:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="25" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T07:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T08:15:00+00:00" />
+			<string key="org:resource" value="ID0937" />
+			<string key="org:role" value="Role 9" />
+			<int key="Work Order Qty" value="25" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-22T07:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T10:08:00+00:00" />
+			<string key="org:resource" value="ID0997" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="25" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-22T13:56:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T14:34:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="25" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case86" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T12:03:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T14:44:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-25T17:49:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T23:58:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T00:20:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T01:54:00+00:00" />
+			<string key="org:resource" value="ID4529" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T04:09:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T14:38:00+00:00" />
+			<string key="org:resource" value="ID4794" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T14:51:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T16:01:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling" />
+			<date key="start:timestamp" value="2012-03-26T16:37:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T16:38:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T00:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T00:40:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T19:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-27T20:47:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="70" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case96" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-18T19:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-18T20:53:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-27T23:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T01:41:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-28T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T09:15:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-28T17:04:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T18:13:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-28T17:30:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T20:00:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-28T18:40:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T21:22:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-29T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T09:00:00+00:00" />
+			<string key="org:resource" value="ID4291" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-29T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T09:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-29T15:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T16:40:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="200" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case98" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-28T18:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T20:38:00+00:00" />
+			<string key="org:resource" value="ID4287" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="330" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-28T23:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-28T23:30:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="330" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-29T15:25:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T16:20:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="330" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-29T17:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T17:30:00+00:00" />
+			<string key="org:resource" value="ID4718" />
+			<string key="org:role" value="Role 1" />
+			<int key="Work Order Qty" value="330" />
+			<string key="Part Desc." value="Ballnut" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Case99" />
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-22T18:59:00+00:00" />
+			<date key="time:timestamp" value="2012-03-22T23:03:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-23T18:13:00+00:00" />
+			<date key="time:timestamp" value="2012-03-23T18:25:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Turning &amp; Milling Q.C." />
+			<date key="start:timestamp" value="2012-03-25T20:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-25T21:27:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-26T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T09:15:00+00:00" />
+			<string key="org:resource" value="ID4882" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Laser Marking" />
+			<date key="start:timestamp" value="2012-03-26T17:14:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T18:12:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Lapping" />
+			<date key="start:timestamp" value="2012-03-26T18:12:00+00:00" />
+			<date key="time:timestamp" value="2012-03-26T20:12:00+00:00" />
+			<string key="org:resource" value="ID0998" />
+			<string key="org:role" value="Role 7" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-29T01:35:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T01:59:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Final Inspection Q.C." />
+			<date key="start:timestamp" value="2012-03-29T16:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-29T19:54:00+00:00" />
+			<string key="org:resource" value="ID4618" />
+			<string key="org:role" value="Role 3" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+		<event>
+			<string key="concept:name" value="Packing" />
+			<date key="start:timestamp" value="2012-03-30T08:00:00+00:00" />
+			<date key="time:timestamp" value="2012-03-30T09:00:00+00:00" />
+			<string key="org:resource" value="ID4820" />
+			<string key="org:role" value="Role 5" />
+			<int key="Work Order Qty" value="507" />
+			<string key="Part Desc." value="Drill" />
+		</event>
+	</trace>
+</log>

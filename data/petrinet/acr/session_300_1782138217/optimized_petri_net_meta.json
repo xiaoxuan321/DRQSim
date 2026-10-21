@@ -1,0 +1,118 @@
+{
+    "session_id": 300,
+    "source_xes_filename": "1782138217_acr.xes",
+    "uploaded_pnml_filename": "1782138217_optimized_petri_net.pnml",
+    "used_pnml_filepath": "uploads\\1782138217_optimized_petri_net.pnml",
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\acr\\session_300_1782138217\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\acr\\session_300_1782138217\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.0472437906275975,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_model_type": "activity_specific_external_delay_timer",
+        "external_delay_activity_specific": true,
+        "external_delay_global_scale": 0.8,
+        "external_delay_max_delay_quantile": 0.95,
+        "structure_score": 0.0,
+        "optuna_objective_score": 3.3400060724315845,
+        "runtime_score": 0.19370906295945406,
+        "validation_metrics": {
+            "aed": 113.80485169650214,
+            "ced": 3.737930839517229,
+            "red": 43.313866002546625,
+            "car": 86.17308506136267,
+            "ctd": 54.33897587812104,
+            "cwd": 3.342852787517068
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 12518.033006535949,
+            "sim_case_duration_mean": 10288.422159222662,
+            "duration_ratio": 0.821888083683023,
+            "external_delay_ratio": 0.5724684215417473
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 43.41011929247225,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 86.8202385849445,
+            "observed_ctd": 54.33897587812104,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": 0.7,
+            "observed_external_delay_ratio": 0.5724684215417473
+        },
+        "optuna_trial_number": 25,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.85,
+            "max_k": 10,
+            "min_k": 2
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.19608574454464867,
+                "ngd": 0.2431818181818182,
+                "3gd": 0.28703254006799417
+            },
+            "process_quality": {},
+            "petri_score": 0.0,
+            "optuna_objective_score": 0.21635587772795786,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9560057983117121,
+        "precision": 0.6443879173290938,
+        "f_measure": 0.7698587907563195
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.21254535330695407,
+            "ngd": 0.28997948206451285,
+            "3gd": 0.3217994022762419
+        },
+        "temporal": {
+            "aed": 156.67512850568306,
+            "ced": 2.96814420266504,
+            "red": 30.602886937018212
+        },
+        "congestion": {
+            "car": 188.26885054536598,
+            "ctd": 36.85054956690959
+        },
+        "resource": {
+            "cwd": 2.137983146722568
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T22:30:39.513854"
+}

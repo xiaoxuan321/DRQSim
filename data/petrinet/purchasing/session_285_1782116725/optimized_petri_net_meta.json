@@ -1,0 +1,85 @@
+{
+    "session_id": 285,
+    "source_xes_filename": "1782116724_purchasing.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\purchasing\\session_285_1782116725\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\purchasing\\session_285_1782116725\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.10185399844456874,
+        "tree_depth": 1,
+        "arrival_time_scale": 1.2177469911480339,
+        "external_delay_global_scale": 1.6,
+        "external_delay_max_delay_quantile": 0.97
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 5,
+            "petri_candidate_index": 1,
+            "resource_budget": 1,
+            "noise_threshold": 0.09220694039980987,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.1744833704495813,
+                "ngd": 0.08879560865353568,
+                "3gd": 0.10658973580321895
+            },
+            "process_quality": {},
+            "petri_score": 0.04212845695160974,
+            "optuna_objective_score": 0.11572782711157281,
+            "status": "ok",
+            "structure_score": 0.04923463124851172
+        },
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 1,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": 0.10185399844456874,
+            "tree_depth": 1,
+            "max_depth_tree": 1,
+            "decision_point_max_depth": 1,
+            "metrics": {
+                "cfld": 0.17163114949842054,
+                "ngd": 0.09061063690085358,
+                "3gd": 0.10980876002467613
+            },
+            "process_quality": {},
+            "petri_score": 0.03672681108907605,
+            "optuna_objective_score": 0.11644079723181167,
+            "status": "ok",
+            "structure_score": 0.05932781328042109
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9691947404981323,
+        "precision": 0.8876852413554034,
+        "f_measure": 0.9266510227340399
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.3690352926673678,
+            "ngd": 0.24362221058006836,
+            "3gd": 0.25709112073211166
+        },
+        "temporal": {
+            "aed": 356.96603808937095,
+            "ced": 0.7328235534756995,
+            "red": 304.23616497903964
+        },
+        "congestion": {
+            "car": 413.03442622950814,
+            "ctd": 448.367213114754
+        },
+        "resource": {
+            "cwd": 0.748412484096928
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T16:41:42.763991"
+}

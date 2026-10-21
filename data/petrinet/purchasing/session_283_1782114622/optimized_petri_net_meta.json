@@ -1,0 +1,65 @@
+{
+    "session_id": 283,
+    "source_xes_filename": "1782114621_purchasing.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\purchasing\\session_283_1782114622\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\purchasing\\session_283_1782114622\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.0054088289693919045,
+        "tree_depth": 2,
+        "arrival_time_scale": 1.9853956043506191,
+        "external_delay_global_scale": 1.6,
+        "external_delay_max_delay_quantile": 0.97
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "tree_depth_grid",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 1,
+            "noise_threshold": 0.0054088289693919045,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 0.15869756041144867,
+                "ngd": 0.10239234449760766,
+                "3gd": 0.11257880516361453
+            },
+            "process_quality": {},
+            "petri_score": 0.0519365328520419,
+            "optuna_objective_score": 0.11715327569135849,
+            "status": "ok",
+            "structure_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 1.0,
+        "precision": 0.8816692226975543,
+        "f_measure": 0.9371139327385039
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.32361770406595425,
+            "ngd": 0.22420139684096552,
+            "3gd": 0.23540384923701335
+        },
+        "temporal": {
+            "aed": 200.2775000673839,
+            "ced": 0.6783592089819537,
+            "red": 328.4214350692649
+        },
+        "congestion": {
+            "car": 229.05901639344262,
+            "ctd": 347.91639344262296
+        },
+        "resource": {
+            "cwd": 0.6981230043158982
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T16:06:29.195974"
+}

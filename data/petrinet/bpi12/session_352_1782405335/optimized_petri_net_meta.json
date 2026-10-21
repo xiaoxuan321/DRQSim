@@ -1,0 +1,218 @@
+{
+    "session_id": 352,
+    "source_xes_filename": "1782405331_bpi12.xes",
+    "uploaded_pnml_filename": "1782405331_optimized_petri_net.pnml",
+    "used_pnml_filepath": "uploads\\1782405331_optimized_petri_net.pnml",
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\bpi12\\session_352_1782405335\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\bpi12\\session_352_1782405335\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2,
+            "calendar_fit": 0.0
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.3808298554078073,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_global_scale": 4.607196317378109,
+        "external_delay_global_scale_raw": 1.5,
+        "external_delay_max_delay_quantile": 1.0,
+        "case_duration_calibration": {
+            "enabled": true,
+            "mode": "sqrt_inverse_duration_ratio_external_delay",
+            "factor": 3.071464211585406,
+            "min_factor": 1.0,
+            "max_factor": 4.0,
+            "source_duration_ratio": 0.10600078496514354,
+            "applied_to": "external_delay_global_scale",
+            "reason": "under_recovered_case_duration",
+            "raw_factor": 3.071464211585406,
+            "passed_diagnostic_ratio": false
+        },
+        "structure_score": 0.0,
+        "optuna_objective_score": 9.270914041820099,
+        "runtime_score": 0.03690332320443783,
+        "validation_metrics": {
+            "aed": 483.0468874293527,
+            "ced": 5.054819614804979,
+            "red": 150.8075452659544,
+            "car": 276.30667701863354,
+            "ctd": 116.4836956521739,
+            "cwd": 4.238181953259439
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 7743.365252445651,
+            "sim_case_duration_mean": 820.8027950310559,
+            "duration_ratio": 0.10600078496514354,
+            "external_delay_ratio": 0.0
+        },
+        "arrival_guard": {
+            "enabled": true,
+            "arrival_span_ratio": 0.29447292377019335,
+            "case_count_ratio": 1.0,
+            "real_cases": 1288,
+            "sim_cases": 1288,
+            "weekday_hour_jaccard": 0.39880952380952384,
+            "passed": false
+        },
+        "ctd_tolerance": 1.5,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 116.39596273291924,
+            "ctd_tolerance": 1.5,
+            "max_allowed_ctd": 174.59394409937886,
+            "observed_ctd": 116.4836956521739,
+            "passed": true
+        },
+        "runtime_guard_selection_mode": "diagnostic_soft_guard",
+        "runtime_search_stage": "base",
+        "fixed_structure_before_runtime": true,
+        "fixed_stage1_structure": {
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "structure_score": 0.0
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.0
+        },
+        "optuna_trial_number": 5,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "mode": "adaptive_by_resource_count",
+            "adaptive_enabled": true,
+            "resource_threshold": 50,
+            "small_resource_policy": {
+                "condition": "resources <= 50",
+                "enabled": false,
+                "coverage": 1.0,
+                "max_k": null,
+                "min_k": 1
+            },
+            "large_resource_policy": {
+                "condition": "resources > 50",
+                "enabled": true,
+                "coverage": 0.95,
+                "max_k": 30,
+                "min_k": 3
+            }
+        },
+        "final_rediscovery_calibration": {
+            "enabled": false,
+            "partition": "train_validation_log",
+            "uses_test_log": false,
+            "global_scale_calibration": {},
+            "top_activity_scale_calibration": {},
+            "selected_activity_scales": {},
+            "skipped_reason": "external_delay_disabled"
+        },
+        "external_delay_activity_scales": {}
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "structure_confirmation",
+            "trial_number": 2,
+            "petri_candidate_index": 0,
+            "resource_budget": 3,
+            "noise_threshold": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {
+                "cfld": 1.0,
+                "ngd": 1.0,
+                "3gd": 1.0
+            },
+            "process_quality": {},
+            "activity_coverage": {
+                "coverage": 0.0,
+                "reference_activity_count": 6,
+                "discovered_activity_count": 23,
+                "missing_activity_count": 6,
+                "extra_activity_count": 23,
+                "missing_activities": [
+                    "W_Afhandelen leads",
+                    "W_Beoordelen fraude",
+                    "W_Completeren aanvraag",
+                    "W_Nabellen incomplete dossiers",
+                    "W_Nabellen offertes",
+                    "W_Valideren aanvraag"
+                ],
+                "extra_activities": [
+                    "Amend Request for Quotation Requester",
+                    "Amend Request for Quotation Requester Manager",
+                    "Analyze Purchase Requisition",
+                    "Analyze Quotation comparison Map",
+                    "Analyze Request for Quotation",
+                    "Approve Purchase Order for payment",
+                    "Authorize Supplier's Invoice payment",
+                    "Choose best option",
+                    "Confirm Purchase Order",
+                    "Create Purchase Order",
+                    "Create Purchase Requisition",
+                    "Create Quotation comparison Map",
+                    "Create Request for Quotation Requester",
+                    "Create Request for Quotation Requester Manager",
+                    "Deliver Goods Services",
+                    "Pay invoice",
+                    "Release Purchase Order",
+                    "Release Supplier's Invoice",
+                    "Send Request for Quotation to Supplier",
+                    "Send invoice"
+                ]
+            },
+            "petri_score": 0.0,
+            "petri_selection_score": 0.0,
+            "optuna_objective_score": 0.6931471805599453,
+            "status": "ok",
+            "structure_score": 0.0,
+            "activity_coverage_penalty": 0.25,
+            "noise_penalty": 0.0,
+            "structure_selection_score": 0.25,
+            "confirmation_index": 0,
+            "confirmed_from_stage": "tree_depth_grid",
+            "confirmation_runs": 3,
+            "pre_confirmation_structure_score": 0.0,
+            "pre_confirmation_selection_score": 0.25,
+            "confirmation_score": 0.0,
+            "confirmation_selection_score": 0.25
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.0,
+        "precision": 0.0,
+        "f_measure": 0.0
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 1.0,
+            "ngd": 1.0,
+            "3gd": 1.0
+        },
+        "temporal": {
+            "aed": 279.3437153501483,
+            "ced": 5.391180799551402,
+            "red": 147.5810666638916
+        },
+        "congestion": {
+            "car": 142.52745341614906,
+            "ctd": 185.65217391304347
+        },
+        "resource": {
+            "cwd": 4.278098847656689
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-26T00:45:56.653270"
+}

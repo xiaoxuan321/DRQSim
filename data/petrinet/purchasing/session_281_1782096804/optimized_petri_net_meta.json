@@ -1,0 +1,113 @@
+{
+    "session_id": 281,
+    "source_xes_filename": "1782096804_purchasing.xes",
+    "uploaded_pnml_filename": null,
+    "used_pnml_filepath": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\purchasing\\session_281_1782096804\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\purchasing\\session_281_1782096804\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": 0.0,
+        "tree_depth": 2,
+        "max_depth_tree": 2,
+        "decision_point_max_depth": 2,
+        "queue_scheduling_max_depth": 2,
+        "external_delay_max_depth": 2,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_time_scale": 1.0840799291239525,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_model_type": "case_arrival_calendar_context_histogram",
+        "external_delay_global_scale": 1.6,
+        "external_delay_max_delay_quantile": 0.95,
+        "structure_score": 0.0,
+        "optuna_objective_score": 3.953762227644819,
+        "runtime_score": 0.23937090161325492,
+        "validation_metrics": {
+            "aed": 484.7034789582303,
+            "ced": 0.5945228009464875,
+            "red": 374.3613941112246,
+            "car": 96.72448979591837,
+            "ctd": 439.73469387755114,
+            "cwd": 0.6030626936419335
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 50315.5306122449,
+            "sim_case_duration_mean": 35202.354110034146,
+            "duration_ratio": 0.6996319760854758,
+            "external_delay_ratio": 0.9306765476496569
+        },
+        "ctd_tolerance": 2.0,
+        "ctd_guard": {
+            "enabled": true,
+            "best_ctd": 439.73469387755114,
+            "ctd_tolerance": 2.0,
+            "max_allowed_ctd": 879.4693877551023,
+            "observed_ctd": 439.73469387755114,
+            "passed": true
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.9306765476496569
+        },
+        "optuna_trial_number": 22,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "enabled": true,
+            "coverage": 0.85,
+            "max_k": 10,
+            "min_k": 2
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "fixed_control_flow_no_validation_search",
+            "trial_number": -1,
+            "resource_budget": 0,
+            "noise_threshold": 0.0,
+            "pnml_filepath": null,
+            "tree_depth": 2,
+            "max_depth_tree": 2,
+            "decision_point_max_depth": 2,
+            "metrics": {},
+            "process_quality": {},
+            "optuna_objective_score": 0.0,
+            "petri_score": 0.0,
+            "structure_score": 0.0,
+            "status": "ok",
+            "selection_policy": "skip_control_flow_optimization_fixed_noise_threshold"
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 1.0,
+        "precision": 0.8816692226975543,
+        "f_measure": 0.9371139327385039
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.3322104778921993,
+            "ngd": 0.22825551554263326,
+            "3gd": 0.2421224822389461
+        },
+        "temporal": {
+            "aed": 560.6271927149314,
+            "ced": 0.7488856509712628,
+            "red": 377.9086238633421
+        },
+        "congestion": {
+            "car": 537.0639344262294,
+            "ctd": 412.8377049180328
+        },
+        "resource": {
+            "cwd": 0.7272254136369394
+        },
+        "extra": {}
+    },
+    "created_at": "2026-06-22T11:00:14.114621"
+}

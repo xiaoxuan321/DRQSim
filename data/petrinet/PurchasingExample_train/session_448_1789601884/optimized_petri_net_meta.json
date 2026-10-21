@@ -1,0 +1,1701 @@
+{
+    "session_id": 448,
+    "source_xes_filename": "1789601884_PurchasingExample_train.xes",
+    "uploaded_pnml_filename": "1789601884_model.pnml",
+    "used_pnml_filepath": "uploads\\1789601884_model.pnml",
+    "noise_threshold_mode": "automatic",
+    "automatic_threshold_optimization": true,
+    "manual_noise_threshold": 0.0,
+    "noise_threshold_range": null,
+    "current_best_pnml_filename": "optimized_petri_net.pnml",
+    "current_best_pnml_path": "data\\petrinet\\PurchasingExample_train\\session_448_1789601884\\optimized_petri_net.pnml",
+    "optimized_meta_filename": "optimized_petri_net_meta.json",
+    "optimized_meta_path": "data\\petrinet\\PurchasingExample_train\\session_448_1789601884\\optimized_petri_net_meta.json",
+    "selected_hyperparameters": {
+        "noise_threshold": null,
+        "tree_depth": 3,
+        "max_depth_tree": 3,
+        "decision_point_max_depth": 3,
+        "arrival_decision_tree_max_depth": 2,
+        "case_arrival_max_depth": 2,
+        "queue_scheduling_max_depth": 1,
+        "conditional_prioritization_max_depth": 3,
+        "priority_tree_max_depth": 3,
+        "priority_tree_active": true,
+        "dispatch_policy": "conditional_prioritization_tree",
+        "conditional_prioritization_model_kind": "pairwise_decision_tree",
+        "conditional_prioritization_pairs": 39230,
+        "conditional_prioritization_overtaking_rate": 0.5941881213357124,
+        "queue_strategy_name": "balanced",
+        "queue_score_mixing_weights": {
+            "tree": 0.3,
+            "frequency": 0.5,
+            "availability": 0.2,
+            "calendar_fit": 0.0
+        },
+        "queue_scheduling_force_empirical": false,
+        "arrival_model_type": "case_arrival_decision_tree_interarrival",
+        "external_delay_model_type": "activity_specific_external_delay_timer",
+        "external_delay_tree_enabled": false,
+        "external_delay_quantile_search": {
+            "enabled": true,
+            "search_mode": "joint_with_priority_tree_depth",
+            "candidate_quantiles": [
+                0.9,
+                0.925,
+                0.95,
+                0.975,
+                0.99,
+                1.0
+            ],
+            "selected_quantile": 1.0,
+            "global_scale_fixed": 1.0
+        },
+        "external_delay_max_delay_quantile": 1.0,
+        "fixed_runtime_controls": {
+            "arrival_time_scale": 1.0,
+            "arrival_demand_multiplier": 1.0,
+            "external_delay_global_scale": 1.0,
+            "external_delay_max_delay_quantile": 1.0,
+            "queue_strategy_name": "balanced"
+        },
+        "external_delay_activity_scale_protocol": {
+            "enabled": true,
+            "top_k_policy": "adaptive_ratio_with_min_max_caps",
+            "ratio": 0.25,
+            "min_k": 3,
+            "max_k": 8,
+            "candidate_scales": [
+                0.25,
+                0.5,
+                0.75,
+                1.0,
+                1.25,
+                1.5,
+                2.0,
+                2.5,
+                3.0
+            ],
+            "selection_partition": "train_validation_log_or_fixed_case_sample_if_large",
+            "uses_test_log": false,
+            "method": "coordinate_search_after_final_rediscovery_with_fixed_stage2c_quantile",
+            "sampling_policy": {
+                "enabled": true,
+                "large_log_threshold": 5000,
+                "max_cases": 5000,
+                "confidence_level": 95.0,
+                "margin_percent": 3.0,
+                "seed": 72,
+                "sample_size_method": "finite_population_dsim_style",
+                "full_log_confirmation": true
+            }
+        },
+        "external_delay_activity_scales": {
+            "Analyze Request for Quotation": 1.5,
+            "Send Request for Quotation to Supplier": 2.5,
+            "Deliver Goods Services": 1.0,
+            "Send Invoice": 1.0,
+            "Confirm Purchase Order": 1.0
+        },
+        "case_duration_calibration": {
+            "enabled": true,
+            "reason": "top_k_activity_level_external_delay_scale_protocol",
+            "global_scale_fixed": 1.0
+        },
+        "structure_score": 0.06392539720860471,
+        "optuna_objective_score": 5.398212791800972,
+        "runtime_score": 0.312966094681326,
+        "validation_metrics": {
+            "aed": 568.3740930859983,
+            "ced": 0.9758103837614847,
+            "red": 474.14752426657725,
+            "car": 101.8137254901961,
+            "ctd": 540.4999999999999,
+            "cwd": 0.7865288174958024
+        },
+        "case_duration_guard": {
+            "real_case_duration_mean": 50459.58823529412,
+            "sim_case_duration_mean": 18025.57843137255,
+            "duration_ratio": 0.3572280127875578,
+            "external_delay_ratio": 0.9325488663230213
+        },
+        "arrival_guard": {
+            "enabled": true,
+            "arrival_span_ratio": 0.8071242164169066,
+            "case_count_ratio": 1.0,
+            "real_cases": 102,
+            "sim_cases": 102,
+            "weekday_hour_jaccard": 0.30833333333333335,
+            "passed": true
+        },
+        "ctd_tolerance": null,
+        "ctd_guard": {
+            "enabled": false,
+            "best_ctd": null,
+            "ctd_tolerance": null,
+            "max_allowed_ctd": null,
+            "observed_ctd": 540.4999999999999,
+            "passed": null
+        },
+        "runtime_guard_selection_mode": "arrival_guard_passed_duration_closest",
+        "runtime_search_stage": "dispatch_external_search",
+        "fixed_structure_before_runtime": true,
+        "fixed_stage1_structure": {
+            "noise_threshold": null,
+            "tree_depth": 3,
+            "structure_score": 0.06392539720860471
+        },
+        "external_delay_ratio_guard": {
+            "max_external_delay_ratio": null,
+            "observed_external_delay_ratio": 0.9325488663230213
+        },
+        "optuna_trial_number": 18,
+        "optuna_resource_budget": 1,
+        "candidate_resource_filter": {
+            "mode": "adaptive_by_resource_count",
+            "adaptive_enabled": true,
+            "resource_threshold": 50,
+            "small_resource_policy": {
+                "condition": "resources <= 50",
+                "enabled": false,
+                "coverage": 1.0,
+                "max_k": null,
+                "min_k": 1
+            },
+            "large_resource_policy": {
+                "condition": "resources > 50",
+                "enabled": true,
+                "coverage": 0.95,
+                "max_k": 30,
+                "min_k": 3
+            }
+        },
+        "runtime_recency": {
+            "enabled": true,
+            "uses_test_log": false,
+            "modules": [
+                "arrival",
+                "calendar",
+                "service_time",
+                "external_delay"
+            ],
+            "candidate_ratios": [
+                0.25,
+                0.4,
+                0.6,
+                1.0
+            ],
+            "selected_ratio": 1.0,
+            "selected_cases": 405,
+            "min_cases": 30,
+            "eval_runs": 3,
+            "min_improvement": 0.03,
+            "tie_tolerance": 0.01,
+            "duration_guard": {
+                "soft_min_ratio": 0.8,
+                "soft_max_ratio": 1.2,
+                "hard_min_ratio": 0.75,
+                "hard_max_ratio": 1.25
+            },
+            "records": [
+                {
+                    "status": "ok",
+                    "ratio": 1.0,
+                    "target_cases": 405,
+                    "actual_ratio": 1.0,
+                    "metrics": {
+                        "aed": 496.6532873434068,
+                        "ced": 0.9301289441310568,
+                        "red": 531.4936028578869,
+                        "car": 127.47385620915036,
+                        "ctd": 584.0816993464051,
+                        "cwd": 0.7764345482873246
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 50459.58823529412,
+                        "sim_case_duration_mean": 15413.277777777776,
+                        "duration_ratio": 0.3054578587899952,
+                        "external_delay_ratio": 0.8945475469038113
+                    },
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 1.0344866241581245,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102,
+                        "sim_cases": 102,
+                        "weekday_hour_jaccard": 0.34782608695652173,
+                        "passed": true
+                    },
+                    "score": 8.182927156633308,
+                    "duration_passed": false,
+                    "duration_soft_passed": false,
+                    "duration_hard_passed": false,
+                    "duration_guard_status": "hard_fail",
+                    "arrival_passed": true,
+                    "guard_passed": false
+                },
+                {
+                    "status": "ok",
+                    "ratio": 0.6,
+                    "target_cases": 243,
+                    "actual_ratio": 0.6,
+                    "metrics": {
+                        "aed": 248.23353617854207,
+                        "ced": 1.1536114086872387,
+                        "red": 471.82081492655794,
+                        "car": 567.7679738562092,
+                        "ctd": 524.7647058823529,
+                        "cwd": 0.9560191753309675
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 50459.58823529412,
+                        "sim_case_duration_mean": 19246.12745098039,
+                        "duration_ratio": 0.3814166568548934,
+                        "external_delay_ratio": 0.9213889096667695
+                    },
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 1.8731828495072058,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102,
+                        "sim_cases": 102,
+                        "weekday_hour_jaccard": 0.20689655172413793,
+                        "passed": false
+                    },
+                    "score": 7.40291981580468,
+                    "duration_passed": false,
+                    "duration_soft_passed": false,
+                    "duration_hard_passed": false,
+                    "duration_guard_status": "hard_fail",
+                    "arrival_passed": false,
+                    "guard_passed": false
+                },
+                {
+                    "status": "ok",
+                    "ratio": 0.4,
+                    "target_cases": 162,
+                    "actual_ratio": 0.4,
+                    "metrics": {
+                        "aed": 349.1621942021425,
+                        "ced": 1.0764386754450657,
+                        "red": 368.3021955379593,
+                        "car": 709.4248366013072,
+                        "ctd": 438.83986928104576,
+                        "cwd": 0.8081894835171335
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 50459.58823529412,
+                        "sim_case_duration_mean": 24128.006535947712,
+                        "duration_ratio": 0.47816495099877376,
+                        "external_delay_ratio": 0.9178535474080723
+                    },
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 1.9996143739854897,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102,
+                        "sim_cases": 102,
+                        "weekday_hour_jaccard": 0.19642857142857142,
+                        "passed": false
+                    },
+                    "score": 6.448633854061805,
+                    "duration_passed": false,
+                    "duration_soft_passed": false,
+                    "duration_hard_passed": false,
+                    "duration_guard_status": "hard_fail",
+                    "arrival_passed": false,
+                    "guard_passed": false
+                },
+                {
+                    "status": "ok",
+                    "ratio": 0.25,
+                    "target_cases": 102,
+                    "actual_ratio": 0.2518518518518518,
+                    "metrics": {
+                        "aed": 326.7769766013441,
+                        "ced": 0.9517276988770588,
+                        "red": 391.0155530616615,
+                        "car": 669.2026143790849,
+                        "ctd": 462.6045751633986,
+                        "cwd": 0.7933586498950395
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 50459.58823529412,
+                        "sim_case_duration_mean": 22703.245098039217,
+                        "duration_ratio": 0.4499292580861641,
+                        "external_delay_ratio": 0.8839269632468746
+                    },
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 2.0006367313262845,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102,
+                        "sim_cases": 102,
+                        "weekday_hour_jaccard": 0.21100917431192662,
+                        "passed": false
+                    },
+                    "score": 6.695775198790647,
+                    "duration_passed": false,
+                    "duration_soft_passed": false,
+                    "duration_hard_passed": false,
+                    "duration_guard_status": "hard_fail",
+                    "arrival_passed": false,
+                    "guard_passed": false
+                }
+            ],
+            "reason": "no_safe_recent_candidate",
+            "selected_score": 8.182927156633308,
+            "selected_guard_passed": false
+        },
+        "runtime_recency_ratio": 1.0,
+        "runtime_recency_modules": [
+            "arrival",
+            "calendar",
+            "service_time",
+            "external_delay"
+        ],
+        "arrival_time_scale": 1.0,
+        "arrival_demand_multiplier": 1.0,
+        "arrival_time_scale_calibration": {
+            "enabled": true,
+            "uses_test_log": false,
+            "selection_metric": "car",
+            "candidate_scales": [
+                0.75,
+                0.875,
+                1.0,
+                1.125,
+                1.25
+            ],
+            "identity_baseline": 1.0,
+            "selected_scale": 1.0,
+            "arrival_demand_multiplier_fixed": 1.0,
+            "eval_runs": 3,
+            "min_improvement": 0.05,
+            "tie_tolerance": 0.02,
+            "runtime_recency_ratio": 1.0,
+            "records": [
+                {
+                    "status": "ok",
+                    "arrival_time_scale": 0.75,
+                    "arrival_demand_multiplier": 1.0,
+                    "metrics": {
+                        "car": 161.12091503267973
+                    },
+                    "car": 161.12091503267973,
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 0.6754822567193092,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102.0,
+                        "sim_cases": 102.0,
+                        "weekday_hour_jaccard": 0.35003884732101875,
+                        "passed": false,
+                        "arrival_span_ratio_std": 0.034190897078909044
+                    },
+                    "arrival_passed": false,
+                    "runtime_recency_ratio": 1.0
+                },
+                {
+                    "status": "ok",
+                    "arrival_time_scale": 0.875,
+                    "arrival_demand_multiplier": 1.0,
+                    "metrics": {
+                        "car": 120.64052287581698
+                    },
+                    "car": 120.64052287581698,
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 0.8301171675320832,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102.0,
+                        "sim_cases": 102.0,
+                        "weekday_hour_jaccard": 0.29841573443543107,
+                        "passed": true,
+                        "arrival_span_ratio_std": 0.15715078302707683
+                    },
+                    "arrival_passed": true,
+                    "runtime_recency_ratio": 1.0
+                },
+                {
+                    "status": "ok",
+                    "arrival_time_scale": 1.0,
+                    "arrival_demand_multiplier": 1.0,
+                    "metrics": {
+                        "car": 76.73856209150328
+                    },
+                    "car": 76.73856209150328,
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 0.86930416924498,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102.0,
+                        "sim_cases": 102.0,
+                        "weekday_hour_jaccard": 0.3318545919165114,
+                        "passed": true,
+                        "arrival_span_ratio_std": 0.02834473111864214
+                    },
+                    "arrival_passed": true,
+                    "runtime_recency_ratio": 1.0
+                },
+                {
+                    "status": "ok",
+                    "arrival_time_scale": 1.125,
+                    "arrival_demand_multiplier": 1.0,
+                    "metrics": {
+                        "car": 294.67973856209153
+                    },
+                    "car": 294.67973856209153,
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 1.341003255401006,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102.0,
+                        "sim_cases": 102.0,
+                        "weekday_hour_jaccard": 0.3137332578758725,
+                        "passed": true,
+                        "arrival_span_ratio_std": 0.19822419761295973
+                    },
+                    "arrival_passed": true,
+                    "runtime_recency_ratio": 1.0
+                },
+                {
+                    "status": "ok",
+                    "arrival_time_scale": 1.25,
+                    "arrival_demand_multiplier": 1.0,
+                    "metrics": {
+                        "car": 234.33006535947712
+                    },
+                    "car": 234.33006535947712,
+                    "arrival_guard": {
+                        "enabled": true,
+                        "arrival_span_ratio": 1.3299725577766417,
+                        "case_count_ratio": 1.0,
+                        "real_cases": 102.0,
+                        "sim_cases": 102.0,
+                        "weekday_hour_jaccard": 0.3056869636806941,
+                        "passed": true,
+                        "arrival_span_ratio_std": 0.22934245736087305
+                    },
+                    "arrival_passed": true,
+                    "runtime_recency_ratio": 1.0
+                }
+            ],
+            "reason": "identity_retained_improvement_below_threshold",
+            "runtime_cases": 405,
+            "baseline_car": 76.73856209150328,
+            "best_safe_car": 76.73856209150328,
+            "required_car_for_switch": 72.90163398692812,
+            "selected_car": 76.73856209150328,
+            "selected_arrival_guard": {
+                "enabled": true,
+                "arrival_span_ratio": 0.86930416924498,
+                "case_count_ratio": 1.0,
+                "real_cases": 102.0,
+                "sim_cases": 102.0,
+                "weekday_hour_jaccard": 0.3318545919165114,
+                "passed": true,
+                "arrival_span_ratio_std": 0.02834473111864214
+            },
+            "selected_guard_passed": true
+        },
+        "final_rediscovery_calibration": {
+            "enabled": true,
+            "reason": "fixed_stage2c_quantile_then_top_k_activity_scale_calibration",
+            "selected_quantile": 1.0,
+            "selected_activity_scales": {
+                "Analyze Request for Quotation": 1.5,
+                "Send Request for Quotation to Supplier": 2.5,
+                "Deliver Goods Services": 1.0,
+                "Send Invoice": 1.0,
+                "Confirm Purchase Order": 1.0
+            },
+            "top_activity_scale_calibration": {
+                "enabled": true,
+                "selected_quantile": 1.0,
+                "selected_activity_scales": {
+                    "Analyze Request for Quotation": 1.5,
+                    "Send Request for Quotation to Supplier": 2.5,
+                    "Deliver Goods Services": 1.0,
+                    "Send Invoice": 1.0,
+                    "Confirm Purchase Order": 1.0
+                },
+                "uses_test_log": false,
+                "global_scale_fixed": 1.0,
+                "calibration_sampling": {
+                    "enabled": true,
+                    "applied": false,
+                    "policy": "center_temporal_window_case_sampling",
+                    "large_log_threshold": 5000,
+                    "max_cases": 5000,
+                    "confidence_level": 95.0,
+                    "margin_percent": 3.0,
+                    "seed": 72,
+                    "sample_size_method": "finite_population_dsim_style",
+                    "population_cases": 507,
+                    "sampled_cases": 507,
+                    "sampling_fraction": 1.0,
+                    "reason": "population_not_larger_than_uniform_threshold"
+                },
+                "full_log_confirmation": {
+                    "status": "not_required",
+                    "reason": "calibration_sampling_not_applied",
+                    "accepted": true
+                },
+                "search_baseline": {
+                    "metrics": {
+                        "aed": 321.9571892162503,
+                        "ced": 0.49908411871615654,
+                        "red": 83.6889662337228,
+                        "car": 67.60946745562129,
+                        "ctd": 166.58185404339247,
+                        "cwd": 0.4223063860911204
+                    },
+                    "case_duration_guard": {
+                        "real_case_duration_mean": 28215.03550295858,
+                        "sim_case_duration_mean": 22432.925049309666,
+                        "duration_ratio": 0.7950698855919351,
+                        "external_delay_ratio": 0.9350705682511122
+                    },
+                    "score": 4.997606562512393,
+                    "time_decomposition_overlap": {}
+                },
+                "top_activity_scale_calibration": {
+                    "enabled": true,
+                    "top_k_policy": "adaptive_ratio_with_min_max_caps",
+                    "top_k_ratio": 0.25,
+                    "top_k_min": 3,
+                    "top_k_max": 8,
+                    "n_external_delay_activities": 19,
+                    "resolved_top_k": 5,
+                    "top_activities": [
+                        "Analyze Request for Quotation",
+                        "Send Request for Quotation to Supplier",
+                        "Deliver Goods Services",
+                        "Send Invoice",
+                        "Confirm Purchase Order"
+                    ],
+                    "candidate_scales": [
+                        0.25,
+                        0.5,
+                        0.75,
+                        1.0,
+                        1.25,
+                        1.5,
+                        2.0,
+                        2.5,
+                        3.0
+                    ],
+                    "selected_activity_scales": {
+                        "Analyze Request for Quotation": 1.5,
+                        "Send Request for Quotation to Supplier": 2.5,
+                        "Deliver Goods Services": 1.0,
+                        "Send Invoice": 1.0,
+                        "Confirm Purchase Order": 1.0
+                    },
+                    "baseline_score": 4.997606562512393,
+                    "selected_score": 4.11889509161747,
+                    "selected_eval": {
+                        "metrics": {
+                            "aed": 296.4561848602804,
+                            "ced": 0.638359220405229,
+                            "red": 106.56771789153254,
+                            "car": 51.72583826429981,
+                            "ctd": 145.6311637080868,
+                            "cwd": 0.4869468552277269
+                        },
+                        "case_duration_guard": {
+                            "real_case_duration_mean": 28215.03550295858,
+                            "sim_case_duration_mean": 27832.067061143985,
+                            "duration_ratio": 0.9864267956786927,
+                            "external_delay_ratio": 0.9482381968782776
+                        },
+                        "score": 4.11889509161747,
+                        "time_decomposition_overlap": {}
+                    },
+                    "results": [
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 204.56297645365152,
+                                "ced": 0.5991267866211697,
+                                "red": 146.0079973546596,
+                                "car": 92.17554240631165,
+                                "ctd": 245.58382642998026,
+                                "cwd": 0.44531620739175515
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 13482.925049309664,
+                                "duration_ratio": 0.47786312542104964,
+                                "external_delay_ratio": 0.8888569133803921
+                            },
+                            "score": 7.296235131732837,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 418.3325444745851,
+                                "ced": 0.4665871076569256,
+                                "red": 93.9784419917089,
+                                "car": 199.9723865877712,
+                                "ctd": 202.5976331360946,
+                                "cwd": 0.38020427188523975
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 16364.031558185405,
+                                "duration_ratio": 0.5799755792073875,
+                                "external_delay_ratio": 0.9115289472697234
+                            },
+                            "score": 6.528975836678024,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 247.02653424283716,
+                                "ced": 0.46163154532804573,
+                                "red": 91.19135936474227,
+                                "car": 116.67455621301778,
+                                "ctd": 173.59368836291912,
+                                "cwd": 0.41158460368574845
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 20709.422090729782,
+                                "duration_ratio": 0.7339853280906993,
+                                "external_delay_ratio": 0.9286351499058536
+                            },
+                            "score": 5.396162951775603,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 321.9571892162503,
+                                "ced": 0.49908411871615654,
+                                "red": 83.6889662337228,
+                                "car": 67.60946745562129,
+                                "ctd": 166.58185404339247,
+                                "cwd": 0.4223063860911204
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 22432.925049309666,
+                                "duration_ratio": 0.7950698855919351,
+                                "external_delay_ratio": 0.9350705682511122
+                            },
+                            "score": 4.997606562512393,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 464.42182816872116,
+                                "ced": 0.5650414582750668,
+                                "red": 95.82544786974745,
+                                "car": 287.42800788954634,
+                                "ctd": 162.56410256410257,
+                                "cwd": 0.4729222369696832
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 25825.59368836292,
+                                "duration_ratio": 0.9153131735614826,
+                                "external_delay_ratio": 0.9410197016038937
+                            },
+                            "score": 4.714668297940939,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 1.5,
+                            "metrics": {
+                                "aed": 266.41027014258384,
+                                "ced": 0.4331860543302867,
+                                "red": 105.697939543205,
+                                "car": 109.43589743589746,
+                                "ctd": 175.56213017751483,
+                                "cwd": 0.41566457777287985
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 26750.159763313608,
+                                "duration_ratio": 0.9480817332485239,
+                                "external_delay_ratio": 0.947568886321999
+                            },
+                            "score": 4.411550466889975,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 2.0,
+                            "metrics": {
+                                "aed": 282.5178030398976,
+                                "ced": 0.46778540321735146,
+                                "red": 169.1520789523262,
+                                "car": 90.61932938856019,
+                                "ctd": 184.4003944773176,
+                                "cwd": 0.35260604717734845
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 31332.674556213016,
+                                "duration_ratio": 1.1104956629569906,
+                                "external_delay_ratio": 0.9549943814297999
+                            },
+                            "score": 4.731014515461591,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 2.5,
+                            "metrics": {
+                                "aed": 429.5694987591606,
+                                "ced": 0.4467668491813601,
+                                "red": 183.73331787304056,
+                                "car": 56.72781065088759,
+                                "ctd": 207.72781065088762,
+                                "cwd": 0.34332725101954764
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 34221.20118343195,
+                                "duration_ratio": 1.2128711012907842,
+                                "external_delay_ratio": 0.9602616696932108
+                            },
+                            "score": 5.12207954930112,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Analyze Request for Quotation",
+                            "candidate_activity_scale": 3.0,
+                            "metrics": {
+                                "aed": 587.5071046869399,
+                                "ced": 0.5575584525868228,
+                                "red": 288.09639824589004,
+                                "car": 196.02564102564102,
+                                "ctd": 272.9132149901381,
+                                "cwd": 0.4234236169305934
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 41278.846153846156,
+                                "duration_ratio": 1.4630088326317268,
+                                "external_delay_ratio": 0.9649832544576891
+                            },
+                            "score": 6.295047638968116,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 240.64378934461362,
+                                "ced": 0.5162037291907301,
+                                "red": 121.46957518835578,
+                                "car": 67.47928994082842,
+                                "ctd": 189.27021696252461,
+                                "cwd": 0.410020145630815
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 20977.54043392505,
+                                "duration_ratio": 0.743488004178672,
+                                "external_delay_ratio": 0.9332286660929123
+                            },
+                            "score": 5.367485392469193,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 248.00346244583722,
+                                "ced": 0.48951122850615253,
+                                "red": 101.67974683506493,
+                                "car": 198.36686390532543,
+                                "ctd": 177.30966469428006,
+                                "cwd": 0.4476295776584085
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 23029.49704142012,
+                                "duration_ratio": 0.8162136474719405,
+                                "external_delay_ratio": 0.936822314213486
+                            },
+                            "score": 5.085287969684655,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 216.05967997487983,
+                                "ced": 0.4482254514893434,
+                                "red": 100.77028236994454,
+                                "car": 117.68836291913217,
+                                "ctd": 175.66863905325445,
+                                "cwd": 0.3154348258808602
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 24864.86982248521,
+                                "duration_ratio": 0.8812631059733355,
+                                "external_delay_ratio": 0.9387777309989278
+                            },
+                            "score": 4.672973708480516,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 266.41027014258384,
+                                "ced": 0.4331860543302867,
+                                "red": 105.697939543205,
+                                "car": 109.43589743589746,
+                                "ctd": 175.56213017751483,
+                                "cwd": 0.41566457777287985
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 26750.159763313608,
+                                "duration_ratio": 0.9480817332485239,
+                                "external_delay_ratio": 0.947568886321999
+                            },
+                            "score": 4.411550466889975,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 299.543839128395,
+                                "ced": 0.5099231375768084,
+                                "red": 108.19378911527149,
+                                "car": 261.4911242603551,
+                                "ctd": 168.04536489151877,
+                                "cwd": 0.4543585164226686
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 26841.648915187376,
+                                "duration_ratio": 0.9513243005621171,
+                                "external_delay_ratio": 0.9471785634466477
+                            },
+                            "score": 4.533980708193387,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 1.5,
+                            "metrics": {
+                                "aed": 326.9139126581188,
+                                "ced": 0.526240939984488,
+                                "red": 163.33349389465423,
+                                "car": 69.72189349112426,
+                                "ctd": 160.0571992110454,
+                                "cwd": 0.4692059850141434
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 31862.544378698225,
+                                "duration_ratio": 1.129275360130494,
+                                "external_delay_ratio": 0.954444842378401
+                            },
+                            "score": 4.734984790404668,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 2.0,
+                            "metrics": {
+                                "aed": 354.2474907671245,
+                                "ced": 0.5577885068849078,
+                                "red": 130.2885636034938,
+                                "car": 84.0,
+                                "ctd": 165.0473372781065,
+                                "cwd": 0.44679608453316966
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29523.3865877712,
+                                "duration_ratio": 1.0463707048915614,
+                                "external_delay_ratio": 0.9520242921129385
+                            },
+                            "score": 4.417709459102934,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 2.5,
+                            "metrics": {
+                                "aed": 296.4561848602804,
+                                "ced": 0.638359220405229,
+                                "red": 106.56771789153254,
+                                "car": 51.72583826429981,
+                                "ctd": 145.6311637080868,
+                                "cwd": 0.4869468552277269
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 27832.067061143985,
+                                "duration_ratio": 0.9864267956786927,
+                                "external_delay_ratio": 0.9482381968782776
+                            },
+                            "score": 4.11889509161747,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Request for Quotation to Supplier",
+                            "candidate_activity_scale": 3.0,
+                            "metrics": {
+                                "aed": 494.5253597672325,
+                                "ced": 0.5358179975028846,
+                                "red": 164.13031703869763,
+                                "car": 245.17554240631162,
+                                "ctd": 155.6942800788955,
+                                "cwd": 0.4313333418773053
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 31631.331360946744,
+                                "duration_ratio": 1.1210806861338145,
+                                "external_delay_ratio": 0.953616118877601
+                            },
+                            "score": 4.922132042383263,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 352.39017229032396,
+                                "ced": 0.5416099786692097,
+                                "red": 176.49461419725225,
+                                "car": 80.25641025641026,
+                                "ctd": 164.49704142011836,
+                                "cwd": 0.44841116384258556
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 32268.516765285996,
+                                "duration_ratio": 1.1436638724733263,
+                                "external_delay_ratio": 0.9553862175544312
+                            },
+                            "score": 4.842010185613394,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 312.49712352287816,
+                                "ced": 0.6830024393686472,
+                                "red": 205.06489601517097,
+                                "car": 158.91124260355033,
+                                "ctd": 191.2287968441815,
+                                "cwd": 0.5190065883055263
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 33079.136094674555,
+                                "duration_ratio": 1.1723939206529062,
+                                "external_delay_ratio": 0.958078975433223
+                            },
+                            "score": 5.1213176329426675,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 292.2617081255684,
+                                "ced": 0.5978228416402391,
+                                "red": 104.7356972240859,
+                                "car": 50.56410256410257,
+                                "ctd": 143.8974358974359,
+                                "cwd": 0.48566104060840376
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 28713.25641025641,
+                                "duration_ratio": 1.0176579932797032,
+                                "external_delay_ratio": 0.9491267584634112
+                            },
+                            "score": 4.119063222293284,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 296.4561848602804,
+                                "ced": 0.638359220405229,
+                                "red": 106.56771789153254,
+                                "car": 51.72583826429981,
+                                "ctd": 145.6311637080868,
+                                "cwd": 0.4869468552277269
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 27832.067061143985,
+                                "duration_ratio": 0.9864267956786927,
+                                "external_delay_ratio": 0.9482381968782776
+                            },
+                            "score": 4.11889509161747,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 297.4029221426242,
+                                "ced": 0.5526399129972133,
+                                "red": 148.15260128472565,
+                                "car": 60.01183431952662,
+                                "ctd": 164.8717948717949,
+                                "cwd": 0.38182278276262166
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29798.905325443786,
+                                "duration_ratio": 1.05613566647184,
+                                "external_delay_ratio": 0.9527031032445513
+                            },
+                            "score": 4.415817874549079,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 1.5,
+                            "metrics": {
+                                "aed": 417.9735360529062,
+                                "ced": 0.5468570486021611,
+                                "red": 192.29486694299865,
+                                "car": 111.27416173570018,
+                                "ctd": 172.01972386587772,
+                                "cwd": 0.432004426275459
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 33453.617357001975,
+                                "duration_ratio": 1.1856663215431391,
+                                "external_delay_ratio": 0.9546589886421659
+                            },
+                            "score": 5.087141476468443,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 2.0,
+                            "metrics": {
+                                "aed": 394.5770167399359,
+                                "ced": 0.4787966723301307,
+                                "red": 206.6143635482892,
+                                "car": 74.0493096646943,
+                                "ctd": 187.32149901380677,
+                                "cwd": 0.46421669895557344
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 33281.77120315582,
+                                "duration_ratio": 1.1795757336426511,
+                                "external_delay_ratio": 0.9586401787720827
+                            },
+                            "score": 5.045492271088701,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 2.5,
+                            "metrics": {
+                                "aed": 319.81993487739726,
+                                "ced": 0.4116715917129215,
+                                "red": 128.77086750475024,
+                                "car": 67.465483234714,
+                                "ctd": 147.4733727810651,
+                                "cwd": 0.4498857590980105
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29994.532544378697,
+                                "duration_ratio": 1.0630691051667656,
+                                "external_delay_ratio": 0.9534871251755873
+                            },
+                            "score": 4.392078758121509,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Deliver Goods Services",
+                            "candidate_activity_scale": 3.0,
+                            "metrics": {
+                                "aed": 394.13295212558893,
+                                "ced": 0.4059694068612116,
+                                "red": 193.7970594019446,
+                                "car": 60.44773175542404,
+                                "ctd": 179.76331360946747,
+                                "cwd": 0.35871753336660533
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 34075.465483234715,
+                                "duration_ratio": 1.2077059225979574,
+                                "external_delay_ratio": 0.9550606619860472
+                            },
+                            "score": 5.07107128562607,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 317.48952660746664,
+                                "ced": 0.5637679191347048,
+                                "red": 164.08212039759638,
+                                "car": 165.86193293885603,
+                                "ctd": 155.08284023668642,
+                                "cwd": 0.4360545791220687
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 30797.775147928995,
+                                "duration_ratio": 1.0915377067202199,
+                                "external_delay_ratio": 0.9542295044930268
+                            },
+                            "score": 4.70976200887299,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 588.0830313093802,
+                                "ced": 0.5259654037071526,
+                                "red": 136.02572165647013,
+                                "car": 345.6213017751479,
+                                "ctd": 149.03155818540438,
+                                "cwd": 0.3960473549579745
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29048.14003944773,
+                                "duration_ratio": 1.0295269710506583,
+                                "external_delay_ratio": 0.9506768184514436
+                            },
+                            "score": 4.5856854809648935,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 293.5840561515308,
+                                "ced": 0.4640210093377548,
+                                "red": 167.05756190522192,
+                                "car": 170.88757396449702,
+                                "ctd": 160.9861932938856,
+                                "cwd": 0.3364143723639057
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 31548.747534516766,
+                                "duration_ratio": 1.1181537422204775,
+                                "external_delay_ratio": 0.951219343796065
+                            },
+                            "score": 4.805897597499481,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 296.4561848602804,
+                                "ced": 0.638359220405229,
+                                "red": 106.56771789153254,
+                                "car": 51.72583826429981,
+                                "ctd": 145.6311637080868,
+                                "cwd": 0.4869468552277269
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 27832.067061143985,
+                                "duration_ratio": 0.9864267956786927,
+                                "external_delay_ratio": 0.9482381968782776
+                            },
+                            "score": 4.11889509161747,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 211.28416481975103,
+                                "ced": 0.49360469817441566,
+                                "red": 128.58057677606968,
+                                "car": 72.0059171597633,
+                                "ctd": 155.12031558185404,
+                                "cwd": 0.4396551590726034
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 28558.656804733728,
+                                "duration_ratio": 1.0121786592024353,
+                                "external_delay_ratio": 0.9527647026262132
+                            },
+                            "score": 4.177472284438633,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 1.5,
+                            "metrics": {
+                                "aed": 449.50052079666006,
+                                "ced": 0.45809203716282454,
+                                "red": 155.79992449235561,
+                                "car": 172.3412228796844,
+                                "ctd": 153.8185404339251,
+                                "cwd": 0.45981855110893893
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 32459.209072978305,
+                                "duration_ratio": 1.1504224075697047,
+                                "external_delay_ratio": 0.9535567311381624
+                            },
+                            "score": 4.944619498996284,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 2.0,
+                            "metrics": {
+                                "aed": 427.84054395677543,
+                                "ced": 0.6632987439983483,
+                                "red": 153.3833511672556,
+                                "car": 126.13412228796842,
+                                "ctd": 152.0098619329389,
+                                "cwd": 0.48385355045035283
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 31018.30966469428,
+                                "duration_ratio": 1.099353912258652,
+                                "external_delay_ratio": 0.9549263812345825
+                            },
+                            "score": 4.718072472830841,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 2.5,
+                            "metrics": {
+                                "aed": 339.8660779831504,
+                                "ced": 0.5962758805876918,
+                                "red": 112.19103424795992,
+                                "car": 134.55029585798815,
+                                "ctd": 139.4516765285996,
+                                "cwd": 0.4355488542915357
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29700.980276134123,
+                                "duration_ratio": 1.0526649974627793,
+                                "external_delay_ratio": 0.9508651590265702
+                            },
+                            "score": 4.414315173800403,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Send Invoice",
+                            "candidate_activity_scale": 3.0,
+                            "metrics": {
+                                "aed": 313.4354355285083,
+                                "ced": 0.5016980107616104,
+                                "red": 120.43770365927327,
+                                "car": 96.5404339250493,
+                                "ctd": 152.95660749506905,
+                                "cwd": 0.36949049701347414
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 30078.755424063118,
+                                "duration_ratio": 1.0660541405630735,
+                                "external_delay_ratio": 0.9534525842251309
+                            },
+                            "score": 4.446300656056055,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 0.25,
+                            "metrics": {
+                                "aed": 373.89188868538935,
+                                "ced": 0.6458661764368759,
+                                "red": 134.2699423260214,
+                                "car": 60.00394477317555,
+                                "ctd": 147.94280078895463,
+                                "cwd": 0.5819114646479642
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29221.710059171597,
+                                "duration_ratio": 1.0356786563712619,
+                                "external_delay_ratio": 0.9514431562562246
+                            },
+                            "score": 4.321272887905578,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 0.5,
+                            "metrics": {
+                                "aed": 279.5187585683681,
+                                "ced": 0.5397909720175561,
+                                "red": 117.96151554259845,
+                                "car": 63.71597633136095,
+                                "ctd": 153.39447731755425,
+                                "cwd": 0.38478244518984356
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 28897.3708086785,
+                                "duration_ratio": 1.0241833934835336,
+                                "external_delay_ratio": 0.9529656154990771
+                            },
+                            "score": 4.213067908616172,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 0.75,
+                            "metrics": {
+                                "aed": 279.3987994332748,
+                                "ced": 0.49867798888943354,
+                                "red": 147.23178393097487,
+                                "car": 69.18737672583828,
+                                "ctd": 149.0493096646943,
+                                "cwd": 0.43165003370918004
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 31509.808678500987,
+                                "duration_ratio": 1.1167736675432118,
+                                "external_delay_ratio": 0.9492744729018356
+                            },
+                            "score": 4.618933355534143,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 1.0,
+                            "metrics": {
+                                "aed": 296.4561848602804,
+                                "ced": 0.638359220405229,
+                                "red": 106.56771789153254,
+                                "car": 51.72583826429981,
+                                "ctd": 145.6311637080868,
+                                "cwd": 0.4869468552277269
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 27832.067061143985,
+                                "duration_ratio": 0.9864267956786927,
+                                "external_delay_ratio": 0.9482381968782776
+                            },
+                            "score": 4.11889509161747,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": true,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 1.25,
+                            "metrics": {
+                                "aed": 419.76500097117446,
+                                "ced": 0.44950398448702467,
+                                "red": 181.76374172533085,
+                                "car": 59.63116370808679,
+                                "ctd": 166.30769230769232,
+                                "cwd": 0.40357704802851974
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 32173.89349112426,
+                                "duration_ratio": 1.1403102252963873,
+                                "external_delay_ratio": 0.9577792921067159
+                            },
+                            "score": 4.811344507266774,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 1.5,
+                            "metrics": {
+                                "aed": 284.5440881252093,
+                                "ced": 0.45322451189776314,
+                                "red": 126.29513107073282,
+                                "car": 250.6548323471401,
+                                "ctd": 147.26627218934914,
+                                "cwd": 0.3941416829902037
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 29150.7258382643,
+                                "duration_ratio": 1.0331628267916801,
+                                "external_delay_ratio": 0.9541338969975084
+                            },
+                            "score": 4.444320682649539,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 2.0,
+                            "metrics": {
+                                "aed": 439.85261235315346,
+                                "ced": 0.6038747382867682,
+                                "red": 189.14232323076854,
+                                "car": 140.47337278106508,
+                                "ctd": 166.2228796844182,
+                                "cwd": 0.539065650455401
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 32599.830374753452,
+                                "duration_ratio": 1.1554063212621188,
+                                "external_delay_ratio": 0.9560889645084846
+                            },
+                            "score": 5.016915513304477,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 2.5,
+                            "metrics": {
+                                "aed": 265.253807366503,
+                                "ced": 0.4583428730151462,
+                                "red": 118.35091436509501,
+                                "car": 111.88757396449707,
+                                "ctd": 150.9092702169625,
+                                "cwd": 0.3378990850015235
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 28920.674556213016,
+                                "duration_ratio": 1.0250093271433398,
+                                "external_delay_ratio": 0.9514210311796693
+                            },
+                            "score": 4.277941018304238,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        },
+                        {
+                            "activity": "Confirm Purchase Order",
+                            "candidate_activity_scale": 3.0,
+                            "metrics": {
+                                "aed": 387.4724533551137,
+                                "ced": 0.4813658135775305,
+                                "red": 209.93934729873803,
+                                "car": 94.53254437869822,
+                                "ctd": 181.4418145956608,
+                                "cwd": 0.46001106529339547
+                            },
+                            "case_duration_guard": {
+                                "real_case_duration_mean": 28215.03550295858,
+                                "sim_case_duration_mean": 32910.497041420116,
+                                "duration_ratio": 1.1664169991198194,
+                                "external_delay_ratio": 0.957825422998165
+                            },
+                            "score": 5.027041752901838,
+                            "time_decomposition_overlap": {},
+                            "reused_current_baseline": false,
+                            "parallel_isolated_eval": false
+                        }
+                    ],
+                    "note": "仅在 train_validation_log 上针对自适应 Top-K 外部延迟活动进行坐标搜索。"
+                }
+            },
+            "global_scale_fixed": 1.0,
+            "uses_test_log": false,
+            "runtime_recency_ratio": 1.0,
+            "runtime_recency_cases": 507,
+            "runtime_recency_modules": [
+                "arrival",
+                "calendar",
+                "service_time",
+                "external_delay"
+            ]
+        }
+    },
+    "top_structure_candidates": [
+        {
+            "stage": "structure_confirmation",
+            "trial_number": 3,
+            "petri_candidate_index": 0,
+            "resource_budget": 3,
+            "noise_threshold": null,
+            "tree_depth": 3,
+            "max_depth_tree": 3,
+            "decision_point_max_depth": 3,
+            "metrics": {
+                "cfld": 0.11581518410033081,
+                "ngd": 0.1085196957697694,
+                "3gd": 0.12164067621160324
+            },
+            "process_quality": {},
+            "activity_coverage": {
+                "coverage": 1.0,
+                "reference_activity_count": 21,
+                "discovered_activity_count": 21,
+                "missing_activity_count": 0,
+                "extra_activity_count": 0,
+                "missing_activities": [],
+                "extra_activities": []
+            },
+            "petri_score": 0.0,
+            "petri_selection_score": 0.0,
+            "optuna_objective_score": 0.10913442178057468,
+            "status": "ok",
+            "structure_score": 0.06392539720860471,
+            "activity_coverage_penalty": 0.0,
+            "noise_penalty": 0.0,
+            "structure_selection_score": 0.06392539720860471,
+            "activity_coverage_preference": {
+                "enabled": true,
+                "mode": "full_activity_coverage",
+                "max_coverage": 1.0,
+                "threshold": 0.999,
+                "n_primary_before": 1,
+                "n_primary_after": 1,
+                "n_fallback_before": 2,
+                "n_fallback_after": 2
+            },
+            "confirmation_index": 0,
+            "confirmed_from_stage": "tree_depth_grid",
+            "confirmation_runs": 3,
+            "pre_confirmation_structure_score": 0.06392539720860471,
+            "pre_confirmation_selection_score": 0.06392539720860471,
+            "confirmation_score": 0.0,
+            "confirmation_selection_score": 0.0
+        }
+    ],
+    "process_model_quality": {
+        "fitness": 0.9995512559615124,
+        "precision": 0.9711881459800604,
+        "f_measure": 0.9851655983869979
+    },
+    "test_metrics": {
+        "control-flow": {
+            "cfld": 0.17926158398728803,
+            "ngd": 0.12369375681504269,
+            "3gd": 0.1366027389501083
+        },
+        "temporal": {
+            "aed": 483.66672695181444,
+            "ced": 0.8597683768506451,
+            "red": 372.9547036040682
+        },
+        "congestion": {
+            "car": 461.8891089108911,
+            "ctd": 289.5267326732674
+        },
+        "resource": {
+            "cwd": 0.8680111696367376
+        },
+        "extra": {}
+    },
+    "created_at": "2026-09-17T09:15:55.032322"
+}
